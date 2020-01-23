@@ -8,7 +8,7 @@ import Policy from "../components/policy";
 
 import isEnabled, { ACCESS } from "../utils/featureFlags";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const IndexPage = () => {
   if (isEnabled(ACCESS)) {

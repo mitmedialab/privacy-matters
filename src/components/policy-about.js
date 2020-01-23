@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Button } from "reactstrap";
 
-const PolicyAbout = (props) => {
+const PolicyAbout = props => {
   return (
     <Row>
       <Col>
