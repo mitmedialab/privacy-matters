@@ -22,7 +22,7 @@ const Policy = () => {
         policies={policies}
         onClick={setPolicy}
       />
-      <PolicyAbout selectedPolicy={selectedPolicy} policies={policies} />
+      <PolicyAbout selectedPolicy={selectedPolicy} />
     </>
   );
 };
