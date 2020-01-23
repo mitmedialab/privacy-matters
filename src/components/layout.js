@@ -21,9 +21,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Container>
         <main>{children}</main>
-        <footer>
-          Center for Civic Media
-        </footer>
+        <footer>Center for Civic Media</footer>
       </Container>
     </>
   );

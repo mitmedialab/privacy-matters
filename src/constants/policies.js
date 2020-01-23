@@ -4,15 +4,15 @@ export const CORPA = "CORPA";
 
 export const policies = {
   [SMART]: {
-    short: 'SMART Act',
-    long: 'SMART Act (Social Media Addiction Reduction Technology)',
+    short: "SMART Act",
+    long: "SMART Act (Social Media Addiction Reduction Technology)"
   },
   [ONLINE_PRIVACY]: {
-    short: 'Online Privacy Act',
-    long: 'The Online Privacy Act',
+    short: "Online Privacy Act",
+    long: "The Online Privacy Act"
   },
   [CORPA]: {
-    short: 'CORPA',
-    long: 'COPRA (Consumer Online Privacy Rights Act)'
-  },
-}
+    short: "CORPA",
+    long: "COPRA (Consumer Online Privacy Rights Act)"
+  }
+};

@@ -17,8 +17,12 @@ const Policy = () => {
         </Col>
       </Row>
       <PolicyPrototype selectedPolicy={selectedPolicy} policies={policies} />
-      <PolicyToggleButtons selectedPolicy={selectedPolicy} policies={policies} onClick={setPolicy} />
-      <PolicyAbout selectedPolicy={selectedPolicy} policies={policies} />
+      <PolicyToggleButtons
+        selectedPolicy={selectedPolicy}
+        policies={policies}
+        onClick={setPolicy}
+      />
+      <PolicyAbout selectedPolicy={selectedPolicy} />
     </>
   );
 };

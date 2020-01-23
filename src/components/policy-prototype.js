@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 
 import "./policy-prototype.scss";
 
-const PolicyPrototype = (props) => {
+const PolicyPrototype = props => {
   return (
     <Row>
       <Col xs={12} className="policy m-3" />
