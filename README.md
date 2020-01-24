@@ -36,6 +36,7 @@ Policy about page content is stored in [src/markdown-pages](https://github.com/m
 ## Deploy
 
 To test out your production build of the site (a good thing to do before deploy), the following to build the production page and serve it using a local production-like server:
+
 ```shell
 gatsby build
 gatsby serve

@@ -1,6 +1,4 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
-import { graphql, useStaticQuery } from "gatsby";
 
 import PolicyAboutSmart from "./policy-smart";
 import PolicyAboutOnlinePrivacyAct from "./policy-online";
@@ -9,8 +7,7 @@ import PolicyAboutCorpa from "./policy-corpa";
 import {
   SMART,
   ONLINE_PRIVACY,
-  CORPA,
-  policies
+  CORPA
 } from "../../constants/policies";
 
 const PolicyAbout = props => {
