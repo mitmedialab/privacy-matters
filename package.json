@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Privacy Matters Site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dennis Jen <dsjen@media.mit.edu>",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.12",
@@ -41,7 +41,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "echo \"privacymatters.media.mit.edu\" > public/CNAME && gatsby build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
