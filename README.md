@@ -29,6 +29,10 @@ gatsby develop
 
 Your site is now running at `http://localhost:8000`.
 
+## Editing Policy About Content
+
+Policy about page content is stored in [src/markdown-pages](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages). Edit the corresponding file to change the about page content. Check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for syntax.
+
 ## Deploy
 
 To test out your production build of the site (a good thing to do before deploy), the following to build the production page and serve it using a local production-like server:
