@@ -1,5 +1,4 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
 import { graphql, useStaticQuery } from "gatsby";
 
 import AboutContent from "./about-content";
