@@ -31,7 +31,13 @@ Your site is now running at `http://localhost:8000`.
 
 ## Deploy
 
-Run the following to deploy a new version of the page:
+To test out your production build of the site (a good thing to do before deploy), the following to build the production page and serve it using a local production-like server:
+```shell
+gatsby build
+gatsby serve
+```
+
+When you're ready to deploy the site run the following:
 
 ```shell
 npm run deploy
