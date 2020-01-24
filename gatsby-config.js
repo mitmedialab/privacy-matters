@@ -4,7 +4,6 @@ module.exports = {
     description: `TBD`,
     author: `@dsjen`
   },
-  pathPrefix: "/privacy-matters",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
