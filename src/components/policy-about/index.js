@@ -10,6 +10,8 @@ import {
   CORPA
 } from "../../constants/policies";
 
+import "./style.scss";
+
 const PolicyAbout = props => {
   const { selectedPolicy } = props;
   if (selectedPolicy === SMART) {

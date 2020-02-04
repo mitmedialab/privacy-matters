@@ -1,0 +1,52 @@
+.bill-text {
+  font-size: 12px;
+  color: #888888;
+}
+
+.arrow {
+  color: red;
+  font-size: 50px
+}
+
+.callout {
+  // padding-left: 20px;
+  // margin-bottom: 1.25rem;
+  // border: 1px solid #eee;
+  // border-width: 0;
+  // border-left-width: .25rem;
+  // border-left-color: #f0ad4e;
+
+  button {
+    padding: 0;
+    font-size: 12px;
+  }
+}
+
+.stripe {
+  background-color: antiquewhite;
+  width: 5px;
+  margin: auto;
+}
+
+.scrollable-row {
+  $bill-font-size: 12px;
+  display: hidden;
+  font-size: $bill-font-size;
+
+  .scrollable-col {
+    $height: 300px;
+    max-height: $height;
+    height: $height;
+    overflow-y: scroll;
+
+    button {
+      margin: 0;
+      padding: 0;
+      font-size: $bill-font-size;
+
+      &.selected-segment {
+        background-color: yellow;
+      }
+    }
+  }
+}
