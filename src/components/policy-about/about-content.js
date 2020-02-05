@@ -4,8 +4,7 @@ import { Button } from "reactstrap";
 const AboutContent = props => {
   const { frontmatter, html } = props.markdownRemark;
   return (
-    <div className="policy-about pb-5">
-      <h2>{frontmatter.title}</h2>
+    <div className="policy-about pt-3 pb-5">
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Button block size="lg" color="link">
         See Full Bill
