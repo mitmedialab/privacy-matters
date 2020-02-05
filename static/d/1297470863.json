@@ -1,0 +1,15 @@
+{
+  "data": {
+    "placeholderImage": {
+      "childImageSharp": {
+        "fluid": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAC4jAAAuIwF4pT92AAABLklEQVQ4y8XTvUoDQRSG4T2ju0ELCwNibWmpvWATbCz9KWKhhWgatREFG7tAEBEEURTBkMLG+BOwECE34C3Y2KTJNcR31k9cN4nERgeenOwwzJwzezYIvobBdfD/w+Ifsw1CHXeo4RYVTGpd3682ZCziBCUc4AItzKYX9jScc2NkOYVpC+wzq1ccMTdDnFAl8cYf0XTQ96OcFlaUUQMvHDBMfMab5q8TpVtCe3Iq54ZwpbkBZ/H0oJ7P8NhztdqwSrjUXIh+RHr2d1vLRJHPbh7rWMEcsj9leNzl0FNUndkQMY9VrMlI+p0lM2ziEOcqs8yFj+p/PQxDn/EmluBfVBH7yHXqw2XCA+4VvSeMYwFb3GtWG+5gG3vYReEPPhffWN2/5bhFaKUg1TJtrfMO35EszcWQhMwAAAAASUVORK5CYII=",
+          "aspectRatio": 1.5468509984639016,
+          "src": "/static/4e27d74f0af3fca05a3329f711220c6f/c6a2b/civic-media-logo-black.png",
+          "srcSet": "/static/4e27d74f0af3fca05a3329f711220c6f/19787/civic-media-logo-black.png 75w,\n/static/4e27d74f0af3fca05a3329f711220c6f/59d48/civic-media-logo-black.png 150w,\n/static/4e27d74f0af3fca05a3329f711220c6f/c6a2b/civic-media-logo-black.png 300w,\n/static/4e27d74f0af3fca05a3329f711220c6f/eea35/civic-media-logo-black.png 450w,\n/static/4e27d74f0af3fca05a3329f711220c6f/78d2a/civic-media-logo-black.png 600w,\n/static/4e27d74f0af3fca05a3329f711220c6f/dd9fd/civic-media-logo-black.png 2014w",
+          "sizes": "(max-width: 300px) 100vw, 300px"
+        }
+      }
+    }
+  }
+}
