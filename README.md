@@ -29,9 +29,24 @@ gatsby develop
 
 Your site is now running at `http://localhost:8000`.
 
-## Editing Policy About Content
+## Editing Content
 
-Policy about page content is stored in [src/markdown-pages](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages). Edit the corresponding file to change the about page content. Check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for syntax.
+About page and quotes are sourced from markdown files. Check out this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for syntax.
+
+### Policy Content
+
+Policy about page content is stored in [src/markdown-pages](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages). Edit the corresponding file to change the about page content.
+
+### Quotes
+
+Policy quotes are stored in [src/markdown-pages/quotes](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages/quotes). Update the quote by changing the corresponding file.
+
+The frontmatter fields and corresponding values are:
+
+| Field  | Description                                        |
+| ------ | -------------------------------------------------- |
+| quotee | Person to credit, e.g. "Jane Doe, Engineer"        |
+| policy | One of the following: CORPA, SMART, ONLINE_PRIVACY |
 
 ## Deploy
 

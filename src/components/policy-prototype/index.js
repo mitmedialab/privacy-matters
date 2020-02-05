@@ -1,11 +1,6 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
 
-import {
-  SMART,
-  ONLINE_PRIVACY,
-  CORPA
-} from "../../constants/policies";
+import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCorpa from "./policy-corpa";
@@ -22,13 +17,7 @@ const PolicyPrototype = props => {
   } else if (selectedPolicy === CORPA) {
     prototype = <PolicyPrototypeCorpa />;
   }
-  return (
-    <Row>
-      <Col xs={12} className="m-3">
-        {prototype}
-      </Col>
-    </Row>
-  );
+  return <div className="m-3">{prototype}</div>;
 };
 
 export default PolicyPrototype;

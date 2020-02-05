@@ -2,11 +2,12 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-
 const PolicyPrototypeSmart = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "policy-online-privacy-design.png" }) {
+      placeholderImage: file(
+        relativePath: { eq: "policy-online-privacy-design.png" }
+      ) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 import { Container } from "reactstrap";
 
-import Header from "./header";
+import Jumbotron from "./jumbotron";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Jumbotron siteTitle={data.site.siteMetadata.title} />
       <Container>
         <main>{children}</main>
         <footer>Center for Civic Media</footer>
