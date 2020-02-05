@@ -7,10 +7,7 @@ const PolicyAboutCorpa = props => {
   const data = useStaticQuery(graphql`
     query {
       markdownRemark(fileAbsolutePath: { regex: "/policy-corpa.md/" }) {
-        html
-        frontmatter {
-          title
-        }
+        ...AboutPolicyFragment
       }
     }
   `);

@@ -7,10 +7,7 @@ const PolicyAboutSmart = props => {
   const data = useStaticQuery(graphql`
     query {
       markdownRemark(fileAbsolutePath: { regex: "/policy-smart.md/" }) {
-        html
-        frontmatter {
-          title
-        }
+        ...AboutPolicyFragment
       }
     }
   `);

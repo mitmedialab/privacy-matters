@@ -4,11 +4,9 @@ import PolicyAboutSmart from "./policy-smart";
 import PolicyAboutOnlinePrivacyAct from "./policy-online";
 import PolicyAboutCorpa from "./policy-corpa";
 
-import {
-  SMART,
-  ONLINE_PRIVACY,
-  CORPA
-} from "../../constants/policies";
+import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
+
+import "./style.scss";
 
 const PolicyAbout = props => {
   const { selectedPolicy } = props;

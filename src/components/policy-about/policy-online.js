@@ -9,10 +9,7 @@ const PolicyAboutOnlinePrivacyAct = props => {
       markdownRemark(
         fileAbsolutePath: { regex: "/policy-online-privacy-act.md/" }
       ) {
-        html
-        frontmatter {
-          title
-        }
+        ...AboutPolicyFragment
       }
     }
   `);
