@@ -12,12 +12,19 @@ const Policy = () => {
 
   return (
     <>
-      <Row>
+      <Row className="py-5">
+        <PolicyToggleButtons
+          selectedPolicy={selectedPolicy}
+          policies={policies}
+          onClick={setPolicy}
+        />
+      </Row>
+      <Row className="py-3">
         <Col>
           <h1>{policies[selectedPolicy].long}</h1>
         </Col>
       </Row>
-      <Row>
+      <Row className="pb-3">
         <Col md={6}>
           <PolicyAbout selectedPolicy={selectedPolicy} />
         </Col>
@@ -29,11 +36,6 @@ const Policy = () => {
         </Col>
       </Row>
       <PolicyQuotes selectedPolicy={selectedPolicy} />
-      <PolicyToggleButtons
-        selectedPolicy={selectedPolicy}
-        policies={policies}
-        onClick={setPolicy}
-      />
     </>
   );
 };

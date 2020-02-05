@@ -1,11 +1,11 @@
 import React from "react";
-import { Row, Col, Button } from "reactstrap";
+import { Col, Button } from "reactstrap";
 
 const PolicyToggleButtons = props => {
   const { selectedPolicy, policies, onClick } = props;
 
   return (
-    <Row>
+    <>
       {Object.keys(policies).map(key => (
         <Col key={`policy-select-button-${key}`}>
           <Button
@@ -18,7 +18,7 @@ const PolicyToggleButtons = props => {
           </Button>
         </Col>
       ))}
-    </Row>
+    </>
   );
 };
 
