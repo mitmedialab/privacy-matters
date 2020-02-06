@@ -1081,10 +1081,10 @@
                 function n(n, r, o, i, u, s, f) {
                   ((i = i || c), (s = s || o), f !== l) &&
                     t &&
-                      a(
-                        !1,
-                        "Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types"
-                      );
+                    a(
+                      !1,
+                      "Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types"
+                    );
                   return null == r[o]
                     ? n
                       ? null === r[o]
@@ -1172,7 +1172,7 @@
                       return (
                         "symbol" === e ||
                         "Symbol" === t["@@toStringTag"] ||
-                          ("function" == typeof Symbol && t instanceof Symbol)
+                        ("function" == typeof Symbol && t instanceof Symbol)
                       );
                     })(t, e)
                   ? "symbol"
@@ -3925,8 +3925,8 @@
           ? 0 === a.type
           : !r &&
             2 < t.length &&
-              ("o" === t[0] || "O" === t[0]) &&
-              ("n" === t[1] || "N" === t[1])) ||
+            ("o" === t[0] || "O" === t[0]) &&
+            ("n" === t[1] || "N" === t[1])) ||
           ((function(e, t, n, r) {
             if (
               null == t ||
@@ -6525,7 +6525,8 @@
           ? e.shouldComponentUpdate(r, o, l)
           : !t.prototype ||
               !t.prototype.isPureReactComponent ||
-              !na(n, r) || !na(a, o);
+              !na(n, r) ||
+              !na(a, o);
       }
       function Ao(e, t, n) {
         var r = !1,
