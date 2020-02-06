@@ -12,7 +12,7 @@ const PolicyAboutSmart = props => {
     }
   `);
   const { markdownRemark } = data;
-  return <AboutContent markdownRemark={markdownRemark} />;
+  return <AboutContent markdownRemark={markdownRemark} fullPolicyLink="https://www.hawley.senate.gov/sites/default/files/2019-07/Social-Media-Addiction-Reduction-Technology-Act.pdf"/>;
 };
 
 export default PolicyAboutSmart;
