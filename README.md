@@ -39,14 +39,16 @@ Policy about page content is stored in [src/markdown-pages](https://github.com/m
 
 ### Quotes
 
-Policy quotes are stored in [src/markdown-pages/quotes](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages/quotes). Update the quote by changing the corresponding file.
+Policy quotes are stored in [src/markdown-pages/quotes](https://github.com/mitmedialab/privacy-matters/tree/master/src/markdown-pages/quotes). Update the quote by changing the corresponding file or adding a file.
 
 The frontmatter fields and corresponding values are:
 
-| Field  | Description                                        |
-| ------ | -------------------------------------------------- |
-| quotee | Person to credit, e.g. "Jane Doe, Engineer"        |
-| policy | One of the following: CORPA, SMART, ONLINE_PRIVACY |
+| Field    | Description                                              |
+| -------- | -------------------------------------------------------- |
+| `quotee` | Person to credit, e.g. `Jane Doe, Engineer`              |
+| `policy` | One of the following: `CORPA`, `SMART`, `ONLINE_PRIVACY` |
+
+Quotes will be displayed on the policy's page.
 
 ## Deploy
 
