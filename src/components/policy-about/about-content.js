@@ -8,7 +8,7 @@ const AboutContent = props => {
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <div className="text-center">
         <a href={fullPolicyLink} rel="noopener noreferrer" target="_blank">
-          See Full Bill
+          See full text
         </a>
       </div>
     </div>

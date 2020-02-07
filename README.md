@@ -47,6 +47,7 @@ The frontmatter fields and corresponding values are:
 | -------- | -------------------------------------------------------- |
 | `quotee` | Person to credit, e.g. `Jane Doe, Engineer`              |
 | `policy` | One of the following: `CORPA`, `SMART`, `ONLINE_PRIVACY` |
+| `prompt` | Text to display above the quote.                         |
 
 Quotes will be displayed on the policy's page.
 

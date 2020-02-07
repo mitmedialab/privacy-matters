@@ -9,15 +9,19 @@ import "./policy-prototype.scss";
 
 const PolicyPrototype = props => {
   const { selectedPolicy } = props;
-  let prototype;
-  if (selectedPolicy === SMART) {
-    prototype = <PolicyPrototypeSmart />;
-  } else if (selectedPolicy === ONLINE_PRIVACY) {
-    prototype = <PolicyPrototypeOnlinePrivacyAct />;
-  } else if (selectedPolicy === CORPA) {
-    prototype = <PolicyPrototypeCorpa />;
-  }
-  return <div className="m-3">{prototype}</div>;
+  const prototypes = {
+    [SMART]: <PolicyPrototypeSmart />,
+    [ONLINE_PRIVACY]: <PolicyPrototypeOnlinePrivacyAct />,
+    [CORPA]: <PolicyPrototypeCorpa />
+  };
+  return (
+    <div className="m-3">
+      <h3 className="mb-5">
+        How might a social media platform look like if this bill were passed?
+      </h3>
+      {prototypes[selectedPolicy]}
+    </div>
+  );
 };
 
 export default PolicyPrototype;

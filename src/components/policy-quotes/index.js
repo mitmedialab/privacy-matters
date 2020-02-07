@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Col } from "reactstrap";
 import { graphql, useStaticQuery } from "gatsby";
 
 import Quote from "./quote";
@@ -17,6 +17,7 @@ const PolicyQuotes = props => {
             frontmatter {
               quotee
               policy
+              prompt
             }
             html
           }
@@ -25,15 +26,16 @@ const PolicyQuotes = props => {
     }
   `);
   return (
-    <Row className="pb-5">
+    <>
       {data.allMarkdownRemark.edges
         .filter(edge => edge.node.frontmatter.policy === selectedPolicy)
         .map(edge => (
-          <Col sm={4} key={`${selectedPolicy}-${edge.node.frontmatter.quotee}`}>
-            <Quote node={edge.node} />
-          </Col>
+          <Quote
+            key={`${selectedPolicy}-${edge.node.frontmatter.quotee}`}
+            node={edge.node}
+          />
         ))}
-    </Row>
+    </>
   );
 };
 

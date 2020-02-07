@@ -22,9 +22,9 @@ const PolicyToggleButtons = props => {
       {Object.keys(policies).map(key => (
         <Col
           key={`policy-select-button-${key}`}
-          sm={4}
-          xs={12}
-          className="pb-1"
+          md={4}
+          sm={12}
+          className="pb-3"
         >
           <Card body className="h-100">
             {prototypes[key]}
