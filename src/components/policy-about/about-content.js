@@ -1,9 +1,8 @@
 import React from "react";
-import { Button } from "reactstrap";
 
 const AboutContent = props => {
   const { fullPolicyLink } = props;
-  const { frontmatter, html } = props.markdownRemark;
+  const { html } = props.markdownRemark;
   return (
     <div className="policy-about pt-3 pb-5">
       <div dangerouslySetInnerHTML={{ __html: html }} />

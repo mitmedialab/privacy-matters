@@ -9,7 +9,7 @@ import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
 import "./style.scss";
 
 const PolicyToggleButtons = props => {
-  const { selectedPolicy, policies, onClick } = props;
+  const { policies, onClick } = props;
 
   const prototypes = {
     [SMART]: <PolicyPrototypeSmart />,
