@@ -1,4 +1,4 @@
-.civic-image{max-width:300px;margin:auto}.pm-jumbotron{background-color:#333;color:#fff;min-height:80vh;animation:fadein 2s;-moz-animation:fadein 2s;-webkit-animation:fadein 2s;-o-animation:fadein 2s}@keyframes fadein{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}@keyframes fadeout{0%{opacity:1}to{opacity:0}}@-webkit-keyframes fadeout{0%{opacity:1}to{opacity:0}}.policy{height:400px;background-color:#888}.policy-about h2{font-size:16px}
+.civic-image{max-width:300px;margin:auto}.pm-jumbotron{background-color:#333;color:#fff;min-height:80vh;animation:fadein 2s;-moz-animation:fadein 2s;-webkit-animation:fadein 2s;-o-animation:fadein 2s}@keyframes fadein{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}@keyframes fadeout{0%{opacity:1}to{opacity:0}}@-webkit-keyframes fadeout{0%{opacity:1}to{opacity:0}}.policy{height:400px;background-color:#888}.policy-about h2{font-size:16px}html{scroll-behavior:smooth}.min-full-height{min-height:100vh}
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
