@@ -1,41 +1,60 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Row, Col } from "reactstrap";
 
 import PolicyToggleButtons from "./policy-toggle-buttons";
 import PolicyPrototype from "./policy-prototype";
 import PolicyAbout from "./policy-about";
 import PolicyQuotes from "./policy-quotes";
-import { SMART, policies } from "../constants/policies";
+import { SMART, ONLINE_PRIVACY, CORPA, policies } from "../constants/policies";
 
-const Policy = () => {
-  const [selectedPolicy, setPolicy] = useState(SMART);
+import { scrollToRef } from "../utils/scroll";
 
+import "./style.scss";
+
+const PolicyLayout = React.forwardRef((props, ref) => {
+  const { title, policy } = props;
   return (
-    <>
-      <Row className="py-5">
-        <PolicyToggleButtons
-          selectedPolicy={selectedPolicy}
-          policies={policies}
-          onClick={setPolicy}
-        />
-      </Row>
+    <div ref={ref}>
       <Row className="py-3">
         <Col>
-          <h1>{policies[selectedPolicy].long}</h1>
+          <h1>{title}</h1>
         </Col>
       </Row>
       <Row className="pb-3">
         <Col md={6}>
-          <PolicyAbout selectedPolicy={selectedPolicy} />
+          <PolicyAbout selectedPolicy={policy} />
         </Col>
         <Col md={6}>
-          <PolicyPrototype
-            selectedPolicy={selectedPolicy}
-            policies={policies}
-          />
+          <PolicyPrototype selectedPolicy={policy} />
         </Col>
       </Row>
-      <PolicyQuotes selectedPolicy={selectedPolicy} />
+      <PolicyQuotes selectedPolicy={policy} />
+    </div>
+  );
+});
+
+const Policy = () => {
+  const policyRefs = {
+    [SMART]: React.createRef(),
+    [ONLINE_PRIVACY]: React.createRef(),
+    [CORPA]: React.createRef()
+  };
+
+  return (
+    <>
+      <Row className="py-5 min-full-height">
+        <PolicyToggleButtons
+          policies={policies}
+          onClick={policy => scrollToRef(policyRefs[policy])}
+        />
+      </Row>
+      {Object.keys(policies).map(policy => (
+        <PolicyLayout
+          title={policies[policy].long}
+          policy={policy}
+          ref={policyRefs[policy]}
+        />
+      ))}
     </>
   );
 };
