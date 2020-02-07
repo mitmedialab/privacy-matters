@@ -1,1 +1,8 @@
-{"data":{"markdownRemark":{"html":"<ul>\n<li>\n<p>Duty of loyalty</p>\n<ul>\n<li>Not engage in deceptive [or harmful] data practice</li>\n</ul>\n</li>\n<li>Right to [data] access and transparency</li>\n<li>Right to delete</li>\n<li>Right to correct inaccuracies</li>\n<li>Right to controls</li>\n<li>Data portability</li>\n<li>Opt out of transfers</li>\n<li>Right to data minimization</li>\n<li>Right to data security</li>\n<li>Civil rights</li>\n<li>Protections, Algorithmic decision-making impact assessment</li>\n<li>Prohibition on waiver of rights</li>\n</ul>","frontmatter":{"title":"About CORPA"}}}}
+{
+  "data": {
+    "markdownRemark": {
+      "html": "<ul>\n<li>\n<p>Duty of loyalty</p>\n<ul>\n<li>Not engage in deceptive [or harmful] data practice</li>\n</ul>\n</li>\n<li>Right to [data] access and transparency</li>\n<li>Right to delete</li>\n<li>Right to correct inaccuracies</li>\n<li>Right to controls</li>\n<li>Data portability</li>\n<li>Opt out of transfers</li>\n<li>Right to data minimization</li>\n<li>Right to data security</li>\n<li>Civil rights</li>\n<li>Protections, Algorithmic decision-making impact assessment</li>\n<li>Prohibition on waiver of rights</li>\n</ul>",
+      "frontmatter": { "title": "About CORPA" }
+    }
+  }
+}

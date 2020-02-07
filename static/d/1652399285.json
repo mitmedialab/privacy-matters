@@ -5,7 +5,11 @@
         {
           "node": {
             "id": "2eba466e-2d00-5231-9e92-8a4240f49186",
-            "frontmatter": { "quotee": "Dennis, Engineer", "policy": "SMART" },
+            "frontmatter": {
+              "quotee": "Dennis, Engineer",
+              "policy": "SMART",
+              "prompt": "How did a lawyer respond?"
+            },
             "html": "<p>This is a test of a quote. Does it work?</p>"
           }
         }
