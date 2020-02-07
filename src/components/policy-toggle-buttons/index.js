@@ -26,15 +26,15 @@ const PolicyToggleButtons = props => {
           sm={12}
           className="pb-3"
         >
-          <Card body className="h-100">
+          <Card body className="bill-card h-100">
             {prototypes[key]}
-            <CardTitle className="display-4">{policies[key].short}</CardTitle>
+            <CardTitle className="card-title">{policies[key].long}</CardTitle>
             <CardText>{policies[key].summary}</CardText>
             <Button
               color="primary"
               onClick={e => onClick(key)}
               size="lg"
-              className="w-100"
+              className="w-100 mt-auto"
             >
               Explore the bill
             </Button>

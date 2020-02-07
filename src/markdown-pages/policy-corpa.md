@@ -2,17 +2,12 @@
 title: "About CORPA"
 ---
 
-- Duty of loyalty
-  - Not engage in deceptive [or harmful] data practice
+## Codifies privacy as a right
 
-* Right to [data] access and transparency
-* Right to delete
-* Right to correct inaccuracies
-* Right to controls
-* Data portability
-* Opt out of transfers
-* Right to data minimization
-* Right to data security
-* Civil rights
-* Protections, Algorithmic decision-making impact assessment
-* Prohibition on waiver of rights
+## Creates new enforcement powers for the FTC to take action against unlawful discrimination
+
+## Empowers consumers with a strong private right of action
+
+## Creates accountability requirements so that senior executives take responsibility for decisions that impact privacy and risk penalties when they fall short
+
+## Gives states the authority to fully enforce COPRA

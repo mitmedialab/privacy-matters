@@ -42,7 +42,7 @@ const Policy = () => {
 
   return (
     <>
-      <Row className="py-5 min-full-height">
+      <Row className="py-5">
         <PolicyToggleButtons
           policies={policies}
           onClick={policy => scrollToRef(policyRefs[policy])}

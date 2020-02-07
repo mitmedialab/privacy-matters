@@ -13,13 +13,9 @@ const Jumbotron = props => {
             <h1>{siteTitle}</h1>
             <div className="mt-3 subtitle">Putting policy into practice</div>
             <p className="mt-3 description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Exploring how data privacy policies translates into design and
+              practice for librarians, pediatricians, lawyers, designers,
+              engineers, philosophers, etc.
             </p>
           </div>
           <Button onClick={onClick} className="mt-auto">

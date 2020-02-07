@@ -5,20 +5,20 @@ export const CORPA = "CORPA";
 export const policies = {
   [SMART]: {
     short: "SMART Act",
-    long: "SMART Act (Social Media Addiction Reduction Technology)",
+    long: "Social Media Addiction Reduction Technology Act (SMART)",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "Bans dark patterns + addictive features and raises user awareness on social media."
   },
   [ONLINE_PRIVACY]: {
-    short: "Online Privacy Act",
-    long: "The Online Privacy Act",
+    short: "OPA",
+    long: "Online Privacy Act (OPA)",
     summary:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+      "Creates user data rights and strengthens enforcement with a Digital Privacy Agency and state level attorneys."
   },
   [CORPA]: {
     short: "CORPA",
-    long: "COPRA (Consumer Online Privacy Rights Act)",
+    long: "Consumer Online Privacy Rights Act (COPRA)",
     summary:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. "
+      "Codifies privacy as a right and creates a private right of action to enforce privacy rights and enforce oversight of platforms."
   }
 };

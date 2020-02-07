@@ -1,5 +1,4 @@
 import React from "react";
-import { Col } from "reactstrap";
 import { graphql, useStaticQuery } from "gatsby";
 
 import Quote from "./quote";

@@ -15,7 +15,7 @@ const PolicyPrototype = props => {
     [CORPA]: <PolicyPrototypeCorpa />
   };
   return (
-    <div className="m-3">
+    <div className="my-3">
       <h3 className="mb-5">
         How might a social media platform look like if this bill were passed?
       </h3>
