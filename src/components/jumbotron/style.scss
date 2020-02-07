@@ -1,13 +1,20 @@
 .pm-jumbotron {
   background-color: #333333;
   color: white;
-  min-height: calc(80vh);
-
-
+  min-height: calc(100vh);
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
+
+  .subtitle {
+    font-size: 34px;
+  }
+
+  .description {
+    max-width: 500px;
+    margin: auto;
+  }
 }
 
 @keyframes fadein {

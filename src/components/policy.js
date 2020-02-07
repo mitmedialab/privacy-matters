@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import { Row, Col } from "reactstrap";
 
 import PolicyToggleButtons from "./policy-toggle-buttons";

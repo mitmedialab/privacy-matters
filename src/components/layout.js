@@ -6,6 +6,17 @@ import CivicImage from "./civic-image";
 
 import Jumbotron from "./jumbotron";
 
+import { scrollToRef } from "../utils/scroll";
+
+const MainContainer = React.forwardRef((props, ref) => {
+  const { children } = props;
+  return (
+    <div ref={ref}>
+      <Container>{children}</Container>
+    </div>
+  );
+});
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -16,18 +27,22 @@ const Layout = ({ children }) => {
       }
     }
   `);
+  const containerRef = React.createRef();
 
   return (
     <>
-      <Jumbotron siteTitle={data.site.siteMetadata.title} />
-      <Container>
+      <Jumbotron
+        siteTitle={data.site.siteMetadata.title}
+        onClick={() => scrollToRef(containerRef)}
+      />
+      <MainContainer ref={containerRef}>
         <main>{children}</main>
         <Row className="pb-5">
           <Col xs={12}>
             <CivicImage />
           </Col>
         </Row>
-      </Container>
+      </MainContainer>
     </>
   );
 };
