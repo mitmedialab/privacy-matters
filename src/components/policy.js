@@ -21,14 +21,14 @@ const PolicyLayout = React.forwardRef((props, ref) => {
         </Col>
       </Row>
       <Row className="pb-3">
-        <Col md={6}>
+        <Col md={3}>
           <PolicyAbout selectedPolicy={policy} />
         </Col>
-        <Col md={6}>
+        <Col md={9}>
           <PolicyPrototype selectedPolicy={policy} />
+          <PolicyQuotes selectedPolicy={policy} />
         </Col>
       </Row>
-      <PolicyQuotes selectedPolicy={policy} />
     </div>
   );
 });
@@ -50,9 +50,11 @@ const Policy = () => {
       </Row>
       {Object.keys(policies).map(policy => (
         <PolicyLayout
+          key={`policy-layout-${policy}`}
           title={policies[policy].long}
           policy={policy}
           ref={policyRefs[policy]}
+          className="py-5"
         />
       ))}
     </>
