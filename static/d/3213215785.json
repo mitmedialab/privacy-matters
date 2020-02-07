@@ -1,7 +1,7 @@
 {
   "data": {
     "markdownRemark": {
-      "html": "<ul>\n<li>\n<p>Duty of loyalty</p>\n<ul>\n<li>Not engage in deceptive [or harmful] data practice</li>\n</ul>\n</li>\n<li>Right to [data] access and transparency</li>\n<li>Right to delete</li>\n<li>Right to correct inaccuracies</li>\n<li>Right to controls</li>\n<li>Data portability</li>\n<li>Opt out of transfers</li>\n<li>Right to data minimization</li>\n<li>Right to data security</li>\n<li>Civil rights</li>\n<li>Protections, Algorithmic decision-making impact assessment</li>\n<li>Prohibition on waiver of rights</li>\n</ul>",
+      "html": "<h2>Codifies privacy as a right</h2>\n<h2>Creates new enforcement powers for the FTC to take action against unlawful discrimination</h2>\n<h2>Empowers consumers with a strong private right of action</h2>\n<h2>Creates accountability requirements so that senior executives take responsibility for decisions that impact privacy and risk penalties when they fall short</h2>\n<h2>Gives states the authority to fully enforce COPRA</h2>",
       "frontmatter": { "title": "About CORPA" }
     }
   }

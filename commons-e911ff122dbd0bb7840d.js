@@ -3563,8 +3563,8 @@
           ? 0 === a.type
           : !r &&
             2 < t.length &&
-              ("o" === t[0] || "O" === t[0]) &&
-              ("n" === t[1] || "N" === t[1])) ||
+            ("o" === t[0] || "O" === t[0]) &&
+            ("n" === t[1] || "N" === t[1])) ||
           ((function(e, t, n, r) {
             if (
               null == t ||
@@ -6163,7 +6163,8 @@
           ? e.shouldComponentUpdate(r, l, i)
           : !t.prototype ||
               !t.prototype.isPureReactComponent ||
-              !na(n, r) || !na(a, l);
+              !na(n, r) ||
+              !na(a, l);
       }
       function Al(e, t, n) {
         var r = !1,
