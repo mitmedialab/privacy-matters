@@ -1,20 +1,17 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 
-import PolicyToggleButtons from "./policy-toggle-buttons";
 import PolicyPrototype from "./policy-prototype";
 import PolicyAbout from "./policy-about";
 import PolicyQuotes from "./policy-quotes";
-import { SMART, ONLINE_PRIVACY, CORPA, policies } from "../constants/policies";
-
-import { scrollToRef } from "../utils/scroll";
+import { policies } from "../constants/policies";
 
 import "./style.scss";
 
-const PolicyLayout = React.forwardRef((props, ref) => {
+const PolicyLayout = props => {
   const { title, policy } = props;
   return (
-    <div ref={ref}>
+    <div>
       <Row className="py-3">
         <Col>
           <h1>{title}</h1>
@@ -31,32 +28,17 @@ const PolicyLayout = React.forwardRef((props, ref) => {
       </Row>
     </div>
   );
-});
+};
 
-const Policy = () => {
-  const policyRefs = {
-    [SMART]: React.createRef(),
-    [ONLINE_PRIVACY]: React.createRef(),
-    [CORPA]: React.createRef()
-  };
-
+const Policy = ({ policy }) => {
   return (
     <>
-      <Row className="py-5">
-        <PolicyToggleButtons
-          policies={policies}
-          onClick={policy => scrollToRef(policyRefs[policy])}
-        />
-      </Row>
-      {Object.keys(policies).map(policy => (
-        <PolicyLayout
-          key={`policy-layout-${policy}`}
-          title={policies[policy].long}
-          policy={policy}
-          ref={policyRefs[policy]}
-          className="py-5"
-        />
-      ))}
+      <PolicyLayout
+        key={`policy-layout-${policy}`}
+        title={policies[policy].long}
+        policy={policy}
+        className="py-5"
+      />
     </>
   );
 };

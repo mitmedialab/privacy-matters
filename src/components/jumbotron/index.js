@@ -6,21 +6,22 @@ import "./style.scss";
 const Jumbotron = props => {
   const { siteTitle, onClick } = props;
   return (
-    <Container fluid className="shadow-lg">
+    <Container fluid>
       <Row className="p-5 align-middle text-center pm-jumbotron d-flex">
-        <Col xs={12} className="d-flex flex-column">
-          <div className="mt-auto">
+        <Col sm={6} className="d-flex flex-column">
+          <div>
             <h1>{siteTitle}</h1>
-            <div className="mt-3 subtitle">Putting policy into practice</div>
-            <p className="mt-3 description">
+          </div>
+        </Col>
+        <Col sm={6} className="d-flex flex-column">
+          <div>
+            <p className="mt-3 text-left description">
               Exploring how data privacy policies translates into design and
               practice for librarians, pediatricians, lawyers, designers,
               engineers, philosophers, etc.
             </p>
           </div>
-          <Button onClick={onClick} className="mt-auto">
-            Explore privacy bills
-          </Button>
+          <Button onClick={onClick}>Explore privacy bills</Button>
         </Col>
       </Row>
     </Container>
