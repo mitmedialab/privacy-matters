@@ -6,12 +6,12 @@
       "allSitePage": {
         "nodes": [
           { "path": "/404/" },
+          { "path": "/bill-corpa/" },
+          { "path": "/bill-opa/" },
+          { "path": "/bill-smart/" },
           { "path": "/" },
           { "path": "/page-2/" },
-          { "path": "/404.html" },
-          { "path": "/bill-smart/" },
-          { "path": "/bill-opa/" },
-          { "path": "/bill-corpa/" }
+          { "path": "/404.html" }
         ]
       }
     },
