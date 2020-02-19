@@ -14,7 +14,7 @@ const PolicyToggleButtons = props => {
           key={`policy-select-button-${key}`}
           md={4}
           sm={12}
-          className="pb-3"
+          className="pb-5"
         >
           <Card body className="bill-card h-100">
             <CardTitle className="card-title">{policies[key].long}</CardTitle>

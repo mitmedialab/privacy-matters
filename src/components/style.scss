@@ -1,7 +1,17 @@
+@import "../styles/_colors.scss";
+
 html {
     scroll-behavior: smooth;
 }
 
 .min-full-height {
   min-height: calc(100vh);
+}
+
+.half-highlight {
+  background-image: linear-gradient(180deg, transparent 65%, $highlight-color 0);
+}
+
+.secondary-background {
+  background-color: $secondary-background-color;
 }

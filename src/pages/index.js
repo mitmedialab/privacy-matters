@@ -1,16 +1,13 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { Row } from "reactstrap";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Image from "../components/image";
 import SEO from "../components/seo";
 import About from "../components/about";
-import PolicyToggleButtons from "../components/policy-toggle-buttons";
 import Jumbotron from "../components/jumbotron";
 
-import { policies } from "../constants/policies";
 import isEnabled, { ACCESS } from "../utils/featureFlags";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,12 +27,6 @@ const IndexPage = () => {
       <>
         <Jumbotron siteTitle={data.site.siteMetadata.title} />
         <Layout>
-          <Row className="py-5">
-            <PolicyToggleButtons
-              policies={policies}
-              onClick={policy => console.log(policy)}
-            />
-          </Row>
           <About />
         </Layout>
       </>
