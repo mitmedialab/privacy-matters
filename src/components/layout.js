@@ -16,12 +16,12 @@ const Layout = ({ children }) => {
   const containerRef = React.createRef();
 
   return (
-    <>
+    <div className="secondary-background">
       <MainContainer ref={containerRef}>
         <main>{children}</main>
         <Footer />
       </MainContainer>
-    </>
+    </div>
   );
 };
 

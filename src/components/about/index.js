@@ -1,12 +1,16 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
 
+import "./style.scss";
+
 const About = props => {
   return (
-    <>
+    <div className="about">
       <Row>
         <Col xs={12}>
-          <h2>About</h2>
+          <h2>
+            <span className="half-highlight">About</span>
+          </h2>
         </Col>
       </Row>
 
@@ -43,7 +47,7 @@ const About = props => {
           </p>
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
 

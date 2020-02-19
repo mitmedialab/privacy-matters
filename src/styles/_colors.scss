@@ -1,2 +1,9 @@
-$primary-color: blue;
-$seconddary-color: green;
+$torquoise: rgb(67, 187, 175);
+$orange: rgb(252, 170, 35);
+$peach: rgb(253, 213, 131);
+
+$primary-color: $torquoise;
+$secondary-color: $orange;
+
+$highlight-color: $primary-color;
+$secondary-background-color: $peach;
