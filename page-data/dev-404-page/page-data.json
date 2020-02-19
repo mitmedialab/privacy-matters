@@ -8,7 +8,10 @@
           { "path": "/404/" },
           { "path": "/" },
           { "path": "/page-2/" },
-          { "path": "/404.html" }
+          { "path": "/404.html" },
+          { "path": "/bill-smart/" },
+          { "path": "/bill-opa/" },
+          { "path": "/bill-corpa/" }
         ]
       }
     },
