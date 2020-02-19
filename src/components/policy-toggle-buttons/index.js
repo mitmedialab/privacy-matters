@@ -1,21 +1,11 @@
 import React from "react";
-import { Col, Button, Card, CardTitle, CardText } from "reactstrap";
-import PolicyPrototypeSmart from "./../policy-prototype/policy-smart";
-import PolicyPrototypeOnlinePrivacyAct from "./../policy-prototype/policy-online";
-import PolicyPrototypeCorpa from "./../policy-prototype/policy-corpa";
-
-import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
+import { Link } from "gatsby";
+import { Col, Card, CardTitle } from "reactstrap";
 
 import "./style.scss";
 
 const PolicyToggleButtons = props => {
-  const { policies, onClick } = props;
-
-  const prototypes = {
-    [SMART]: <PolicyPrototypeSmart />,
-    [ONLINE_PRIVACY]: <PolicyPrototypeOnlinePrivacyAct />,
-    [CORPA]: <PolicyPrototypeCorpa />
-  };
+  const { policies } = props;
 
   return (
     <>
@@ -27,17 +17,13 @@ const PolicyToggleButtons = props => {
           className="pb-3"
         >
           <Card body className="bill-card h-100">
-            {prototypes[key]}
             <CardTitle className="card-title">{policies[key].long}</CardTitle>
-            <CardText>{policies[key].summary}</CardText>
-            <Button
-              color="primary"
-              onClick={e => onClick(key)}
-              size="lg"
-              className="w-100 mt-auto"
+            <Link
+              className="mt-auto"
+              to={`/bill-${key}/?ft=PRIVACY_MATTERS_2020`}
             >
               Explore the bill
-            </Button>
+            </Link>
           </Card>
         </Col>
       ))}

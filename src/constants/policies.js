@@ -1,6 +1,6 @@
-export const SMART = "SMART";
-export const ONLINE_PRIVACY = "ONLINE_PRIVACY";
-export const CORPA = "CORPA";
+export const SMART = "smart";
+export const ONLINE_PRIVACY = "opa";
+export const CORPA = "corpa";
 
 export const policies = {
   [SMART]: {
