@@ -82,26 +82,26 @@
         f = t("1Yj4"),
         h = (t("2Spj"), t("k1TG")),
         v = t("8o2o");
-      var E = t("17x9"),
-        y = t.n(E),
+      var y = t("17x9"),
+        E = t.n(y),
         N = t("TSYQ"),
         w = t.n(N),
         A = t("33Jr"),
         x = {
-          active: y.a.bool,
-          "aria-label": y.a.string,
-          block: y.a.bool,
-          color: y.a.string,
-          disabled: y.a.bool,
-          outline: y.a.bool,
+          active: E.a.bool,
+          "aria-label": E.a.string,
+          block: E.a.bool,
+          color: E.a.string,
+          disabled: E.a.bool,
+          outline: E.a.bool,
           tag: A.c,
-          innerRef: y.a.oneOfType([y.a.object, y.a.func, y.a.string]),
-          onClick: y.a.func,
-          size: y.a.string,
-          children: y.a.node,
-          className: y.a.string,
-          cssModule: y.a.object,
-          close: y.a.bool
+          innerRef: E.a.oneOfType([E.a.object, E.a.func, E.a.string]),
+          onClick: E.a.func,
+          size: E.a.string,
+          children: E.a.node,
+          className: E.a.string,
+          cssModule: E.a.object,
+          close: E.a.bool
         },
         k = (function(e) {
           var a, t;
@@ -206,13 +206,13 @@
           t("RW0V"),
           {
             tag: A.c,
-            inverse: y.a.bool,
-            color: y.a.string,
-            body: y.a.bool,
-            outline: y.a.bool,
-            className: y.a.string,
-            cssModule: y.a.object,
-            innerRef: y.a.oneOfType([y.a.object, y.a.string, y.a.func])
+            inverse: E.a.bool,
+            color: E.a.string,
+            body: E.a.bool,
+            outline: E.a.bool,
+            className: E.a.string,
+            cssModule: E.a.object,
+            innerRef: E.a.oneOfType([E.a.object, E.a.string, E.a.func])
           }),
         O = function(e) {
           var a = e.className,
@@ -250,7 +250,7 @@
         };
       (O.propTypes = C), (O.defaultProps = { tag: "div" });
       var R = O,
-        z = { tag: A.c, className: y.a.string, cssModule: y.a.object },
+        z = { tag: A.c, className: E.a.string, cssModule: E.a.object },
         T = function(e) {
           var a = e.className,
             t = e.cssModule,
@@ -275,7 +275,7 @@
                     key: "policy-select-button-" + e,
                     md: 4,
                     sm: 12,
-                    className: "pb-5"
+                    className: "pb-5 policy-cards"
                   },
                   c.a.createElement(
                     R,
@@ -403,4 +403,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-index-js-7f093825461b5136ce2c.js.map
+//# sourceMappingURL=component---src-pages-index-js-2dd9bca6171d0770e578.js.map
