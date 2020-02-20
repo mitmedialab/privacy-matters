@@ -5,7 +5,7 @@ import "./style.scss";
 
 const About = props => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <Row>
         <Col xs={12}>
           <h2>
