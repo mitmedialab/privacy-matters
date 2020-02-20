@@ -7,6 +7,7 @@ import Image from "../components/image";
 import SEO from "../components/seo";
 import About from "../components/about";
 import Jumbotron from "../components/jumbotron";
+import NavBar from "../components/navbar";
 
 import isEnabled, { ACCESS } from "../utils/featureFlags";
 
@@ -25,6 +26,7 @@ const IndexPage = () => {
   if (isEnabled(ACCESS)) {
     return (
       <>
+        <NavBar />
         <Jumbotron siteTitle={data.site.siteMetadata.title} />
         <Layout backgroundClass="secondary-background">
           <About />
