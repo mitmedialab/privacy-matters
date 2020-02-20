@@ -1,3 +1,8 @@
-.quote-prompt {
-  font-size: 28px;
+@import "../../styles/_colors.scss";
+@import "../../styles/_mixins.scss";
+
+.quote {
+  .quote-card {
+    @include card();
+  }
 }

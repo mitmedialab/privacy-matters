@@ -1,0 +1,10 @@
+@mixin card {
+  $shadow-depth: 10px;
+  box-shadow: $shadow-depth $shadow-depth $secondary-color;
+  background-color: $primary-color;
+  border-radius: 0;
+
+  .card-title {
+    font-size: 28px;
+  }
+}

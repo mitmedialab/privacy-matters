@@ -26,7 +26,7 @@ const IndexPage = () => {
     return (
       <>
         <Jumbotron siteTitle={data.site.siteMetadata.title} />
-        <Layout>
+        <Layout backgroundClass="secondary-background">
           <About />
         </Layout>
       </>

@@ -1,8 +1,8 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/_mixins.scss";
 
-.policy-cards {
-  .bill-card {
+.prototype {
+  .prototype-card {
     @include card();
   }
 }

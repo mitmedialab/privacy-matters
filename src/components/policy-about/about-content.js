@@ -5,6 +5,9 @@ const AboutContent = props => {
   const { html } = props.markdownRemark;
   return (
     <div className="policy-about pt-3 pb-5">
+      <h2>
+        <span className="half-highlight">Highlights</span>
+      </h2>
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <div className="text-center">
         <a href={fullPolicyLink} rel="noopener noreferrer" target="_blank">
