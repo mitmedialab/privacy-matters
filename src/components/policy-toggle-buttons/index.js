@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import { Col, Card, CardTitle } from "reactstrap";
 
+import { ACCESS } from "../../utils/featureFlags";
+
 import "./style.scss";
 
 const PolicyToggleButtons = props => {
@@ -18,10 +20,7 @@ const PolicyToggleButtons = props => {
         >
           <Card body className="bill-card h-100">
             <CardTitle className="card-title">{policies[key].long}</CardTitle>
-            <Link
-              className="mt-auto"
-              to={`/bill-${key}/?ft=PRIVACY_MATTERS_2020`}
-            >
+            <Link className="mt-auto" to={`/bill-${key}/?ft=${ACCESS}`}>
               Explore the bill
             </Link>
           </Card>

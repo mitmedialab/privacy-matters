@@ -1,5 +1,7 @@
 ---
 title: "About CORPA"
+date: "November 18, 2019"
+by: "U.S. Senate Committee on Commerce, Science, and Transportation Ranking Member Maria Cantwell (D-WA) and fellow senior members Senators Brian Schatz (D-HI), Amy Klobuchar (D-MN), and Ed Markey (D-MA)"
 ---
 
 ## Codifies privacy as a right

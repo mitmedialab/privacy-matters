@@ -1,46 +1,27 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import Layout from "./layout";
+import isEnabled, { ACCESS } from "../utils/featureFlags";
 
-import PolicyPrototype from "./policy-prototype";
-import PolicyAbout from "./policy-about";
-import PolicyQuotes from "./policy-quotes";
-import { policies } from "../constants/policies";
-
-import "./style.scss";
-
-const PolicyLayout = props => {
-  const { title, policy } = props;
-  return (
-    <div>
-      <Row className="py-3">
-        <Col>
-          <h1>{title}</h1>
-        </Col>
-      </Row>
-      <Row className="pb-3">
-        <Col md={3}>
-          <PolicyAbout selectedPolicy={policy} />
-        </Col>
-        <Col md={9}>
-          <PolicyPrototype selectedPolicy={policy} />
-          <PolicyQuotes selectedPolicy={policy} />
-        </Col>
-      </Row>
-    </div>
-  );
-};
+import PolicyHeader from "./policy-header";
+import PolicyMain from "./policy-main";
 
 const Policy = ({ policy }) => {
-  return (
-    <>
-      <PolicyLayout
-        key={`policy-layout-${policy}`}
-        title={policies[policy].long}
-        policy={policy}
-        className="py-5"
-      />
-    </>
-  );
+  if (isEnabled(ACCESS)) {
+    return (
+      <>
+        <PolicyHeader policy={policy} />
+        <Layout backgroundClass="policy-main-background">
+          <PolicyMain policy={policy} />
+        </Layout>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <p>TBD</p>
+      </>
+    );
+  }
 };
 
 export default Policy;

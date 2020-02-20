@@ -1,11 +1,12 @@
 import React from "react";
+import { Card, CardTitle } from "reactstrap";
 
 import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCorpa from "./policy-corpa";
 
-import "./policy-prototype.scss";
+import "./style.scss";
 
 const PolicyPrototype = props => {
   const { selectedPolicy } = props;
@@ -15,11 +16,11 @@ const PolicyPrototype = props => {
     [CORPA]: <PolicyPrototypeCorpa />
   };
   return (
-    <div className="my-3">
-      <h3 className="mb-5">
-        How might a social media platform look like if this bill were passed?
-      </h3>
-      {prototypes[selectedPolicy]}
+    <div className="prototype">
+      <Card body className="prototype-card">
+        <CardTitle className="card-title">View the mockup</CardTitle>
+        {prototypes[selectedPolicy]}
+      </Card>
     </div>
   );
 };

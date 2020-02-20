@@ -1,31 +1,20 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Card, CardTitle } from "reactstrap";
 
 import "./style.scss";
 
 const Quote = props => {
   const { frontmatter, html } = props.node;
   return (
-    <>
-      <Col className="quote-prompt my-3" xs={12}>
-        <div>{frontmatter.prompt}</div>
-      </Col>
-      <Col xs={12}>
-        <Row>
-          <Col xs={3}>
-            <div className="text-center display-1">🦊</div>
-          </Col>
-          <Col xs={9}>
-            <blockquote className="blockquote">
-              <div dangerouslySetInnerHTML={{ __html: html }} />
-              <footer className="blockquote-footer">
-                {frontmatter.quotee}
-              </footer>
-            </blockquote>
-          </Col>
-        </Row>
-      </Col>
-    </>
+    <div className="quote">
+      <Card body className="quote-card">
+        <CardTitle className="card-title">Responses to the bill</CardTitle>
+        <blockquote className="blockquote">
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+          <footer className="blockquote-footer">{frontmatter.quotee}</footer>
+        </blockquote>
+      </Card>
+    </div>
   );
 };
 

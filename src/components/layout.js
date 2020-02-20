@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { Container } from "reactstrap";
 import Footer from "./footer";
 
+import "./style.scss";
+
 const MainContainer = React.forwardRef((props, ref) => {
   const { children } = props;
   return (
@@ -12,11 +14,11 @@ const MainContainer = React.forwardRef((props, ref) => {
   );
 });
 
-const Layout = ({ children }) => {
+const Layout = ({ children, backgroundClass }) => {
   const containerRef = React.createRef();
 
   return (
-    <div className="secondary-background">
+    <div className={backgroundClass ? backgroundClass : ""}>
       <MainContainer ref={containerRef}>
         <main>{children}</main>
         <Footer />

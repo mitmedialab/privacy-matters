@@ -16,7 +16,6 @@ const PolicyQuotes = props => {
             frontmatter {
               quotee
               policy
-              prompt
             }
             html
           }
