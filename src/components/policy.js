@@ -12,7 +12,7 @@ const Policy = ({ policy }) => {
       <>
         <NavBar showHome />
         <PolicyHeader policy={policy} />
-        <Layout backgroundClass="policy-main-background">
+        <Layout>
           <PolicyMain policy={policy} />
         </Layout>
       </>

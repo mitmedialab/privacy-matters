@@ -13,10 +13,15 @@ const PolicyMain = props => {
     <>
       <Row className="pb-3">
         <Col md={6}>
+          <div className="d-block d-md-none my-5">
+            <PolicyPrototype selectedPolicy={policy} />
+          </div>
           <PolicyAbout selectedPolicy={policy} />
         </Col>
         <Col md={6}>
-          <PolicyPrototype selectedPolicy={policy} />
+          <div className="d-none d-md-block d-lg-block d-lx-block">
+            <PolicyPrototype selectedPolicy={policy} />
+          </div>
           <div className="mt-5" />
           <PolicyQuotes selectedPolicy={policy} />
         </Col>
