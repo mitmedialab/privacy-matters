@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button, Container } from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 import PolicyToggleButtons from "../policy-toggle-buttons";
 
 import { policies } from "../../constants/policies";
@@ -7,7 +7,7 @@ import { policies } from "../../constants/policies";
 import "./style.scss";
 
 const Jumbotron = props => {
-  const { siteTitle, onClick } = props;
+  const { siteTitle } = props;
   return (
     <div className="policy-toggle-background">
       <Container fluid>
@@ -27,7 +27,6 @@ const Jumbotron = props => {
                 engineers, philosophers, etc.
               </p>
             </div>
-            <Button onClick={onClick}>Explore privacy bills</Button>
           </Col>
         </Row>
         <Row className="py-5">

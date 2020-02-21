@@ -6,9 +6,7 @@ const HeaderContent = props => {
   return (
     <Row>
       <Col>
-        <h2>
-          <span className="half-highlight">{title}</span>
-        </h2>
+        <h2>{title}</h2>
         <div className="lead">{subtitle}</div>
         <div>Introduced on {date}</div>
         <div>{by}</div>

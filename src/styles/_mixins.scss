@@ -1,8 +1,12 @@
-@mixin card {
+@mixin card($bg-color, $shadow-color, $text-color: 0) {
   $shadow-depth: 10px;
-  box-shadow: $shadow-depth $shadow-depth $secondary-color;
-  background-color: $primary-color;
+  @if $text-color {
+    color: $text-color;
+  }
+  box-shadow: $shadow-depth $shadow-depth $shadow-color;
+  background-color: $bg-color;
   border-radius: 0;
+  border: 0;
 
   .card-title {
     font-size: 28px;

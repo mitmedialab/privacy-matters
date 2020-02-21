@@ -20,8 +20,11 @@ const PolicyToggleButtons = props => {
         >
           <Card body className="bill-card h-100">
             <CardTitle className="card-title">{policies[key].long}</CardTitle>
-            <Link className="mt-auto" to={`/bill-${key}/?ft=${ACCESS}`}>
-              Explore the bill
+            <Link
+              className="mt-auto arrow text-right"
+              to={`/bill-${key}/?ft=${ACCESS}`}
+            >
+              &rarr; <span className="sr-only">Explore bill</span>
             </Link>
           </Card>
         </Col>

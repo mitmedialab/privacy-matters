@@ -1,9 +1,15 @@
-$torquoise: rgb(67, 187, 175);
-$orange: rgb(252, 170, 35);
-$peach: rgb(253, 213, 131);
+$purple: #505BDA;
+$teal: #4FC5BC;
+$red: #FD7A5C;
+$yellow: #FEB72B;
+$light-gray: #F2F2F2;
+$med-gray: #B2B2B2;
+$black: #000000;
+$white: #FFFFFF;
 
-$primary-color: $torquoise;
-$secondary-color: $orange;
+$primary-color: $purple;
+$secondary-color: $yellow;
 
-$highlight-color: $primary-color;
-$secondary-background-color: $peach;
+$highlight-color: $teal;
+$text-color: $white;
+$inverse-text-color: $white;
