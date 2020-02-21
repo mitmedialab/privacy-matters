@@ -1,5 +1,12 @@
-import React from "react";
-import { Card, CardTitle } from "reactstrap";
+import React, { useState } from "react";
+import {
+  Button,
+  Card,
+  CardTitle,
+  Modal,
+  ModalHeader,
+  ModalBody
+} from "reactstrap";
 
 import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
@@ -15,13 +22,24 @@ const PolicyPrototype = props => {
     [ONLINE_PRIVACY]: <PolicyPrototypeOnlinePrivacyAct />,
     [CORPA]: <PolicyPrototypeCorpa />
   };
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
   return (
     <div className="prototype">
       <Card body className="prototype-card">
         <CardTitle className="card-title">
-          <span className="half-highlight">View the mockup</span>
+          <span className="half-highlight">
+            How might we visualize this bill?
+          </span>
         </CardTitle>
         {prototypes[selectedPolicy]}
+        <Button onClick={toggle}>View</Button>
+        <Modal isOpen={modal} toggle={toggle}>
+          <ModalHeader toggle={toggle}>
+            How might we visualize this bill?
+          </ModalHeader>
+          <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
+        </Modal>
       </Card>
     </div>
   );
