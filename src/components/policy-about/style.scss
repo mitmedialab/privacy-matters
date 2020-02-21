@@ -1,6 +1,26 @@
+@import "../../styles/_colors.scss";
+
 .policy-about {
   h2 {
-    font-size: 16px;
-    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bill-highlights {
+    dl {
+      border-left-color: $highlight-color;
+      border-left-width: 8px;
+      border-left-style: solid;
+      padding-left: 10px;
+      margin-bottom: 40px;
+    }
+
+    dt {
+      margin-bottom: 20px;
+    }
   }
 }

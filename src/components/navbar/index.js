@@ -28,7 +28,9 @@ const NavBar = props => {
         {showHome && (
           <div className="navbar-brand">
             <Link to={`/?ft=${ACCESS}`}>
-              <span className="site-name half-highlight">Privacy Matters</span>
+              <span className="site-name half-highlight">
+                Let’s Talk Privacy
+              </span>
             </Link>
           </div>
         )}

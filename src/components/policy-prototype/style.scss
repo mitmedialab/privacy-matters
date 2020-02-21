@@ -1,7 +1,11 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/_mixins.scss";
+@import "../../styles/_breakpoints.scss";
 
 .prototype {
+  @media(min-width: $md) {
+    margin-top: -50px;
+  }
   .prototype-card {
     @include card($light-gray, $teal);
   }
