@@ -4,7 +4,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   UncontrolledDropdown,
   DropdownToggle,
@@ -14,6 +13,8 @@ import {
 
 import { ACCESS } from "../../utils/featureFlags";
 import { policies } from "../../constants/policies";
+
+import "./style.scss";
 
 const NavBar = props => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,9 +26,11 @@ const NavBar = props => {
     <div>
       <Navbar light expand="md">
         {showHome && (
-          <NavbarBrand>
-            <Link to={`/?ft=${ACCESS}`}>Home</Link>
-          </NavbarBrand>
+          <div className="navbar-brand">
+            <Link to={`/?ft=${ACCESS}`}>
+              <span className="site-name half-highlight">Privacy Matters</span>
+            </Link>
+          </div>
         )}
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

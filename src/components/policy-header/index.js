@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Container,
-  TabContent,
-  TabPane,
-  Nav,
-  NavItem,
-  NavLink
-} from "reactstrap";
+import { Container, TabContent, TabPane, Nav, NavItem } from "reactstrap";
 
 import { Link } from "gatsby";
 
@@ -31,28 +24,34 @@ const PolicyHeader = ({ policy }) => {
       <Container fluid>
         <Nav tabs>
           <NavItem>
-            <NavLink
-              className={"active"}
-              onClick={() => {
-                console.log("1");
-              }}
+            <Link
+              className={`nav-link ${policy === SMART ? "active" : ""}`}
+              to={`/bill-smart/?ft=${ACCESS}`}
             >
-              <Link to={`/bill-smart/?ft=${ACCESS}`}>SMART</Link>
-            </NavLink>
+              SMART
+            </Link>
           </NavItem>
           <NavItem>
-            <NavLink className="">
-              <Link to={`/bill-opa/?ft=${ACCESS}`}>OPA</Link>
-            </NavLink>
+            <Link
+              className={`nav-link ${
+                policy === ONLINE_PRIVACY ? "active" : ""
+              }`}
+              to={`/bill-opa/?ft=${ACCESS}`}
+            >
+              OPA
+            </Link>
           </NavItem>
           <NavItem>
-            <NavLink className="">
-              <Link to={`/bill-corpa/?ft=${ACCESS}`}>CORPA</Link>
-            </NavLink>
+            <Link
+              className={`nav-link ${policy === CORPA ? "active" : ""}`}
+              to={`/bill-corpa/?ft=${ACCESS}`}
+            >
+              CORPA
+            </Link>
           </NavItem>
         </Nav>
       </Container>
-      <div className="secondary-background">
+      <div className="primary-background">
         <Container>
           <TabContent activeTab="1">
             <TabPane tabId="1">{prototypes[policy]}</TabPane>

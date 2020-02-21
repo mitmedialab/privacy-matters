@@ -18,7 +18,9 @@ const PolicyPrototype = props => {
   return (
     <div className="prototype">
       <Card body className="prototype-card">
-        <CardTitle className="card-title">View the mockup</CardTitle>
+        <CardTitle className="card-title">
+          <span className="half-highlight">View the mockup</span>
+        </CardTitle>
         {prototypes[selectedPolicy]}
       </Card>
     </div>

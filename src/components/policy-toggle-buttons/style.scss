@@ -3,6 +3,11 @@
 
 .policy-cards {
   .bill-card {
-    @include card();
+    @include card($primary-color, $secondary-color, $inverse-text-color);
+
+    .arrow {
+      color: $inverse-text-color;
+      font-size: 38px;
+    }
   }
 }

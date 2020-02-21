@@ -3,6 +3,6 @@
 
 .prototype {
   .prototype-card {
-    @include card();
+    @include card($light-gray, $teal);
   }
 }
