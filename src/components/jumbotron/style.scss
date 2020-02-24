@@ -1,13 +1,33 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/_breakpoints.scss";
 
-.pm-jumbotron {
-  .description {
-  }
-}
+.landing-jumbotron {
+  background-image: url("../../images/landing-page-background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 
-.policy-toggle-background {
-  // @media(min-width: $md) {
-  //   background-image: linear-gradient(180deg, transparent 70%, $secondary-background-color 0);
-  // }
+  .cover {
+    @media(min-width: $md) {
+      min-height: 400px;
+      text-align: right;
+    }
+    @media(min-width: $lg) {
+      min-height: 600px;
+      text-align: right;
+    }
+    @media(min-width: $xl) {
+      min-height: 700px;
+    }
+
+  }
+
+  .title-row {
+    padding-top: 70px;
+    text-align: center;
+
+    @media(min-width: $md) {
+      padding-top: 120px;
+      text-align: right;
+    }
+  }
 }
