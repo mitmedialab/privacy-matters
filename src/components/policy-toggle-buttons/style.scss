@@ -1,9 +1,20 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/_mixins.scss";
+@import "../../styles/_breakpoints.scss";
 
 .policy-cards {
   .bill-card {
     @include card($primary-color, $secondary-color, $inverse-text-color);
+
+    @media(min-width: $md) {
+      min-height: 175px;
+    }
+    @media(min-width: $lg) {
+      min-height: 275px;
+    }
+    @media(min-width: $xl) {
+      min-height: 400px;
+    }
 
     .arrow {
       color: $inverse-text-color;
