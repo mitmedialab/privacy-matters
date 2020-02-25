@@ -28,12 +28,17 @@ const PolicyPrototype = props => {
     <div className="prototype">
       <Card body className="prototype-card">
         <CardTitle className="card-title">
-          <span className="half-highlight">
-            How might we visualize this bill?
-          </span>
+          <h2>
+            <span className="half-highlight">
+              How might we visualize this bill?
+            </span>
+          </h2>
         </CardTitle>
         {prototypes[selectedPolicy]}
-        <Button onClick={toggle}>View</Button>
+
+        <Button color="primary" className="my-2" onClick={toggle}>
+          View
+        </Button>
         <Modal isOpen={modal} toggle={toggle}>
           <ModalHeader toggle={toggle}>
             How might we visualize this bill?

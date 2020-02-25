@@ -15,7 +15,7 @@ const Jumbotron = props => {
           <Row className="align-middle d-flex title-row">
             <Col md={6} className="d-flex flex-column justify-content-start">
               <div>
-                <h1>
+                <h1 className="title">
                   <span className="half-highlight">{siteTitle}</span>
                 </h1>
               </div>
@@ -27,7 +27,7 @@ const Jumbotron = props => {
               className="d-flex offset-md-6 flex-column justify-content-between"
             >
               <div>
-                <p className="mt-3 text-left description">
+                <p className="mt-3 text-left subheading-1 description">
                   Exploring how data privacy policies translates into design and
                   practice for librarians, pediatricians, lawyers, designers,
                   engineers, philosophers, etc.

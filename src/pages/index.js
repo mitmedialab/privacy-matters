@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Link } from "gatsby";
@@ -11,8 +13,6 @@ import NavBar from "../components/navbar";
 
 import isEnabled, { ACCESS } from "../utils/featureFlags";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -25,13 +25,13 @@ const IndexPage = () => {
   `);
   if (isEnabled(ACCESS)) {
     return (
-      <>
+      <div className="privacy-page">
         <NavBar />
         <Jumbotron siteTitle={data.site.siteMetadata.title} />
         <Layout backgroundClass="secondary-background">
           <About />
         </Layout>
-      </>
+      </div>
     );
   } else {
     return (

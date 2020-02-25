@@ -9,9 +9,11 @@ const Quote = props => {
     <div className="quote">
       <Card body className="quote-card">
         <CardTitle className="card-title">
-          <span className="half-highlight">Responses to the bill</span>
+          <h2>
+            <span className="half-highlight">Responses to the bill</span>
+          </h2>
         </CardTitle>
-        <blockquote className="blockquote">
+        <blockquote className="blockquote subheading-1">
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <footer className="blockquote-footer">{frontmatter.quotee}</footer>
         </blockquote>
