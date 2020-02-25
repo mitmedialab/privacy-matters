@@ -1,7 +1,6 @@
 import React from "react";
 
 const AboutContent = props => {
-  const { fullPolicyLink } = props;
   const { html } = props.markdownRemark;
   return (
     <>
@@ -13,11 +12,6 @@ const AboutContent = props => {
           className="bill-highlights"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <div className="text-center">
-          <a href={fullPolicyLink} rel="noopener noreferrer" target="_blank">
-            See full text
-          </a>
-        </div>
       </div>
     </>
   );

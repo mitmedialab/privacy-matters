@@ -12,12 +12,7 @@ const PolicyAboutCorpa = props => {
     }
   `);
   const { markdownRemark } = data;
-  return (
-    <AboutContent
-      markdownRemark={markdownRemark}
-      fullPolicyLink="https://www.cantwell.senate.gov/imo/media/doc/COPRA%20Bill%20Text.pdf"
-    />
-  );
+  return <AboutContent markdownRemark={markdownRemark} />;
 };
 
 export default PolicyAboutCorpa;

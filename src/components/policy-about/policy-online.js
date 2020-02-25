@@ -14,12 +14,7 @@ const PolicyAboutOnlinePrivacyAct = props => {
     }
   `);
   const { markdownRemark } = data;
-  return (
-    <AboutContent
-      markdownRemark={markdownRemark}
-      fullPolicyLink="https://eshoo.house.gov/sites/eshoo.house.gov/files/migrated/wp-content/uploads/2019/11/Bill-Text-Online-Privacy-Act-Eshoo-Lofgren.pdf"
-    />
-  );
+  return <AboutContent markdownRemark={markdownRemark} />;
 };
 
 export default PolicyAboutOnlinePrivacyAct;
