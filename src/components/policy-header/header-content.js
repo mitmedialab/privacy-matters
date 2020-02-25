@@ -7,11 +7,11 @@ const HeaderContent = props => {
   return (
     <Row className="header-content py-md-5 py-4">
       <Col md="8">
-        <h2 className="py-2">{title}</h2>
+        <h1 className="py-2">{title}</h1>
         <div className="d-block d-md-none bill-image-inline mx-auto">
           <BillImage />
         </div>
-        <div className="py-4 lead">{subtitle}</div>
+        <div className="py-4 subheading-1">{subtitle}</div>
         <div className="">Introduced on {date}</div>
         <div className="">{by}</div>
       </Col>

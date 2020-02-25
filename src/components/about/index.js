@@ -16,7 +16,7 @@ const About = props => {
 
       <Row>
         <Col xs={12} sm={6}>
-          <p className="lead">
+          <p className="subheading-2">
             Privacy Matters explores how the implementation of privacy and data
             governance policies might impact a variety of fields.
           </p>

@@ -18,7 +18,7 @@ const Layout = ({ children, backgroundClass }) => {
   const containerRef = React.createRef();
 
   return (
-    <div className={backgroundClass ? backgroundClass : ""}>
+    <div className={`${backgroundClass ? backgroundClass : ""}`}>
       <MainContainer ref={containerRef}>
         <main>{children}</main>
         <Footer />

@@ -41,7 +41,10 @@ const NavBar = props => {
           <Nav className="ml-auto" navbar>
             <div className="d-sm-block d-md-none text-right">
               {Object.keys(policies).map(key => (
-                <NavItem className="ml-auto pt-3">
+                <NavItem
+                  key={`policy-select-nav-item-${key}`}
+                  className="ml-auto pt-3"
+                >
                   <Link to={`/bill-${key}/?ft=${ACCESS}`}>
                     {policies[key].short}
                   </Link>

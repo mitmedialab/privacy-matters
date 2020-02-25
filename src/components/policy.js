@@ -9,13 +9,13 @@ import PolicyMain from "./policy-main";
 const Policy = ({ policy }) => {
   if (isEnabled(ACCESS)) {
     return (
-      <>
+      <div className="privacy-page">
         <NavBar showHome />
         <PolicyHeader policy={policy} />
         <Layout>
           <PolicyMain policy={policy} />
         </Layout>
-      </>
+      </div>
     );
   } else {
     return (
