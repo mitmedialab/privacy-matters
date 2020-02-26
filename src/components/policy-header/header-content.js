@@ -5,11 +5,11 @@ import BillImage from "./bill-image";
 const HeaderContent = props => {
   const { title, subtitle, date, by, byUri } = props.markdownRemark.frontmatter;
 
-  const authors = by.split(",");
-  const uris = byUri.split(",");
-  const authorUris = authors.map(function(author, i) {
-    return { author, uri: uris[i] };
-  });
+  // const authors = by.split(",");
+  // const uris = byUri.split(",");
+  // const authorUris = authors.map(function(author, i) {
+  //   return { author, uri: uris[i] };
+  // });
 
   return (
     <Row className="header-content py-md-5 py-4">
@@ -20,13 +20,7 @@ const HeaderContent = props => {
         </div>
         <div className="py-4 subheading-1">{subtitle}</div>
         <div className="">Introduced on {date}</div>
-        <div className="">
-          {authorUris.map(authorUri => (
-            <a href={authorUri.uri} rel="noopener noreferrer" target="_blank">
-              {authorUri.author}
-            </a>
-          ))}
-        </div>
+        <div dangerouslySetInnerHTML={{ __html: by }} />
       </Col>
       <Col className="mt-3 d-none d-md-block d-lg-block d-lx-block" md="4">
         <BillImage />
