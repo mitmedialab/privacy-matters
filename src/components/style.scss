@@ -82,6 +82,12 @@ html {
   .btn-primary {
     background-color: $button-color;
     border-color: $button-color;
+
+    &:hover {
+      color: $button-color;
+      background-color: $white;
+      border-color: $button-color;
+    }
   }
 
 }

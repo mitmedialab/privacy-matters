@@ -15,7 +15,7 @@ const Quote = props => {
         </CardTitle>
         <blockquote className="blockquote subheading-1">
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <footer className="blockquote-footer">{frontmatter.quotee}</footer>
+          <p>- {frontmatter.quotee}</p>
         </blockquote>
       </Card>
     </div>

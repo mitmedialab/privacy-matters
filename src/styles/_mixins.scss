@@ -8,6 +8,13 @@
   border-radius: 0;
   border: 0;
 
+  transition: box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    $hover-depth: $shadow-depth * 2;
+    box-shadow: $hover-depth $hover-depth $shadow-color;
+  }
+
   .card-title {
     font-size: 28px;
   }
