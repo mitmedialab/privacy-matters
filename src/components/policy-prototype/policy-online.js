@@ -17,7 +17,12 @@ const PolicyPrototypeSmart = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Mockup of a hypothetical screenshot where a social media feed is annotated with popups informing users what is tracked on a social media news feed with buttons to edit how long data can be retained."
+    />
+  );
 };
 
 export default PolicyPrototypeSmart;
