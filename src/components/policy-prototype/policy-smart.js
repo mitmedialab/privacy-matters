@@ -15,7 +15,12 @@ const PolicyPrototypeSmart = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="Mockup for a hypothetical screenshot of a social media feed where one post is displayed at a time, along with a timer for long many likes a user has remaining before reseting, and the number of seconds left before the screen dims."
+    />
+  );
 };
 
 export default PolicyPrototypeSmart;
