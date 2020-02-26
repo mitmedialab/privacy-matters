@@ -4,13 +4,14 @@ import { Col, Row } from "reactstrap";
 import "./style.scss";
 
 const About = props => {
+  const { standAlone } = props;
+  const aboutTitle = <span className="half-highlight">About</span>;
   return (
     <div id="about" className="about">
       <Row>
         <Col xs={12}>
-          <h2>
-            <span className="half-highlight">About</span>
-          </h2>
+          {standAlone && <h1>{aboutTitle}</h1>}
+          {!standAlone && <h2>{aboutTitle}</h2>}
         </Col>
       </Row>
 
