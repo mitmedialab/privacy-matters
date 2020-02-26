@@ -43,9 +43,9 @@ const NavBar = props => {
               {Object.keys(policies).map(key => (
                 <NavItem
                   key={`policy-select-nav-item-${key}`}
-                  className="ml-auto pt-3"
+                  className="ml-auto"
                 >
-                  <Link to={`/bill-${key}/?ft=${ACCESS}`}>
+                  <Link className="nav-link" to={`/bill-${key}/?ft=${ACCESS}`}>
                     {policies[key].short}
                   </Link>
                 </NavItem>
@@ -59,7 +59,10 @@ const NavBar = props => {
                 <DropdownMenu right>
                   {Object.keys(policies).map(key => (
                     <DropdownItem key={`policy-select-button-${key}`}>
-                      <Link to={`/bill-${key}/?ft=${ACCESS}`}>
+                      <Link
+                        className="nav-link"
+                        to={`/bill-${key}/?ft=${ACCESS}`}
+                      >
                         {policies[key].short}
                       </Link>
                     </DropdownItem>
@@ -67,6 +70,12 @@ const NavBar = props => {
                 </DropdownMenu>
               </UncontrolledDropdown>
             </div>
+            <DropdownItem divider />
+            <NavItem className="ml-auto">
+              <Link className="nav-link" to={`/about?ft=${ACCESS}`}>
+                About
+              </Link>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
