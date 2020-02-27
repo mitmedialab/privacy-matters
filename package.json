@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "Privacy Matters Site",
+  "description": "Let's Talk Privacy Site",
   "version": "0.1.0",
   "author": "Dennis Jen <dsjen@media.mit.edu>",
   "dependencies": {
@@ -41,7 +41,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "echo \"privacymatters.media.mit.edu\" > public/CNAME && gatsby build && gh-pages -d public"
+    "deploy": "echo \"letstalkprivacy.media.mit.edu\" > public/CNAME && gatsby build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
