@@ -2,8 +2,11 @@
 title: "Consumer Online Privacy Rights Act (COPRA)"
 subtitle: "Codifies privacy as a right and creates a private right of action to enforce privacy rights and oversight of platforms"
 date: "November 18, 2019"
-by: "U.S. Senate Committee on Commerce, Science, and Transportation Ranking Member Maria Cantwell (D-WA) and fellow senior members Senators Brian Schatz (D-HI), Amy Klobuchar (D-MN), and Ed Markey (D-MA), <a href='www.google.com'>google</a>"
-byUri: "https://www.hawley.senate.gov/"
+by: "<a rel='noopener noreferrer' target='_blank'
+href='https://www.cantwell.senate.gov/'>U.S. Senate Committee on Commerce, Science, and Transportation Ranking Member Maria Cantwell (D-WA)</a> and fellow senior members Senators <a rel='noopener noreferrer' target='_blank'
+href='https://www.schatz.senate.gov/'>Brian Schatz (D-HI)</a>, <a rel='noopener noreferrer' target='_blank'
+href='https://www.klobuchar.senate.gov/'>Amy Klobuchar (D-MN)</a>, and <a rel='noopener noreferrer' target='_blank'
+href='https://www.markey.senate.gov/'>Ed Markey (D-MA)</a>"
 ---
 
 <dl>

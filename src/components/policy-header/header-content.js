@@ -3,13 +3,7 @@ import { Row, Col } from "reactstrap";
 import BillImage from "./bill-image";
 
 const HeaderContent = props => {
-  const { title, subtitle, date, by, byUri } = props.markdownRemark.frontmatter;
-
-  // const authors = by.split(",");
-  // const uris = byUri.split(",");
-  // const authorUris = authors.map(function(author, i) {
-  //   return { author, uri: uris[i] };
-  // });
+  const { title, subtitle, date, by } = props.markdownRemark.frontmatter;
 
   return (
     <Row className="header-content py-md-5 py-4">
@@ -36,7 +30,6 @@ export const query = graphql`
       subtitle
       date
       by
-      byUri
     }
   }
 `;
