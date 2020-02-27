@@ -3,6 +3,11 @@
 .primary-background {
   background-color: $primary-color;
   color: $inverse-text-color;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
 }
 
 .header-content {

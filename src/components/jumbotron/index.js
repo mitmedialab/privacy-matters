@@ -29,8 +29,7 @@ const Jumbotron = props => {
               <div>
                 <p className="mt-3 text-left subheading-1 description">
                   Exploring how privacy and data governance policies translate
-                  into practice for librarians, pediatricians, lawyers,
-                  designers, engineers, philosophers, etc.
+                  into practice
                 </p>
               </div>
             </Col>

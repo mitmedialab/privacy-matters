@@ -12,8 +12,9 @@
   }
 
   .cover {
+    min-height: 550px;
+
     @media(min-width: $md) {
-      min-height: 400px;
       text-align: right;
     }
     @media(min-width: $lg) {
@@ -26,14 +27,25 @@
 
   }
 
+  .description {
+    $spacing: 20px;
+    margin-left: $spacing;
+    margin-right: $spacing;
+
+    @media(min-width: $sm) {
+      padding-left: unset;
+      padding-right: unset;
+    }
+  }
+
   .title-row {
-    padding-top: 70px;
+    padding-top: 90px;
     padding-bottom: 150px;
     text-align: center;
 
     @media(min-width: $sm) {
       padding-top: 120px;
-      padding-bottom: 50;
+      padding-bottom: 50px;
     }
 
     @media(min-width: $md) {

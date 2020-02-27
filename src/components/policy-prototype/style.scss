@@ -8,5 +8,6 @@
   }
   .prototype-card {
     @include card($light-gray, $teal);
+    // padding: 50px;
   }
 }
