@@ -16,7 +16,7 @@ export const policies = {
       "Creates user data rights and strengthens enforcement with a Digital Privacy Agency and state level attorneys."
   },
   [CORPA]: {
-    short: "CORPA",
+    short: "COPRA",
     long: "Consumer Online Privacy Rights Act",
     summary:
       "Codifies privacy as a right and creates a private right of action to enforce privacy rights and enforce oversight of platforms."

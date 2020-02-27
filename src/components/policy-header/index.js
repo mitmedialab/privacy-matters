@@ -46,7 +46,7 @@ const PolicyHeader = ({ policy }) => {
               className={`nav-link ${policy === CORPA ? "active" : ""}`}
               to={`/bill-corpa/?ft=${ACCESS}`}
             >
-              CORPA
+              COPRA
             </Link>
           </NavItem>
         </Nav>
