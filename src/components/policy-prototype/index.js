@@ -26,12 +26,10 @@ const PolicyPrototype = props => {
   const toggle = () => setModal(!modal);
   return (
     <div className="prototype">
-      <Card body className="prototype-card">
+      <Card body className="prototype-card py-3 px-5">
         <CardTitle className="card-title">
           <h2>
-            <span className="half-highlight">
-              How might we visualize this bill?
-            </span>
+            <span className="half-highlight">How this bill might look</span>
           </h2>
         </CardTitle>
         {prototypes[selectedPolicy]}
@@ -40,9 +38,7 @@ const PolicyPrototype = props => {
           View
         </Button>
         <Modal isOpen={modal} toggle={toggle}>
-          <ModalHeader toggle={toggle}>
-            How might we visualize this bill?
-          </ModalHeader>
+          <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
           <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
         </Modal>
       </Card>

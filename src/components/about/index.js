@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
+import AboutImage from "./AboutImage";
 
 import "./style.scss";
 
@@ -16,7 +17,10 @@ const About = props => {
       </Row>
 
       <Row>
-        <Col xs={12} sm={6}>
+        <Col xs={12} md={6} className="order-1 order-md-2 pb-3">
+          <AboutImage />
+        </Col>
+        <Col xs={12} md={6} className="order-2 order-md-1">
           <p className="subheading-2">
             Let’s Talk Privacy explores how the implementation of privacy and
             data governance policies might impact a variety of fields.
