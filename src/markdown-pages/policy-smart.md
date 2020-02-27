@@ -2,8 +2,8 @@
 title: "Social Media Addiction Reduction Technology (SMART) Act"
 subtitle: "Bans dark patterns + addictive features and raises user awareness on social media "
 date: "July 30, 2019"
-by: "Senator Josh Hawley (R-Mo.)"
-byUri: "https://www.hawley.senate.gov/"
+by: "<a rel='noopener noreferrer' target='_blank'
+href='https://www.hawley.senate.gov/'>Senator Josh Hawley (R-Mo.)</a>"
 ---
 
 <dl>
