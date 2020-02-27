@@ -4,13 +4,6 @@
       "edges": [
         {
           "node": {
-            "id": "5c468cd4-4576-5182-bd6f-6fa7a389e164",
-            "frontmatter": { "quotee": "Name, Researcher", "policy": "opa" },
-            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-          }
-        },
-        {
-          "node": {
             "id": "99c29eac-d1ed-5636-9336-8398e6705b3a",
             "frontmatter": { "quotee": "Name, Designer", "policy": "corpa" },
             "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
@@ -20,6 +13,13 @@
           "node": {
             "id": "c1300853-83f0-5ac8-ad4c-a659385bb318",
             "frontmatter": { "quotee": "Name, Lawyer", "policy": "smart" },
+            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        },
+        {
+          "node": {
+            "id": "5c468cd4-4576-5182-bd6f-6fa7a389e164",
+            "frontmatter": { "quotee": "Name, Researcher", "policy": "opa" },
             "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
           }
         }
