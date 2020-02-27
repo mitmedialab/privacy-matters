@@ -1,6 +1,6 @@
 # 👀 Privacy Matters
 
-Check out the site at https://privacymatters.media.mit.edu/.
+Check out the site at https://letstalkprivacy.media.mit.edu/.
 
 ## Installation
 
