@@ -1,6 +1,5 @@
 import React from "react";
-import { useStaticQuery } from "gatsby";
-import { Card, CardTitle } from "reactstrap";
+import { useStaticQuery, graphql } from "gatsby";
 
 const Comment = props => {
   const { quotee, html } = props;

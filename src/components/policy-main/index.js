@@ -11,7 +11,7 @@ const PolicyMain = props => {
   const { policy } = props;
   return (
     <>
-      <Row className="pb-3">
+      <Row>
         <Col md={6}>
           <div className="d-block d-md-none my-5">
             <PolicyPrototype selectedPolicy={policy} />
