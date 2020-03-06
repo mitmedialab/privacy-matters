@@ -5,6 +5,7 @@ import isEnabled, { ACCESS } from "../utils/featureFlags";
 import NavBar from "./navbar";
 import PolicyHeader from "./policy-header";
 import PolicyMain from "./policy-main";
+import Reactions from "./reactions";
 
 const Policy = ({ policy }) => {
   if (isEnabled(ACCESS)) {
@@ -14,6 +15,7 @@ const Policy = ({ policy }) => {
         <PolicyHeader policy={policy} />
         <Layout>
           <PolicyMain policy={policy} />
+          <Reactions policy={policy} />
         </Layout>
       </div>
     );

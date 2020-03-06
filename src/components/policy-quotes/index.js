@@ -10,23 +10,18 @@ const PolicyQuotes = props => {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/(quotes)/.*\\\\.md$/" } }
       ) {
-        edges {
-          node {
-            id
-            frontmatter {
-              quotee
-              policy
-            }
-            html
-          }
-        }
+        ...QuoteFragment
       }
     }
   `);
   return (
     <>
       {data.allMarkdownRemark.edges
-        .filter(edge => edge.node.frontmatter.policy === selectedPolicy)
+        .filter(
+          edge =>
+            edge.node.frontmatter.policy === selectedPolicy &&
+            edge.node.frontmatter.responseType === "highlight"
+        )
         .map(edge => (
           <Quote
             key={`${selectedPolicy}-${edge.node.frontmatter.quotee}`}
