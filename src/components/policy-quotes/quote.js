@@ -22,4 +22,20 @@ const Quote = props => {
   );
 };
 
+export const query = graphql`
+  fragment QuoteFragment on MarkdownRemarkConnection {
+    edges {
+      node {
+        id
+        frontmatter {
+          quotee
+          policy
+          responseType
+        }
+        html
+      }
+    }
+  }
+`;
+
 export default Quote;

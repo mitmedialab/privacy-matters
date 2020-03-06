@@ -43,10 +43,11 @@ Policy quotes are stored in [src/markdown-pages/quotes](https://github.com/mitme
 
 The frontmatter fields and corresponding values are:
 
-| Field    | Description                                              |
-| -------- | -------------------------------------------------------- |
-| `quotee` | Person to credit, e.g. `Jane Doe, Engineer`              |
-| `policy` | One of the following: `CORPA`, `SMART`, `ONLINE_PRIVACY` |
+| Field          | Description                                              |
+| -------------- | -------------------------------------------------------- |
+| `quotee`       | Person to credit, e.g. `Jane Doe, Engineer`              |
+| `policy`       | One of the following: `CORPA`, `SMART`, `ONLINE_PRIVACY` |
+| `responseType` | One of the following: `pro`, `con`, `highlight`          |
 
 Quotes will be displayed on the policy's page.
 
