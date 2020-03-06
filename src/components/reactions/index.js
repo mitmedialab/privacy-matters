@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 
 import Commentary from "./commentary";
+import Insights from "./insights";
 
 const Reactions = props => {
   const { policy } = props;
@@ -16,7 +17,7 @@ const Reactions = props => {
       <Row className="pb-3">
         <Col xs={12}>
           <h3>High Level Insights</h3>
-          <p>TBD</p>
+          <Insights policy={policy} />
         </Col>
       </Row>
       <Row className="pb-3">
