@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 
 import PolicyHeaderSmart from "./policy-header-smart";
 import PolicyHeaderOpa from "./policy-header-opa";
-import PolicyHeaderCorpa from "./policy-header-corpa";
-import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
+import PolicyHeaderCopra from "./policy-header-copra";
+import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 
 import { ACCESS } from "../../utils/featureFlags";
 
@@ -16,7 +16,7 @@ const PolicyHeader = ({ policy }) => {
   const prototypes = {
     [SMART]: <PolicyHeaderSmart />,
     [ONLINE_PRIVACY]: <PolicyHeaderOpa />,
-    [CORPA]: <PolicyHeaderCorpa />
+    [COPRA]: <PolicyHeaderCopra />
   };
 
   return (
@@ -43,8 +43,8 @@ const PolicyHeader = ({ policy }) => {
           </NavItem>
           <NavItem>
             <Link
-              className={`nav-link ${policy === CORPA ? "active" : ""}`}
-              to={`/bill-corpa/?ft=${ACCESS}`}
+              className={`nav-link ${policy === COPRA ? "active" : ""}`}
+              to={`/bill-copra/?ft=${ACCESS}`}
             >
               COPRA
             </Link>

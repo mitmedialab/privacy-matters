@@ -3,10 +3,10 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import AboutContent from "./about-content";
 
-const PolicyAboutCorpa = props => {
+const PolicyAboutCopra = props => {
   const data = useStaticQuery(graphql`
     query {
-      markdownRemark(fileAbsolutePath: { regex: "/policy-corpa.md/" }) {
+      markdownRemark(fileAbsolutePath: { regex: "/policy-copra.md/" }) {
         ...AboutPolicyFragment
       }
     }
@@ -15,4 +15,4 @@ const PolicyAboutCorpa = props => {
   return <AboutContent markdownRemark={markdownRemark} />;
 };
 
-export default PolicyAboutCorpa;
+export default PolicyAboutCopra;

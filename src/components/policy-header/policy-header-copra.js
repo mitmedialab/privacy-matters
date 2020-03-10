@@ -3,10 +3,10 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import HeaderContent from "./header-content";
 
-const PolicyHeaderCorpa = props => {
+const PolicyHeaderCopra = props => {
   const data = useStaticQuery(graphql`
     query {
-      markdownRemark(fileAbsolutePath: { regex: "/policy-corpa.md/" }) {
+      markdownRemark(fileAbsolutePath: { regex: "/policy-copra.md/" }) {
         ...HeaderPolicyFragment
       }
     }
@@ -15,4 +15,4 @@ const PolicyHeaderCorpa = props => {
   return <HeaderContent markdownRemark={markdownRemark} />;
 };
 
-export default PolicyHeaderCorpa;
+export default PolicyHeaderCopra;

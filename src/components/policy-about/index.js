@@ -2,9 +2,9 @@ import React from "react";
 
 import PolicyAboutSmart from "./policy-smart";
 import PolicyAboutOnlinePrivacyAct from "./policy-online";
-import PolicyAboutCorpa from "./policy-corpa";
+import PolicyAboutCopra from "./policy-copra";
 
-import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
+import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 
 import "./style.scss";
 
@@ -14,8 +14,8 @@ const PolicyAbout = props => {
     return <PolicyAboutSmart />;
   } else if (selectedPolicy === ONLINE_PRIVACY) {
     return <PolicyAboutOnlinePrivacyAct />;
-  } else if (selectedPolicy === CORPA) {
-    return <PolicyAboutCorpa />;
+  } else if (selectedPolicy === COPRA) {
+    return <PolicyAboutCopra />;
   }
 };
 export default PolicyAbout;
