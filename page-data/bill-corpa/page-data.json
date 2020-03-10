@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-bill-corpa-js","path":"/bill-corpa/","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+  "componentChunkName": "component---src-pages-bill-corpa-js",
+  "path": "/bill-corpa/",
+  "result": { "pageContext": { "isCreatedByStatefulCreatePages": true } }
+}
