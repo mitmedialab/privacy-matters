@@ -8,10 +8,10 @@ import {
   ModalBody
 } from "reactstrap";
 
-import { SMART, ONLINE_PRIVACY, CORPA } from "../../constants/policies";
+import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
-import PolicyPrototypeCorpa from "./policy-corpa";
+import PolicyPrototypeCopra from "./policy-copra";
 
 import "./style.scss";
 
@@ -20,7 +20,7 @@ const PolicyPrototype = props => {
   const prototypes = {
     [SMART]: <PolicyPrototypeSmart />,
     [ONLINE_PRIVACY]: <PolicyPrototypeOnlinePrivacyAct />,
-    [CORPA]: <PolicyPrototypeCorpa />
+    [COPRA]: <PolicyPrototypeCopra />
   };
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);

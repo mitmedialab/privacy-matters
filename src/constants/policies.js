@@ -1,6 +1,6 @@
 export const SMART = "smart";
 export const ONLINE_PRIVACY = "opa";
-export const CORPA = "corpa";
+export const COPRA = "copra";
 
 export const policies = {
   [SMART]: {
@@ -15,7 +15,7 @@ export const policies = {
     summary:
       "Creates user data rights and strengthens enforcement with a Digital Privacy Agency and state level attorneys."
   },
-  [CORPA]: {
+  [COPRA]: {
     short: "COPRA",
     long: "Consumer Online Privacy Rights Act",
     summary:

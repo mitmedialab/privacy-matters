@@ -1,6 +1,6 @@
 ---
 quotee: "Name, Designer"
-policy: "corpa"
+policy: "copra"
 responseType: "highlight"
 ---
 
