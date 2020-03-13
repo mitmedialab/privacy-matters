@@ -14,14 +14,14 @@ const MainContainer = React.forwardRef((props, ref) => {
   );
 });
 
-const Layout = ({ children, backgroundClass }) => {
+const Layout = ({ children, backgroundClass, footer }) => {
   const containerRef = React.createRef();
 
   return (
     <div className={`${backgroundClass ? backgroundClass : ""}`}>
       <MainContainer ref={containerRef}>
         <main>{children}</main>
-        <Footer />
+        {footer && <Footer />}
       </MainContainer>
     </div>
   );

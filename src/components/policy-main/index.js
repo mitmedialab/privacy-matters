@@ -3,7 +3,6 @@ import { Row, Col } from "reactstrap";
 
 import PolicyPrototype from "../policy-prototype";
 import PolicyAbout from "../policy-about";
-import PolicyQuotes from "../policy-quotes";
 
 import "./style.scss";
 
@@ -23,7 +22,6 @@ const PolicyMain = props => {
             <PolicyPrototype selectedPolicy={policy} />
           </div>
           <div className="mt-5" />
-          <PolicyQuotes selectedPolicy={policy} />
         </Col>
       </Row>
     </>

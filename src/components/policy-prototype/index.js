@@ -13,8 +13,6 @@ import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCopra from "./policy-copra";
 
-import "./style.scss";
-
 const PolicyPrototype = props => {
   const { selectedPolicy } = props;
   const prototypes = {
@@ -25,8 +23,8 @@ const PolicyPrototype = props => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
   return (
-    <div className="prototype">
-      <Card body className="prototype-card py-3 px-5">
+    <div className="callout-box">
+      <Card body className="callout-card py-3 px-5">
         <CardTitle className="card-title">
           <h2>
             <span className="half-highlight">How this bill might look</span>
