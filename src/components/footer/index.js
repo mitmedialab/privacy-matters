@@ -3,6 +3,7 @@ import { Row, Col } from "reactstrap";
 import CivicImage from "./../civic-image";
 
 const Footer = props => {
+  const email = "letstalkprivacy@media.mit.edu";
   return (
     <Row className="pb-5">
       <Col xs={12}>
@@ -11,8 +12,8 @@ const Footer = props => {
       <Col xs={12}>
         <div className="text-center ">
           <small>
-            <a href="mailto:letstalkprivacy@media.mit.edu" target="_top">
-              letstalkprivacy@media.mit.edu
+            <a href={`mailto:${email}@media.mit.edu`} target="_top">
+              {email}
             </a>
           </small>
         </div>

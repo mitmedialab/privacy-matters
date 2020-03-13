@@ -6,6 +6,7 @@ import NavBar from "./navbar";
 import PolicyHeader from "./policy-header";
 import PolicyMain from "./policy-main";
 import Reactions from "./reactions";
+import ReactionsHeader from "./reactions-header";
 
 const Policy = ({ policy }) => {
   if (isEnabled(ACCESS)) {
@@ -15,6 +16,9 @@ const Policy = ({ policy }) => {
         <PolicyHeader policy={policy} />
         <Layout>
           <PolicyMain policy={policy} />
+        </Layout>
+        <ReactionsHeader policy={policy} />
+        <Layout footer>
           <Reactions policy={policy} />
         </Layout>
       </div>

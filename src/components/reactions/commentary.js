@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 const Comment = props => {
   const { quotee, html } = props;
   return (
-    <div className="quote">
+    <div className="quote pt-5">
       <blockquote className="blockquote">
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <p>- {quotee}</p>
@@ -26,7 +26,9 @@ const Commentary = props => {
   const { heading, policy, responseType } = props;
   return (
     <>
-      <h3>{heading}</h3>
+      <h2>
+        <span className="half-highlight">{heading}</span>
+      </h2>
       {data.allMarkdownRemark.edges
         .filter(
           edge =>

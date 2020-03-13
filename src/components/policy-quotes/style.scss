@@ -1,8 +1,0 @@
-@import "../../styles/_colors.scss";
-@import "../../styles/_mixins.scss";
-
-.quote {
-  .quote-card {
-    @include card($light-gray, $teal);
-  }
-}
