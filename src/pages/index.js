@@ -28,7 +28,7 @@ const IndexPage = () => {
       <div className="privacy-page">
         <NavBar />
         <Jumbotron siteTitle={data.site.siteMetadata.title} />
-        <Layout backgroundClass="secondary-background" footer>
+        <Layout footer>
           <About />
         </Layout>
       </div>

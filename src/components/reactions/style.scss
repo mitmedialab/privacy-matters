@@ -1,0 +1,27 @@
+@import "../../styles/_colors.scss";
+
+.comment {
+  background-color: $light-gray;
+}
+
+.pro {
+  $response-color: $yellow;
+  &.half-highlight {
+    background-image: linear-gradient(180deg, transparent 65%, $response-color 0);
+  }
+
+  .author {
+    color: $response-color;
+  }
+}
+
+.con {
+  $response-color: $red;
+  &.half-highlight {
+    background-image: linear-gradient(180deg, transparent 65%, $response-color 0);
+  }
+
+  .author {
+    color: $response-color;
+  }
+}

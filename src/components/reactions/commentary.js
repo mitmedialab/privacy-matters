@@ -1,13 +1,17 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
+import "./style.scss";
+
 const Comment = props => {
   const { quotee, html } = props;
   return (
-    <div className="quote pt-5">
+    <div className="quote comment mt-3 mb-4 p-5">
       <blockquote className="blockquote">
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <p>- {quotee}</p>
+        <p>
+          - <span className="author">{quotee}</span>
+        </p>
       </blockquote>
     </div>
   );
@@ -27,20 +31,22 @@ const Commentary = props => {
   return (
     <>
       <h2>
-        <span className="half-highlight">{heading}</span>
+        <span className={`half-highlight ${responseType}`}>{heading}</span>
       </h2>
-      {data.allMarkdownRemark.edges
-        .filter(
-          edge =>
-            edge.node.frontmatter.policy === policy &&
-            edge.node.frontmatter.responseType === responseType
-        )
-        .map(edge => (
-          <Comment
-            quotee={edge.node.frontmatter.quotee}
-            html={edge.node.html}
-          />
-        ))}
+      <div className={`${responseType}`}>
+        {data.allMarkdownRemark.edges
+          .filter(
+            edge =>
+              edge.node.frontmatter.policy === policy &&
+              edge.node.frontmatter.responseType === responseType
+          )
+          .map(edge => (
+            <Comment
+              quotee={edge.node.frontmatter.quotee}
+              html={edge.node.html}
+            />
+          ))}
+      </div>
     </>
   );
 };

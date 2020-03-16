@@ -13,7 +13,7 @@ const AboutPage = () => {
     return (
       <div className="privacy-page">
         <NavBar showHome />
-        <Layout backgroundClass="secondary-background" footer>
+        <Layout footer>
           <About standAlone />
         </Layout>
       </div>
