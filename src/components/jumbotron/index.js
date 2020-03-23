@@ -1,13 +1,21 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import PolicyToggleButtons from "../policy-toggle-buttons";
+import Typing from "../typing";
 
 import { policies } from "../../constants/policies";
 
 import "./style.scss";
 
 const Jumbotron = props => {
-  const { siteTitle } = props;
+  const privacyDefinitions = [
+    "a human right",
+    "security",
+    "personal",
+    "mine",
+    "over-rated"
+  ];
+
   return (
     <div className="landing-jumbotron">
       <Container fluid>
@@ -16,7 +24,7 @@ const Jumbotron = props => {
             <Col md={6} className="d-flex flex-column justify-content-start">
               <div>
                 <h1 className="title">
-                  <span className="half-highlight">{siteTitle}</span>
+                  <Typing prepend="Privacy is" words={privacyDefinitions} />
                 </h1>
               </div>
             </Col>
@@ -36,10 +44,7 @@ const Jumbotron = props => {
           </Row>
         </div>
         <Row className="py-5">
-          <PolicyToggleButtons
-            policies={policies}
-            onClick={policy => console.log(policy)}
-          />
+          <PolicyToggleButtons policies={policies} />
         </Row>
       </Container>
     </div>
