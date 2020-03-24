@@ -1,6 +1,8 @@
 import React from "react";
 import Typist from "react-typist";
 
+import "./style.scss";
+
 const Typing = props => {
   const { prepend, words } = props;
   let midWords = [...words];
@@ -11,7 +13,7 @@ const Typing = props => {
       {`${prepend} `}
       {midWords.map(word => {
         const component = (
-          <span>
+          <span className="typing">
             {word}
             <Typist.Backspace count={word.length} delay={delay} />
           </span>

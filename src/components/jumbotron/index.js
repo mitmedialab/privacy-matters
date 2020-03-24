@@ -1,9 +1,11 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
+
 import PolicyToggleButtons from "../policy-toggle-buttons";
 import Typing from "../typing";
-
 import { policies } from "../../constants/policies";
+
+import JumbotronImage from "./jumbotron-image";
 
 import "./style.scss";
 
@@ -21,25 +23,19 @@ const Jumbotron = props => {
       <Container fluid>
         <div className="cover">
           <Row className="align-middle d-flex title-row">
-            <Col md={6} className="d-flex flex-column justify-content-start">
+            <Col md={6} className="d-flex flex-column">
               <div>
                 <h1 className="title">
                   <Typing prepend="Privacy is" words={privacyDefinitions} />
                 </h1>
               </div>
+              <p className="mt-3 text-center subheading-1 description">
+                Exploring how privacy and data governance policies translate
+                into practice
+              </p>
             </Col>
-          </Row>
-          <Row className="align-middle text-center d-flex">
-            <Col
-              md={6}
-              className="d-flex offset-md-6 flex-column justify-content-between"
-            >
-              <div>
-                <p className="mt-3 text-left subheading-1 description">
-                  Exploring how privacy and data governance policies translate
-                  into practice
-                </p>
-              </div>
+            <Col md={6} className="d-flex flex-column">
+              <JumbotronImage />
             </Col>
           </Row>
         </div>
