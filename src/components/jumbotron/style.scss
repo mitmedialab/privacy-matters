@@ -2,24 +2,12 @@
 @import "../../styles/_breakpoints.scss";
 
 .landing-jumbotron {
-  background-image: url("../../images/landing-page-background-tall.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-
-  @media(min-width: $md) {
-    background-image: url("../../images/landing-page-background.png");
-    background-size: 100%;
-  }
 
   .cover {
     min-height: 550px;
 
-    @media(min-width: $md) {
-      text-align: right;
-    }
     @media(min-width: $lg) {
       min-height: 600px;
-      text-align: right;
     }
     @media(min-width: $xl) {
       min-height: 700px;
@@ -43,6 +31,15 @@
     padding-bottom: 150px;
     text-align: center;
 
+    h1 {
+      min-height: 100px;
+
+      @media(min-width: $lg) {
+        min-height: 300px;
+        padding-top: 90px;
+      }
+    }
+
     @media(min-width: $sm) {
       padding-top: 120px;
       padding-bottom: 50px;
@@ -50,7 +47,6 @@
 
     @media(min-width: $md) {
       padding-bottom: unset;
-      text-align: right;
     }
   }
 }
