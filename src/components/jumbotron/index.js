@@ -23,7 +23,7 @@ const Jumbotron = props => {
       <Container fluid>
         <div className="cover">
           <Row className="align-middle d-flex title-row">
-            <Col md={6} className="d-flex flex-column">
+            <Col md={6} sm={8} className="d-flex flex-column">
               <div>
                 <h1 className="title">
                   <Typing prepend="Privacy is" words={privacyDefinitions} />
@@ -34,7 +34,7 @@ const Jumbotron = props => {
                 into practice
               </p>
             </Col>
-            <Col md={6} className="d-flex flex-column">
+            <Col md={6} sm={4} className="d-flex flex-column">
               <JumbotronImage />
             </Col>
           </Row>
