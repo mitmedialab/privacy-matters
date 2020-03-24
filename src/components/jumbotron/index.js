@@ -29,12 +29,12 @@ const Jumbotron = props => {
                   <Typing prepend="Privacy is" words={privacyDefinitions} />
                 </h1>
               </div>
-              <p className="mt-3 text-center subheading-1 description">
+              <p className="mt-3 subheading-1 description">
                 Exploring how privacy and data governance policies translate
                 into practice
               </p>
             </Col>
-            <Col md={6} sm={4} className="d-flex flex-column">
+            <Col md={6} sm={4}>
               <JumbotronImage />
             </Col>
           </Row>

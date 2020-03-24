@@ -18,7 +18,7 @@ const ResearchImage = () => {
   `);
 
   return (
-    <div className="">
+    <div className="card-section-image">
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   );

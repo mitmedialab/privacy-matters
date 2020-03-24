@@ -11,17 +11,21 @@
     background-color: $light-gray;
   }
 
-  img {
-    padding: 20px;
+  .card-section-image {
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+
+    @media(min-width: $md) {
+      padding-top: 40px;
+    }
 
     @media(min-width: $lg) {
-      padding: 40px;
-    }
-
-    @media(min-width: $xl) {
-      padding: 60px;
+      max-width: unset;
+      max-width: 300px;
     }
   }
+
 
   .btn {
     background-color: $secondary-button-color;
