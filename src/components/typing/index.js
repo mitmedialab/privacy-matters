@@ -20,7 +20,7 @@ const Typing = props => {
         );
         return component;
       })}
-      {lastWord}
+      <span className="typing">{lastWord}</span>
     </Typist>
   );
 };
