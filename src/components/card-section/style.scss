@@ -1,0 +1,33 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_breakpoints.scss";
+
+.card-section {
+  background-color: $research-color;
+
+  .card {
+    top: -50px;
+    border-radius: 0;
+    border: 0;
+    background-color: $light-gray;
+  }
+
+  img {
+    padding: 20px;
+
+    @media(min-width: $lg) {
+      padding: 40px;
+    }
+
+    @media(min-width: $xl) {
+      padding: 60px;
+    }
+  }
+
+  .btn {
+    background-color: $secondary-button-color;
+    color: $inverse-text-color;
+    border-radius: 0;
+    border: 0;
+  }
+
+}
