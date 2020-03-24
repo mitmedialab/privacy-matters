@@ -18,7 +18,7 @@ const ResearchSection = props => {
               We interviewed 41 people, from privacy experts to everyday people,
               to understand the potential impact of data privacy policies.
             </p>
-            <Link className="btn py-3">Read our report</Link>
+            <Link className="btn btn-secondary py-3">Read our report</Link>
           </Card>
         </Col>
         <Col md={4}>

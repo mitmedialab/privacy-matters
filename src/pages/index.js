@@ -4,7 +4,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import About from "../components/about";
+import AboutSection from "../components/about-section";
 import Jumbotron from "../components/jumbotron";
 import ResearchSection from "../components/research-section";
 import NavBar from "../components/navbar";
@@ -19,7 +19,7 @@ const IndexPage = () => {
         <Jumbotron />
         <ResearchSection />
         <Layout footer>
-          <About />
+          <AboutSection />
         </Layout>
       </div>
     );

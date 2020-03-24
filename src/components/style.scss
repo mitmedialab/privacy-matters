@@ -113,6 +113,13 @@ html {
     }
   }
 
+  .btn-secondary {
+    background-color: $secondary-button-color;
+    color: $inverse-text-color;
+    border-radius: 0;
+    border: 0;
+  }
+
 }
 
 .min-full-height {
