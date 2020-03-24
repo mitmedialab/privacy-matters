@@ -3,11 +3,16 @@
 
 .landing-jumbotron {
 
-  .description {
-    $spacing: 20px;
-    margin-left: $spacing;
-    margin-right: $spacing;
+  .jumbotron-image {
+    max-width: 200px;
+    margin: auto;
 
+    @media(min-width: $md) {
+      max-width: unset;
+    }
+  }
+
+  .description {
     @media(min-width: $sm) {
       padding-left: unset;
       padding-right: unset;
@@ -15,9 +20,7 @@
   }
 
   .title-row {
-    padding-top: 90px;
-    padding-bottom: 0px;
-    text-align: center;
+    padding-top: 40px;
 
     h1 {
       min-height: 100px;
@@ -26,14 +29,6 @@
         min-height: 300px;
         padding-top: 90px;
       }
-    }
-
-    @media(min-width: $sm) {
-      padding-top: 120px;
-    }
-
-    @media(min-width: $md) {
-      padding-bottom: unset;
     }
   }
 }

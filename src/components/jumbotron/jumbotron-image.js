@@ -17,7 +17,11 @@ const JumbotronImage = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <div className="jumbotron-image">
+      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    </div>
+  );
 };
 
 export default JumbotronImage;
