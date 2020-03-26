@@ -12,7 +12,7 @@ const Footer = props => {
       <Col xs={12}>
         <div className="text-center ">
           <small>
-            <a href={`mailto:${email}@media.mit.edu`} target="_top">
+            <a href={`mailto:${email}`} target="_top">
               {email}
             </a>
           </small>

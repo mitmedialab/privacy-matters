@@ -7,8 +7,8 @@ import "./style.scss";
 
 const AboutSection = props => {
   return (
-    <Row className="py-5">
-      <Col className="text-center">
+    <Row className="py-5 justify-content-md-center">
+      <Col lg={8} md={9} className="text-center">
         <div className="about-section">
           <h2>
             <span className="half-highlight">About</span>
@@ -19,7 +19,12 @@ const AboutSection = props => {
             project was started in 2019 by a group of researchers from MIT,
             Carnegie Mellon, and University of Florida.
           </p>
-          <Link to={`/about?ft=${ACCESS}`} className="btn btn-secondary mt-3 py-3">Learn More</Link>
+          <Link
+            to={`/about?ft=${ACCESS}`}
+            className="btn btn-secondary mt-3 py-3"
+          >
+            Learn More
+          </Link>
         </div>
       </Col>
     </Row>

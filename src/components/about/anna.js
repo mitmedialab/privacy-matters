@@ -2,12 +2,12 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-const AboutImage = () => {
+const AnnaImg = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "about-page-cover.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "team-anna.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 900) {
+          fluid {
             ...GatsbyImageSharpFluid
           }
         }
@@ -16,10 +16,10 @@ const AboutImage = () => {
   `);
 
   return (
-    <div className="">
+    <div className="jumbotron-image">
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   );
 };
 
-export default AboutImage;
+export default AnnaImg;

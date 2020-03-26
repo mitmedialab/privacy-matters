@@ -1,0 +1,11 @@
+@import "../../styles/_colors.scss";
+
+.contact-us {
+  a {
+    color: $white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

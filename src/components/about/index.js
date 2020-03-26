@@ -1,26 +1,29 @@
 import React from "react";
-import { Col, Row } from "reactstrap";
-import AboutImage from "./AboutImage";
+import { Col, CardDeck, Row } from "reactstrap";
+
+import AnnaImg from "./anna";
+import DennisImg from "./dennis";
+import StephImg from "./steph";
+import PardisImg from "./pardis";
+import JasmineImg from "./jasmine";
+import TeamProfile from "./team-profile";
+import AdvisorProfile from "./advisor-profile";
 
 import "./style.scss";
 
 const About = props => {
-  const { standAlone } = props;
-  const aboutTitle = <span className="half-highlight">About</span>;
   return (
     <div id="about" className="about">
       <Row>
         <Col xs={12}>
-          {standAlone && <h1>{aboutTitle}</h1>}
-          {!standAlone && <h2>{aboutTitle}</h2>}
+          <h1 className="text-center">
+            <span className="half-highlight">About</span>
+          </h1>
         </Col>
       </Row>
 
-      <Row>
-        <Col xs={12} md={6} className="order-1 order-md-2 pb-3">
-          <AboutImage />
-        </Col>
-        <Col xs={12} md={6} className="order-2 order-md-1">
+      <Row className="justify-content-md-center">
+        <Col xs={12} md={9}>
           <p className="subheading-2">
             Let’s Talk Privacy explores how the implementation of privacy and
             data governance policies might impact a variety of fields.
@@ -53,6 +56,141 @@ const About = props => {
             hope to spur more conversations, reveal new insights, and prompt
             positive action.
           </p>
+        </Col>
+      </Row>
+
+      <Row className="my-3">
+        <Col xs={12}>
+          <h2 className="text-center">
+            <span className="half-highlight">Team</span>
+          </h2>
+        </Col>
+        <Col xs={12} className="py-4">
+          <CardDeck>
+            <TeamProfile
+              image={<StephImg />}
+              name="Stephanie Nguyen"
+              role="Research Scientist"
+              affiliation="MIT Media Lab / Center for Civic Media"
+              website="https://www.stephanienguyen.co/"
+            >
+              TBD
+            </TeamProfile>
+
+            <TeamProfile
+              image={<AnnaImg />}
+              name="Anna Chung"
+              role="Designer"
+              affiliation="MIT Center for Civic Media"
+              website="https://www.annawchung.com/"
+            >
+              Anna is a UX designer and researcher at MIT’s Center for Civic
+              Media. She has designed tools and visualizations for several
+              social impact organizations, including the Design Studio for
+              Social Intervention, Anti-Eviction Mapping Project, and 1001
+              Stories. She is passionate about using technology and design for
+              public good.
+            </TeamProfile>
+
+            <TeamProfile
+              image={<DennisImg />}
+              name="Dennis Jen"
+              role="Lead Developer"
+              affiliation="MIT Center for Civic Media"
+              website="http://www.dennisjen.com"
+            >
+              Dennis is a software developer at MIT's Center for Civic Media. He
+              has an extensive background in building web application and
+              visualization tools across a variety of industries, including
+              genetics, oncology, neuroscience, and education technology. At the
+              Center for Civic Media, he applies this background to developing
+              technology for social good. When not hunched over a keyboard, he's
+              often hunched over a pottery wheel or piano.
+            </TeamProfile>
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className="mb-5">
+        <Col sm={8} xs={12}>
+          <CardDeck>
+            <TeamProfile
+              image={<PardisImg />}
+              name="Pardis Emami Naeni"
+              role="PhD candidate"
+              affiliation="Carnegie Mellon University"
+              website="https://www.cs.cmu.edu/~pemamina"
+            >
+              Pardis is a final year PhD candidate of computer science at
+              Carnegie Mellon University, where she is advised by Lorrie Cranor
+              and Yuvraj Agarwal. Pardis is passionate about building usable
+              tools to help people protect their privacy and security when
+              interacting with Internet of Things (IoT) devices. During her PhD,
+              Pardis developed a usable privacy and security label for smart
+              devices to inform consumers’ IoT related purchase decisions. More
+              information on this project can be found here:{" "}
+              <a
+                href="http://www.iotsecurityprivacy.org"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                www.iotsecurityprivacy.org
+              </a>
+            </TeamProfile>
+
+            <TeamProfile
+              image={<JasmineImg />}
+              name="Jasmine McNealy"
+              role="Prof"
+              affiliation="University of Florida"
+              website=""
+            >
+              TBD
+            </TeamProfile>
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col xs={12}>
+          <h2 className="text-center">
+            <span className="half-highlight">Advisors</span>
+          </h2>
+        </Col>
+      </Row>
+      <Row className="mb-5">
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              image={<StephImg />}
+              name="Ethan Zuckerman"
+              role="Director"
+              affiliation="MIT Media Lab / Center for Civic Media"
+            />
+            <AdvisorProfile
+              image={<StephImg />}
+              name="Emily Peterson Cassin"
+              role="TBD"
+              affiliation="Public Citizen"
+            />
+            <AdvisorProfile
+              image={<StephImg />}
+              name="Najarian Peters"
+              role="TBD"
+              affiliation="Seton Hall"
+            />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className="mb-5">
+        <Col sm={4} xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              image={<StephImg />}
+              name="Sydney Luken"
+              role="TBD"
+              affiliation="Georgetown Ethics Lab"
+            />
+          </CardDeck>
         </Col>
       </Row>
     </div>
