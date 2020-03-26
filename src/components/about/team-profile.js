@@ -20,7 +20,7 @@ const TeamProfile = props => {
   const toggle = () => setModal(!modal);
 
   return (
-    <Card onClick={toggle}>
+    <Card onClick={toggle} className="team-profile" tabindex="0" role="button">
       {image}
       <CardBody className="text-center pb-5">
         <CardTitle className="py-3">{name}</CardTitle>
