@@ -10,13 +10,13 @@ $bold: 700;
     border: 0;
   }
 
-  .card-body {
-    background-color: $light-gray;
-  }
-
-  .advisor-profile {
+  .team-profile {
+    &:hover {
+      cursor: pointer;
+    }
+    
     .card-body {
-      background-color: unset;
+      background-color: $light-gray;
     }
   }
 
