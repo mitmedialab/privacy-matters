@@ -68,16 +68,6 @@ const About = props => {
         <Col xs={12} className="py-4">
           <CardDeck>
             <TeamProfile
-              image={<StephImg />}
-              name="Stephanie Nguyen"
-              role="Research Scientist"
-              affiliation="MIT Media Lab / Center for Civic Media"
-              website="https://www.stephanienguyen.co/"
-            >
-              TBD
-            </TeamProfile>
-
-            <TeamProfile
               image={<AnnaImg />}
               name="Anna Chung"
               role="Designer"
@@ -107,12 +97,7 @@ const About = props => {
               technology for social good. When not hunched over a keyboard, he's
               often hunched over a pottery wheel or piano.
             </TeamProfile>
-          </CardDeck>
-        </Col>
-      </Row>
-      <Row className="mb-5">
-        <Col sm={8} xs={12}>
-          <CardDeck>
+
             <TeamProfile
               image={<PardisImg />}
               name="Pardis Emami Naeni"
@@ -136,15 +121,36 @@ const About = props => {
                 www.iotsecurityprivacy.org
               </a>
             </TeamProfile>
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className="mb-5">
+        <Col sm={8} xs={12}>
+          <CardDeck>
+            <TeamProfile
+              image={<StephImg />}
+              name="Stephanie Nguyen"
+              role="Research Scientist"
+              affiliation="MIT Media Lab / Center for Civic Media"
+              website="https://www.stephanienguyen.co/"
+            >
+              TBD
+            </TeamProfile>
 
             <TeamProfile
               image={<JasmineImg />}
               name="Jasmine McNealy"
-              role="Prof"
+              role="Associate Professor"
               affiliation="University of Florida"
-              website=""
+              website="http://jasminemcnealy.com"
             >
-              TBD
+              Jasmine is an Associate Professor of Telecommunication at the
+              University of Florida, where she teaches courses on regulation.
+              She researches media, technology, and law with an emphasis on
+              privacy, surveillance and data governance. She is also the
+              Associate Director of the Marion B. Brechner First Amendment
+              Project at UF, and a Faculty Associate at Harvard University’s
+              Berkman Klein Center for Internet & Society.
             </TeamProfile>
           </CardDeck>
         </Col>
