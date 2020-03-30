@@ -128,16 +128,6 @@ const About = props => {
         <Col sm={8} xs={12}>
           <CardDeck>
             <TeamProfile
-              image={<StephImg />}
-              name="Stephanie Nguyen"
-              role="Research Scientist"
-              affiliation="MIT Media Lab / Center for Civic Media"
-              website="https://www.stephanienguyen.co/"
-            >
-              TBD
-            </TeamProfile>
-
-            <TeamProfile
               image={<JasmineImg />}
               name="Jasmine McNealy"
               role="Associate Professor"
@@ -151,6 +141,24 @@ const About = props => {
               Associate Director of the Marion B. Brechner First Amendment
               Project at UF, and a Faculty Associate at Harvard University’s
               Berkman Klein Center for Internet & Society.
+            </TeamProfile>
+            <TeamProfile
+              image={<StephImg />}
+              name="Stephanie Nguyen"
+              role="Research Scientist"
+              affiliation="MIT Media Lab / Center for Civic Media"
+              website="https://www.stephanienguyen.co/"
+            >
+              Stephanie is a research scientist and human-computer interaction
+              designer focused on understanding data privacy perceptions and
+              improving user rights and experiences through design and policy
+              for youth and vulnerable populations. She is an Advisory Member
+              for IEEE's Advisory on Children's and Youth Experiences Ecosystem
+              Committee and her research focuses on translating policy to
+              practice by collaborating across policy, industry, and advocacy to
+              reimagine meaningful choice and control in sharing personal data.
+              She previously led design for government agencies at U.S. Digital
+              Service at the Obama White House.
             </TeamProfile>
           </CardDeck>
         </Col>
