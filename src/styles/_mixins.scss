@@ -18,3 +18,17 @@
     font-size: 28px;
   }
 }
+
+@mixin highlights($highlight-color) {
+  dl {
+    border-left-color: $highlight-color;
+    border-left-width: 8px;
+    border-left-style: solid;
+    padding-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  dt {
+    margin-bottom: 20px;
+  }
+}

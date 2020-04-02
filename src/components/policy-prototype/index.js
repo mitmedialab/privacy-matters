@@ -12,6 +12,7 @@ import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCopra from "./policy-copra";
+import CalloutCard from "../callout-card";
 
 const PolicyPrototype = props => {
   const { selectedPolicy } = props;
@@ -23,24 +24,17 @@ const PolicyPrototype = props => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
   return (
-    <div className="callout-box">
-      <Card body className="callout-card py-3 px-5">
-        <CardTitle className="card-title">
-          <h2>
-            <span className="half-highlight">How this bill might look</span>
-          </h2>
-        </CardTitle>
-        {prototypes[selectedPolicy]}
+    <CalloutCard title="How this bill might look">
+      {prototypes[selectedPolicy]}
 
-        <Button color="primary" className="my-2" onClick={toggle}>
-          View
-        </Button>
-        <Modal isOpen={modal} toggle={toggle}>
-          <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
-          <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
-        </Modal>
-      </Card>
-    </div>
+      <Button color="primary" className="my-2" onClick={toggle}>
+        View
+      </Button>
+      <Modal isOpen={modal} toggle={toggle}>
+        <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
+        <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
+      </Modal>
+    </CalloutCard>
   );
 };
 
