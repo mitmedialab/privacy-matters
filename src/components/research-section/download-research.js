@@ -7,7 +7,7 @@ import ResearchImage from "./research-image";
 
 import { ACCESS } from "../../utils/featureFlags";
 
-const ResearchSection = props => {
+const DownloadResearch = props => {
   return (
     <CardSection>
       <Row>
@@ -24,7 +24,13 @@ const ResearchSection = props => {
               className="btn btn-secondary py-3"
               to={`/research?ft=${ACCESS}`}
             >
-              Read our report
+              Download 1 page summary
+            </Link>
+            <Link
+              className="btn btn-secondary py-3"
+              to={`/research?ft=${ACCESS}`}
+            >
+              Download full report
             </Link>
           </Card>
         </Col>
@@ -36,4 +42,4 @@ const ResearchSection = props => {
   );
 };
 
-export default ResearchSection;
+export default DownloadResearch;

@@ -72,6 +72,11 @@ const NavBar = props => {
             </div>
             <DropdownItem divider />
             <NavItem className="ml-auto">
+              <Link className="nav-link" to={`/research?ft=${ACCESS}`}>
+                Research
+              </Link>
+            </NavItem>
+            <NavItem className="ml-auto">
               <Link className="nav-link" to={`/about?ft=${ACCESS}`}>
                 About
               </Link>

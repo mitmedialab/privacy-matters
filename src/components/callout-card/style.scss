@@ -1,0 +1,12 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_breakpoints.scss";
+@import "../../styles/_mixins.scss";
+
+.callout-box {
+  @media(min-width: $md) {
+    margin-top: -50px;
+  }
+  .callout-card {
+    @include card($light-gray, $teal);
+  }
+}
