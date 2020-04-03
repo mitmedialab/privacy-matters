@@ -6,6 +6,11 @@
   @media(min-width: $md) {
     margin-top: -50px;
   }
+
+  &.flush {
+    margin-top: 0;
+  }
+
   .callout-card {
     @include card($light-gray, $teal);
   }

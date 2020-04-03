@@ -1,13 +1,12 @@
 import React from "react";
-import { Row, Col, Card, CardTitle } from "reactstrap";
-import { Link } from "gatsby";
+import { Card, CardTitle } from "reactstrap";
 
 import "./style.scss";
 
 const ContactUs = props => {
-  const { title, children } = props;
+  const { title, flush, children } = props;
   return (
-    <div className="callout-box">
+    <div className={`callout-box ${flush ? "flush" : ""}`}>
       <Card body className="callout-card py-3 px-5">
         <CardTitle className="card-title">
           <h2>

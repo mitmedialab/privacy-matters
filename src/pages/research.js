@@ -52,7 +52,7 @@ const ResearchPage = () => {
               </p>
             </Col>
             <Col md={6}>
-              <CalloutCard title="Who we talked to">
+              <CalloutCard flush title="Who we talked to">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,7 +61,7 @@ const ResearchPage = () => {
             </Col>
           </Row>
         </Layout>
-        <CardSection>
+        <CardSection buffer>
           <Row className="justify-content-end">
             <Col md={6}>
               <Card className="p-5">
@@ -81,7 +81,7 @@ const ResearchPage = () => {
         <Layout>
           <Row>
             <Col md={6}>
-              <CalloutCard title="Team in action">
+              <CalloutCard flush title="Team in action">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -119,7 +119,7 @@ const ResearchPage = () => {
             </Col>
           </Row>
         </Layout>
-        <CardSection>
+        <CardSection buffer>
           <Row>
             <Col md={6}>
               <Card className="p-5">
@@ -168,7 +168,7 @@ const ResearchPage = () => {
             </Col>
 
             <Col md={6}>
-              <CalloutCard title="What we heard">
+              <CalloutCard flush title="What we heard">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
