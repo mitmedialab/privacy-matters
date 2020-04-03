@@ -24,8 +24,8 @@ const NavBar = props => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar light expand="md">
+    <>
+      <Navbar light expand="md" className="sticky-top">
         <div className="navbar-brand">
           {showHome && (
             <Link to={`/?ft=${ACCESS}`}>
@@ -45,7 +45,10 @@ const NavBar = props => {
                   key={`policy-select-nav-item-${key}`}
                   className="ml-auto"
                 >
-                  <Link className="nav-link" to={`/bill-${key}/?ft=${ACCESS}`}>
+                  <Link
+                    className="nav-link subheading-2"
+                    to={`/bill-${key}/?ft=${ACCESS}`}
+                  >
                     {policies[key].short}
                   </Link>
                 </NavItem>
@@ -54,13 +57,13 @@ const NavBar = props => {
             <div className="d-none d-md-block">
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Bills
+                  <span className="subheading-2">Bills</span>
                 </DropdownToggle>
                 <DropdownMenu right>
                   {Object.keys(policies).map(key => (
                     <DropdownItem key={`policy-select-button-${key}`}>
                       <Link
-                        className="nav-link"
+                        className="nav-link px-3"
                         to={`/bill-${key}/?ft=${ACCESS}`}
                       >
                         {policies[key].short}
@@ -72,19 +75,25 @@ const NavBar = props => {
             </div>
             <DropdownItem divider />
             <NavItem className="ml-auto">
-              <Link className="nav-link" to={`/research?ft=${ACCESS}`}>
+              <Link
+                className="nav-link subheading-2 px-md-5"
+                to={`/research?ft=${ACCESS}`}
+              >
                 Research
               </Link>
             </NavItem>
             <NavItem className="ml-auto">
-              <Link className="nav-link" to={`/about?ft=${ACCESS}`}>
+              <Link
+                className="nav-link subheading-2"
+                to={`/about?ft=${ACCESS}`}
+              >
                 About
               </Link>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+    </>
   );
 };
 

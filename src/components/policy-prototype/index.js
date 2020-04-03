@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Modal,
-  ModalHeader,
-  ModalBody
-} from "reactstrap";
+import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 
 import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
@@ -25,10 +20,10 @@ const PolicyPrototype = props => {
     <CalloutCard title="How this bill might look">
       {prototypes[selectedPolicy]}
 
-      <Button color="primary" className="my-2" onClick={toggle}>
+      <Button color="primary" className="my-2 py-2 rounded-0" onClick={toggle}>
         View
       </Button>
-      <Modal isOpen={modal} toggle={toggle}>
+      <Modal isOpen={modal} toggle={toggle} size="lg">
         <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
         <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
       </Modal>

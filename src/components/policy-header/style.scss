@@ -1,17 +1,10 @@
 @import "../../styles/_colors.scss";
+@import "../../styles/_mixins.scss";
 
 .primary-background {
+  @include link($inverse-link-color);
   background-color: $primary-color;
   color: $inverse-text-color;
-
-  a {
-    color: $white;
-    text-decoration: underline;
-
-    &:hover {
-      color: $white;
-    }
-  }
 }
 
 .nav-tabs {

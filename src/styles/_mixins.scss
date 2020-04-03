@@ -32,3 +32,14 @@
     margin-bottom: 20px;
   }
 }
+
+@mixin link($color) {
+  a {
+    color: $color;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 50%;
+    }
+  }
+}

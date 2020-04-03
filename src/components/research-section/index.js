@@ -21,7 +21,7 @@ const ResearchSection = props => {
               to understand the potential impact of data privacy policies.
             </p>
             <Link
-              className="btn btn-secondary py-3"
+              className="btn btn-secondary py-2"
               to={`/research?ft=${ACCESS}`}
             >
               Read our report
