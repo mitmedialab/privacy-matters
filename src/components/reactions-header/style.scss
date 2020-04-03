@@ -1,6 +1,8 @@
 @import "../../styles/_colors.scss";
+@import "../../styles/_mixins.scss";
 
 .secondary-background {
+  @include link($inverse-link-color);
   background-color: $secondary-color;
   color: $inverse-text-color;
 }

@@ -3,6 +3,11 @@
 @import "../../styles/_breakpoints.scss";
 
 .policy-cards {
+
+  a:hover {
+    text-decoration: none;
+  }
+
   .bill-card {
     @include card($primary-color, $secondary-color, $inverse-text-color);
 

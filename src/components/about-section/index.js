@@ -21,7 +21,7 @@ const AboutSection = props => {
           </p>
           <Link
             to={`/about?ft=${ACCESS}`}
-            className="btn btn-secondary mt-3 py-3"
+            className="btn btn-secondary mt-3 py-2 px-4"
           >
             Learn More
           </Link>

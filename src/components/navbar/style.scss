@@ -1,5 +1,13 @@
 @import "../../styles/_colors.scss";
 
+nav {
+  background-color: $background-color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $black;
+}
+
 .navbar-brand {
   .site-name {
     color: $black;

@@ -22,7 +22,7 @@ const ContactUs = props => {
               Interested in collaborating with us? <br />
               We want to hear from you!
             </p>
-            <Link className="btn btn-secondary py-3">
+            <Link className="btn btn-secondary py-2">
               <a href={`mailto:letstalkprivacy@media.mit.edu`} target="_top">
                 Shoot us an email
               </a>

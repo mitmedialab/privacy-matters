@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Nunito+Sans:400,700&display=swap');
 
 @import "../styles/_colors.scss";
 @import "../styles/_breakpoints.scss";
@@ -14,6 +14,8 @@ html {
 .privacy-page {
   $title-font: "Lora";
   $body-font: "Nunito Sans", arial;
+
+  background-color: $background-color;
 
   main {
     $spacing: 20px;
@@ -43,6 +45,13 @@ html {
     @media(min-width: $md) {
       font-size: 18px;
     }
+  }
+
+  dl {
+    dt {
+      font-weight: $bold;
+    }
+    font-family: $body-font;
   }
 
   h1 {
@@ -100,6 +109,10 @@ html {
       font-size: 22px;
       line-height: 32px;
     }
+  }
+
+  button {
+    font-family: $body-font;    
   }
 
   .btn-primary {
