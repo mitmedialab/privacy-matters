@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {
   Button,
-  Card,
-  CardTitle,
   Modal,
   ModalHeader,
   ModalBody

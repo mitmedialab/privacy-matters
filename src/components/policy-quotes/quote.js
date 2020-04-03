@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, CardTitle } from "reactstrap";
 import CalloutCard from "../callout-card";
 
 const Quote = props => {
