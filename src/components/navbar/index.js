@@ -12,6 +12,8 @@ import {
   NavItem
 } from "reactstrap";
 
+import EyesIcon from "./eyes-icon";
+
 import { ACCESS } from "../../utils/featureFlags";
 import { policies } from "../../constants/policies";
 
@@ -29,7 +31,8 @@ const NavBar = props => {
         <div className="navbar-brand">
           {showHome && (
             <Link to={`/?ft=${ACCESS}`}>
-              <span className="site-name half-highlight">
+              <EyesIcon />
+              <span className="ml-2 site-name half-highlight">
                 Let’s Talk Privacy
               </span>
             </Link>

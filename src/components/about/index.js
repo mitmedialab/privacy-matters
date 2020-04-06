@@ -22,8 +22,8 @@ const About = props => {
         </Col>
       </Row>
 
-      <Row className="justify-content-md-center">
-        <Col xs={12} md={9}>
+      <Row className="mt-4 justify-content-md-center">
+        <Col xs={12} md={6}>
           <p className="subheading-2">
             Let’s Talk Privacy explores how the implementation of privacy and
             data governance policies might impact a variety of fields.

@@ -24,7 +24,7 @@ const PolicyToggleButtons = props => {
           className="pb-5 policy-cards"
         >
           <Link to={`/bill-${key}/?ft=${ACCESS}`}>
-            <Card body className="bill-card h-100">
+            <Card body className="bill-card h-100 clickable">
               <CardTitle className="card-title mt-auto">
                 <h2>{policies[key].long}</h2>
               </CardTitle>

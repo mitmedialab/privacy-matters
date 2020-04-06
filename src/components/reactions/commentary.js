@@ -6,12 +6,10 @@ import "./style.scss";
 const Comment = props => {
   const { quotee, html } = props;
   return (
-    <div className="quote comment mt-3 mb-4 p-5">
-      <blockquote className="blockquote">
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <p>
-          - <span className="author">{quotee}</span>
-        </p>
+    <div className="quote comment mt-3 mb-3 p-5">
+      <blockquote className="">
+        <div dangerouslySetInnerHTML={{ __html: html }} />-{" "}
+        <span className="author">{quotee}</span>
       </blockquote>
     </div>
   );

@@ -63,17 +63,19 @@ const ResearchPage = () => {
         </Layout>
         <CardSection buffer>
           <Row className="justify-content-end">
-            <Col md={6}>
+            <Col md={5}>
               <Card className="p-5">
-                <h2>
-                  <span className="half-highlight">Our process</span>
-                </h2>
-                <p className="pt-2 pb-3 subheading-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <div className="p-2">
+                  <h2>
+                    <span className="half-highlight">Our process</span>
+                  </h2>
+                  <p className="pt-2 pb-3 subheading-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
               </Card>
             </Col>
           </Row>
@@ -121,18 +123,20 @@ const ResearchPage = () => {
         </Layout>
         <CardSection buffer>
           <Row>
-            <Col md={6}>
-              <Card className="p-5">
-                <h2>
-                  <span className="half-highlight">Our takeaways</span>
-                </h2>
-                <p className="pt-2 pb-3 subheading-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </Card>
+            <Col md={5}>
+              <div className="p-2">
+                <Card className="p-5">
+                  <h2>
+                    <span className="half-highlight">Our takeaways</span>
+                  </h2>
+                  <p className="pt-2 pb-3 subheading-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </Card>
+              </div>
             </Col>
           </Row>
         </CardSection>

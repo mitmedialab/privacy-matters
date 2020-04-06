@@ -12,5 +12,11 @@ nav {
   .site-name {
     color: $black;
     font-weight: bold;
+    vertical-align: top;
   }
+}
+
+.eyes-icon {
+  width: 30px;
+  display: inline-block;
 }

@@ -17,7 +17,7 @@ const PolicyPrototype = props => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
   return (
-    <CalloutCard title="How this bill might look">
+    <CalloutCard title="How this bill might look" onClick={toggle}>
       {prototypes[selectedPolicy]}
 
       <Button color="primary" className="my-2 py-2 rounded-0" onClick={toggle}>

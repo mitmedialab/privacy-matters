@@ -15,14 +15,5 @@
     max-width: 200px;
     margin: auto;
     padding-bottom: 50px;
-
-    @media(min-width: $md) {
-      padding-top: 40px;
-    }
-
-    @media(min-width: $lg) {
-      max-width: unset;
-      max-width: 300px;
-    }
   }
 }

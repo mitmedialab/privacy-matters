@@ -2,16 +2,12 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-import "./style.scss";
-
-const ResearchImage = () => {
+const EyesIcon = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(
-        relativePath: { eq: "research-landing-section.png" }
-      ) {
+      placeholderImage: file(relativePath: { eq: "favicon.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 100, maxHeight: 100) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -20,10 +16,10 @@ const ResearchImage = () => {
   `);
 
   return (
-    <div className="card-section-image">
+    <div className="eyes-icon">
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   );
 };
 
-export default ResearchImage;
+export default EyesIcon;
