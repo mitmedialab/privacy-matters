@@ -694,10 +694,10 @@
                 function n(n, r, o, u, c, s, f) {
                   ((u = u || l), (s = s || o), f !== i) &&
                     t &&
-                      a(
-                        !1,
-                        "Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types"
-                      );
+                    a(
+                      !1,
+                      "Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types"
+                    );
                   return null == r[o]
                     ? n
                       ? null === r[o]
@@ -785,7 +785,7 @@
                       return (
                         "symbol" === e ||
                         "Symbol" === t["@@toStringTag"] ||
-                          ("function" == typeof Symbol && t instanceof Symbol)
+                        ("function" == typeof Symbol && t instanceof Symbol)
                       );
                     })(t, e)
                   ? "symbol"
