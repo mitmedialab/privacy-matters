@@ -25,7 +25,7 @@ const Reactions = props => {
           </div>
         </Col>
       </Row>
-      <Row className="py-3">
+      <Row className="py-5">
         <Col md={6}>
           <Commentary
             heading="Positive reactions to the bill"

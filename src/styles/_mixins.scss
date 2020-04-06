@@ -9,9 +9,10 @@
   border: 0;
   transition: box-shadow 0.3s ease-in-out;
 
-  &:hover {
+  &.clickable:hover {
     $hover-depth: $shadow-depth * 2;
     box-shadow: $hover-depth $hover-depth $shadow-color;
+    cursor: pointer;
   }
 
   .card-title {

@@ -4,6 +4,10 @@
   background-color: $light-gray;
 }
 
+blockquote {
+  margin: 0;
+}
+
 .pro {
   $response-color: $yellow;
   &.half-highlight {

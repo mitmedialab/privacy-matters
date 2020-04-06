@@ -34,12 +34,12 @@ const Jumbotron = props => {
                 into practice
               </p>
             </Col>
-            <Col md={6} sm={4}>
+            <Col md={6} sm={4} className="image-column">
               <JumbotronImage />
             </Col>
           </Row>
         </div>
-        <Row className="py-5">
+        <Row className="py-5 mt-4">
           <PolicyToggleButtons policies={policies} />
         </Row>
       </Container>

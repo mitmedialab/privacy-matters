@@ -3,12 +3,30 @@
 
 .landing-jumbotron {
 
+  @media(min-width: $md) {
+    $spacing: 50px;
+    padding-left: $spacing;
+    padding-right: $spacing;
+  }
+
   .jumbotron-image {
     max-width: 200px;
     margin: auto;
 
+    $spacing: 30px;
+    padding-top: $spacing;
+    padding-bottom: $spacing;
+
     @media(min-width: $md) {
-      max-width: unset;
+      max-width: 50%;
+      padding: 0;
+    }
+  }
+
+  .image-column {
+    @media(min-width: $md) {
+      margin-top: auto;
+      margin-bottom: auto;
     }
   }
 

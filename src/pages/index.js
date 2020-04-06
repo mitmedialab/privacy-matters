@@ -17,7 +17,9 @@ const IndexPage = () => {
       <div className="privacy-page">
         <NavBar />
         <Jumbotron />
-        <ResearchSection />
+        <div className="py-5">
+          <ResearchSection />
+        </div>
         <Layout footer>
           <AboutSection />
         </Layout>
