@@ -1,0 +1,15 @@
+{
+  "data": {
+    "placeholderImage": {
+      "childImageSharp": {
+        "fluid": {
+          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACrklEQVQ4y42UOW8TQRiGnQQ3SFQhFCBCyy9AVAgh0fID+BkUlBR0tKkokQBFCCLHR+FLtpTKJZZ8RUnsnD7ila/E1x4zvO9o1tm144iRXn2zOzPPvPPNtxsIzLXhcLii43Poz/X19XfoxxJxbBvzvkLrgdsaBtZ0fCP/swFqYv6zZcBVRkx65TiO7Ha703a7bRmGsSC8NweDgcSaFuY/vdMhgdy90WjYR0dHolaryXnhvdPr9eRoNDIA3vSBjo+PlTwOXxPY6XTsy8tLATcScSb97GA+HRqYv+mDHR4eqj4mBhnH4/FLAs/OzuxyuSz29/flvPDewYZ+h4RVq1XVxzFW3U2Qo/e2bUuA7clkIhAl4rwc0zR5KQZc3gC9MDy/hf5Cw5OTE+ZQYHeBRdLV1dWV7Pf7jA7BPPIMqCEu7AWk8kMYNhFwLy8uLqTOlRKPyctAdKbTqR9Ih1i4pvs/USYETdAXhDMSzPfIlYI1m02WE907dOy7FFx9AAPusfd4g4DYhGigpEu6Zh7pvFQqyUqlIovFotNqtRbLBgP3GM/Pz79oh5a33k5PTyULmA7ZJ5C3jLgIDIfD6tvd2tq6n81mP6J8WCp0J+iGALqp1+szhzDAklEOefwFh6FQaCUSiezF43GZSCSsfD4vDw4OBEG5XE5gTGBjtREWOixopIDR1p9e21fYWLCBBaNYLCZ3d3cFhXeSwmYq7uzsCLpiY+1ZlqWi/jn0fWWDBetQj0C6IQAbKFd8jkajguBCoTAApI76awJCNXRRl6En88A+gQRpqFdWKpWSSMlnGAriqI8BeOTRQ/cf4F4MgR292CTAFcaoSTKZZDo+BO5ogM6AGziWxC3LdDq9IMJwOTz+J87PZDJB/tk9uoFp4ANM/gb9hn7dom0oBr3TKVpd5vIf8Cw7fLkGG+UAAAAASUVORK5CYII=",
+          "aspectRatio": 1,
+          "src": "/static/44fdaceb6a5dd82e686f862c6a7bd434/ddb9e/bill-copra.png",
+          "srcSet": "/static/44fdaceb6a5dd82e686f862c6a7bd434/59beb/bill-copra.png 200w,\n/static/44fdaceb6a5dd82e686f862c6a7bd434/c0bbd/bill-copra.png 400w,\n/static/44fdaceb6a5dd82e686f862c6a7bd434/ddb9e/bill-copra.png 500w",
+          "sizes": "(max-width: 500px) 100vw, 500px"
+        }
+      }
+    }
+  }
+}
