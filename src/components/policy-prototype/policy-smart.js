@@ -6,11 +6,7 @@ const PolicyPrototypeSmart = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "policy-smart-design.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...prototypeImage
       }
     }
   `);

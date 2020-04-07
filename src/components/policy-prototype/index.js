@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
+import { graphql } from "gatsby";
 
 import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
@@ -30,5 +31,15 @@ const PolicyPrototype = props => {
     </CalloutCard>
   );
 };
+
+export const prototypeImage = graphql`
+  fragment prototypeImage on File {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
 
 export default PolicyPrototype;

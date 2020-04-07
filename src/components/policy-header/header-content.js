@@ -3,8 +3,9 @@ import BillImage from "./bill-image";
 import ContentHeader from "../content-header";
 
 const HeaderContent = props => {
+  const { policy } = props;
   const { title, subtitle, date, by } = props.markdownRemark.frontmatter;
-  const image = <BillImage />;
+  const image = <BillImage policy={policy} />;
   return (
     <ContentHeader title={title} subtitle={subtitle} image={image}>
       <div className="">Introduced on {date}</div>

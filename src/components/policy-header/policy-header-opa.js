@@ -14,7 +14,7 @@ const PolicyHeaderOpa = props => {
     }
   `);
   const { markdownRemark } = data;
-  return <HeaderContent markdownRemark={markdownRemark} />;
+  return <HeaderContent markdownRemark={markdownRemark} policy="opa" />;
 };
 
 export default PolicyHeaderOpa;

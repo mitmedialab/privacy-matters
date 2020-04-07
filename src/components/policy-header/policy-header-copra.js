@@ -12,7 +12,7 @@ const PolicyHeaderCopra = props => {
     }
   `);
   const { markdownRemark } = data;
-  return <HeaderContent markdownRemark={markdownRemark} />;
+  return <HeaderContent markdownRemark={markdownRemark} policy="copra" />;
 };
 
 export default PolicyHeaderCopra;
