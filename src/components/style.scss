@@ -9,6 +9,7 @@ $regular-weight: 400;
 
 html {
     scroll-behavior: smooth;
+    background-color: $background-color;
 }
 
 .privacy-page {
@@ -112,7 +113,7 @@ html {
   }
 
   button {
-    font-family: $body-font;    
+    font-family: $body-font;
   }
 
   .btn-primary {
