@@ -2,20 +2,32 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-const BillImage = () => {
+const BillImage = props => {
+  const { policy } = props;
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "bill.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+      copra: file(relativePath: { eq: "bill-copra.png" }) {
+        ...billImage
+      }
+      smart: file(relativePath: { eq: "bill-smart.png" }) {
+        ...billImage
+      }
+      opa: file(relativePath: { eq: "bill-opa.png" }) {
+        ...billImage
       }
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return <Img fluid={data[policy].childImageSharp.fluid} />;
 };
 
+export const billImage = graphql`
+  fragment billImage on File {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
 export default BillImage;

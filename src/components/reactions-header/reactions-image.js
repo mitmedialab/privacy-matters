@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 const ReactionsImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "bill.png" }) {
+      placeholderImage: file(relativePath: { eq: "response-section.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

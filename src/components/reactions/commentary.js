@@ -40,6 +40,7 @@ const Commentary = props => {
           )
           .map(edge => (
             <Comment
+              key={`comment-${edge.node.frontmatter.quotee}`}
               quotee={edge.node.frontmatter.quotee}
               html={edge.node.html}
             />

@@ -12,7 +12,7 @@ const PolicyHeaderSmart = props => {
     }
   `);
   const { markdownRemark } = data;
-  return <HeaderContent markdownRemark={markdownRemark} />;
+  return <HeaderContent markdownRemark={markdownRemark} policy="smart" />;
 };
 
 export default PolicyHeaderSmart;

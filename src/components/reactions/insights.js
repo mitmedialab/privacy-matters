@@ -25,7 +25,10 @@ const Insights = props => {
       {data.allMarkdownRemark.edges
         .filter(edge => edge.node.frontmatter.policy === policy)
         .map(edge => (
-          <div dangerouslySetInnerHTML={{ __html: edge.node.html }} />
+          <div
+            key="policy"
+            dangerouslySetInnerHTML={{ __html: edge.node.html }}
+          />
         ))}
     </>
   );
