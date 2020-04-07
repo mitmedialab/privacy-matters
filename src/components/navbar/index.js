@@ -87,10 +87,18 @@ const NavBar = props => {
             </NavItem>
             <NavItem className="ml-auto">
               <Link
-                className="nav-link subheading-2"
+                className="nav-link pr-md-5 subheading-2"
                 to={`/about?ft=${ACCESS}`}
               >
                 About
+              </Link>
+            </NavItem>
+            <NavItem className="ml-auto">
+              <Link
+                className="nav-link subheading-2"
+                to={`/privacy?ft=${ACCESS}`}
+              >
+                Privacy Policy
               </Link>
             </NavItem>
           </Nav>
