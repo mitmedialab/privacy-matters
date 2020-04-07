@@ -1,15 +1,1 @@
-{
-  "data": {
-    "placeholderImage": {
-      "childImageSharp": {
-        "fluid": {
-          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACxElEQVQ4y3VTy0pbURSN1GKEfkC1tDWfUPoRmTip0EhpCPQLHPoHGUgrIrET0YlPUEFFRRypqFFRRERU8BERbRPfGjXJvcnqWhtvqK8Di33Ovueuvfbj+Hwvr9fl5eV+2jIuf0lJSVlpaWmZn4u+Vy/+tby87F9YWHg3MzNTOT09beC+Ymho6ENPT0+gv7+/qru7O9Db2xvo6+v72NnZGRgeHn4fj8cr5ubmKoW1tbW3i4uLVWNjY2985+fnX4n05eXl36urq5QHnpO0SVnh4uLCztfX1wb6UvQZjo+P/6RSqQx9X0QYcV0XjuPg/5XL5XB7ewtewtnZGU5PT83nrXw+j7u7O7uzubmJg4MDZLPZbz5eDmcyGTCKc3h4mD86OsrLkqAI3nkCKstTjIHnnIJxX2uEZEYymXT39vYKOzs7oAXTMwUCf7azkE6nzUq1BxI5ypL7WqVsCmldpldQivppf38fKysrYNEVzIIkEgmMj49ja2vL7qgM/E9ERmgKPUKqMEKpYdHBLqKpqQnt7e2YnJzExMSEkbHbWF1dtdqJ8IlCOsPKf3193eW4FJaWlsAxwsjICBoaGjA6Ooq2tja0tLQgGo1icHDQmsCuPlFYJFSHZ2dnXc5ZYWpqCpwnIwuHw6irq0NXVxdCoRDq6+sxMDCAjY0N7O7u4uTkxAg9hZayR8jBdDm0hdbWVnCYEYvFUF1djWAwiEgkgpqaGnDQ0dzcjPn5eauhCKWScMTxQCHTNIWqES2YPra3t1UKqAxKU92V5VgZoXBzcyPYEBcVSq5S7ujoKPCZgdaa8txScDVERPfNVCAjZFON8Ls+MOUslTlU6MgygKNiM60ilJp8AtU5fC0OCR2SZ+4VhjTYP3TwBlaRNTayel5S/xiPn6m3NIKaw88kjVHuLxI20jZ6lv5Gfn8AzydLxban/Un85v7TP+BxCyik5pWyAAAAAElFTkSuQmCC",
-          "aspectRatio": 1.2316561844863732,
-          "src": "/static/b94f2e6fe7980f29ff68271ef071a961/a54c6/policy-smart-design.png",
-          "srcSet": "/static/b94f2e6fe7980f29ff68271ef071a961/59beb/policy-smart-design.png 200w,\n/static/b94f2e6fe7980f29ff68271ef071a961/c0bbd/policy-smart-design.png 400w,\n/static/b94f2e6fe7980f29ff68271ef071a961/a54c6/policy-smart-design.png 800w,\n/static/b94f2e6fe7980f29ff68271ef071a961/e5e1e/policy-smart-design.png 1175w",
-          "sizes": "(max-width: 800px) 100vw, 800px"
-        }
-      }
-    }
-  }
-}
+{"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACxElEQVQ4y3VTy0pbURSN1GKEfkC1tDWfUPoRmTip0EhpCPQLHPoHGUgrIrET0YlPUEFFRRypqFFRRERU8BERbRPfGjXJvcnqWhtvqK8Di33Ovueuvfbj+Hwvr9fl5eV+2jIuf0lJSVlpaWmZn4u+Vy/+tby87F9YWHg3MzNTOT09beC+Ymho6ENPT0+gv7+/qru7O9Db2xvo6+v72NnZGRgeHn4fj8cr5ubmKoW1tbW3i4uLVWNjY2985+fnX4n05eXl36urq5QHnpO0SVnh4uLCztfX1wb6UvQZjo+P/6RSqQx9X0QYcV0XjuPg/5XL5XB7ewtewtnZGU5PT83nrXw+j7u7O7uzubmJg4MDZLPZbz5eDmcyGTCKc3h4mD86OsrLkqAI3nkCKstTjIHnnIJxX2uEZEYymXT39vYKOzs7oAXTMwUCf7azkE6nzUq1BxI5ypL7WqVsCmldpldQivppf38fKysrYNEVzIIkEgmMj49ja2vL7qgM/E9ERmgKPUKqMEKpYdHBLqKpqQnt7e2YnJzExMSEkbHbWF1dtdqJ8IlCOsPKf3193eW4FJaWlsAxwsjICBoaGjA6Ooq2tja0tLQgGo1icHDQmsCuPlFYJFSHZ2dnXc5ZYWpqCpwnIwuHw6irq0NXVxdCoRDq6+sxMDCAjY0N7O7u4uTkxAg9hZayR8jBdDm0hdbWVnCYEYvFUF1djWAwiEgkgpqaGnDQ0dzcjPn5eauhCKWScMTxQCHTNIWqES2YPra3t1UKqAxKU92V5VgZoXBzcyPYEBcVSq5S7ujoKPCZgdaa8txScDVERPfNVCAjZFON8Ls+MOUslTlU6MgygKNiM60ilJp8AtU5fC0OCR2SZ+4VhjTYP3TwBlaRNTayel5S/xiPn6m3NIKaw88kjVHuLxI20jZ6lv5Gfn8AzydLxban/Un85v7TP+BxCyik5pWyAAAAAElFTkSuQmCC","aspectRatio":1.2316561844863732,"src":"/static/b94f2e6fe7980f29ff68271ef071a961/a54c6/policy-smart-design.png","srcSet":"/static/b94f2e6fe7980f29ff68271ef071a961/59beb/policy-smart-design.png 200w,\n/static/b94f2e6fe7980f29ff68271ef071a961/c0bbd/policy-smart-design.png 400w,\n/static/b94f2e6fe7980f29ff68271ef071a961/a54c6/policy-smart-design.png 800w,\n/static/b94f2e6fe7980f29ff68271ef071a961/e5e1e/policy-smart-design.png 1175w","sizes":"(max-width: 800px) 100vw, 800px"}}}}}

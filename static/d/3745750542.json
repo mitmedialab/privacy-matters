@@ -1,15 +1,1 @@
-{
-  "data": {
-    "placeholderImage": {
-      "childImageSharp": {
-        "fluid": {
-          "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACgklEQVQ4y4VUWW4aQRCdQ+QMUY4QlNwjSEH5yAFiPqJcB5BlvgAjtg8wxiAWeQFLIBaxGAwIsQhsNrPMTFfqtWgUK9tITzX9uvrVq+me1kKh0Bu/3/8hEolYLi4uLLFYzBKNRi3hcFi+X15eWhKJxDGCwxzyFXj8nnU+Qks7Pz+3ZjIZ8vl85unpqXC73QTwmM7OzsjlcpHT6ZRwOBySw5zX65XR4/EQCxqNRoMCgYBNu7u7s9ZqNcrn8ya/E3B7eyvjzc0NXV9fvwL4+/t7KhQKpPL53ej3+9CwafP53KrrOo3HY+Px8VEAT09PYrFYSCyXS8E5Mk4mE9HtdkWn0xGDwUDyhzzdNE3iaNNms5n15eWFnp+fTSxikAIngKfNZiOheF5D0+lUcpjnQrphGOBtGruRggyTiASDdrsdxrRer6WoEEICnSAeDBBcocBoNJIOXwnyYuZMgUrb7fbohOflQmC/38uIQhDEg4J/FFytVlIQi+AQosolxiik5lT7KvL3/7sgkiACTn0jOFUOwbEj6vV6x+/8X4dYxOMjMMYCuFPfEJxq+Z8O0SpE4Ey5gxO0rFpHB8g5HJXfBZGATcEuwwGqowifMykIDg92GQ+KYk45HA6H8tjwUbJpTFjRJrswWVSo6gpwh6h4tVHg1bHiTvSDuE3jf/BTu92mVqu146grNJtNvV6v679yDw8PksOc4vivAb/FJrHWZ41vmi98i1ClUoEolctl4iQqFovENwzaIfzrLET8uxFyS6WSzMEaFqNqtUqpVIpY66sWDAbf8i3x/erq6iSbzZ6k02l7Lpezx+NxO19H8p1vIwmet/PNIufAIxdcMpn8xho/WOvdTwn9Y4U8s8BNAAAAAElFTkSuQmCC",
-          "aspectRatio": 1.2316561844863732,
-          "src": "/static/4a2a2d795f3fa79fb5b2af31563db2d4/a54c6/policy-copra-design.png",
-          "srcSet": "/static/4a2a2d795f3fa79fb5b2af31563db2d4/59beb/policy-copra-design.png 200w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/c0bbd/policy-copra-design.png 400w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/a54c6/policy-copra-design.png 800w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/e5e1e/policy-copra-design.png 1175w",
-          "sizes": "(max-width: 800px) 100vw, 800px"
-        }
-      }
-    }
-  }
-}
+{"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACgklEQVQ4y4VUWW4aQRCdQ+QMUY4QlNwjSEH5yAFiPqJcB5BlvgAjtg8wxiAWeQFLIBaxGAwIsQhsNrPMTFfqtWgUK9tITzX9uvrVq+me1kKh0Bu/3/8hEolYLi4uLLFYzBKNRi3hcFi+X15eWhKJxDGCwxzyFXj8nnU+Qks7Pz+3ZjIZ8vl85unpqXC73QTwmM7OzsjlcpHT6ZRwOBySw5zX65XR4/EQCxqNRoMCgYBNu7u7s9ZqNcrn8ya/E3B7eyvjzc0NXV9fvwL4+/t7KhQKpPL53ej3+9CwafP53KrrOo3HY+Px8VEAT09PYrFYSCyXS8E5Mk4mE9HtdkWn0xGDwUDyhzzdNE3iaNNms5n15eWFnp+fTSxikAIngKfNZiOheF5D0+lUcpjnQrphGOBtGruRggyTiASDdrsdxrRer6WoEEICnSAeDBBcocBoNJIOXwnyYuZMgUrb7fbohOflQmC/38uIQhDEg4J/FFytVlIQi+AQosolxiik5lT7KvL3/7sgkiACTn0jOFUOwbEj6vV6x+/8X4dYxOMjMMYCuFPfEJxq+Z8O0SpE4Ey5gxO0rFpHB8g5HJXfBZGATcEuwwGqowifMykIDg92GQ+KYk45HA6H8tjwUbJpTFjRJrswWVSo6gpwh6h4tVHg1bHiTvSDuE3jf/BTu92mVqu146grNJtNvV6v679yDw8PksOc4vivAb/FJrHWZ41vmi98i1ClUoEolctl4iQqFovENwzaIfzrLET8uxFyS6WSzMEaFqNqtUqpVIpY66sWDAbf8i3x/erq6iSbzZ6k02l7Lpezx+NxO19H8p1vIwmet/PNIufAIxdcMpn8xho/WOvdTwn9Y4U8s8BNAAAAAElFTkSuQmCC","aspectRatio":1.2316561844863732,"src":"/static/4a2a2d795f3fa79fb5b2af31563db2d4/a54c6/policy-copra-design.png","srcSet":"/static/4a2a2d795f3fa79fb5b2af31563db2d4/59beb/policy-copra-design.png 200w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/c0bbd/policy-copra-design.png 400w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/a54c6/policy-copra-design.png 800w,\n/static/4a2a2d795f3fa79fb5b2af31563db2d4/e5e1e/policy-copra-design.png 1175w","sizes":"(max-width: 800px) 100vw, 800px"}}}}}

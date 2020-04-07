@@ -11,6 +11,7 @@
           { "path": "/bill-opa/" },
           { "path": "/bill-smart/" },
           { "path": "/" },
+          { "path": "/privacy/" },
           { "path": "/research/" },
           { "path": "/404.html" }
         ]
