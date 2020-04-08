@@ -6874,8 +6874,9 @@
           return (
             "function" == typeof r &&
             "function" == typeof Symbol &&
-              "symbol" == typeof r("foo") &&
-                "symbol" == typeof Symbol("bar") && o()
+            "symbol" == typeof r("foo") &&
+            "symbol" == typeof Symbol("bar") &&
+            o()
           );
         };
       }.call(this, n("yLpj")));
@@ -7523,8 +7524,8 @@
         return (
           !(!e || "object" != typeof e || "number" != typeof e.length) &&
           "function" == typeof e.copy &&
-            "function" == typeof e.slice &&
-            !(e.length > 0 && "number" != typeof e[0])
+          "function" == typeof e.slice &&
+          !(e.length > 0 && "number" != typeof e[0])
         );
       }
       e.exports = c;
@@ -9127,8 +9128,8 @@
           ? 0 === o.type
           : !r &&
             2 < t.length &&
-              ("o" === t[0] || "O" === t[0]) &&
-              ("n" === t[1] || "N" === t[1])) ||
+            ("o" === t[0] || "O" === t[0]) &&
+            ("n" === t[1] || "N" === t[1])) ||
           ((function(e, t, n, r) {
             if (
               null == t ||
@@ -11727,7 +11728,8 @@
           ? e.shouldComponentUpdate(r, i, a)
           : !t.prototype ||
               !t.prototype.isPureReactComponent ||
-              !no(n, r) || !no(o, i);
+              !no(n, r) ||
+              !no(o, i);
       }
       function ji(e, t, n) {
         var r = !1,

@@ -95,8 +95,8 @@
               })(),
               o = n(1),
               i = p(o),
-              l = p(n(2)),
-              u = p(n(10)),
+              u = p(n(2)),
+              l = p(n(10)),
               c = p(n(12)),
               s = p(n(13)),
               f = (function(e) {
@@ -187,24 +187,24 @@
                       if (!n.mounted) return Promise.resolve();
                       var o = n.props.onCharacterTyped;
                       return new Promise(function(i) {
-                        var l = n.state.textLines.slice();
+                        var u = n.state.textLines.slice();
                         f.sleep(n.introducedDelay).then(function() {
                           n.introducedDelay = null;
-                          var u = "🔙" === e;
+                          var l = "🔙" === e;
                           if ("⏰" === e) i();
                           else {
-                            if (u && a > 0) {
+                            if (l && a > 0) {
                               for (
-                                var c = a - 1, s = l[c], f = c;
+                                var c = a - 1, s = u[c], f = c;
                                 f >= 0 && (!(s.length > 0) || d.includes(s[0]));
                                 f--
                               )
-                                s = l[(c = f)];
-                              l[c] = s.substr(0, s.length - 1);
-                            } else l[a] += e;
-                            n.setState({ textLines: l }, function() {
-                              var l = n.delayGenerator(r, a, e, t);
-                              o(e, t), setTimeout(i, l);
+                                s = u[(c = f)];
+                              u[c] = s.substr(0, s.length - 1);
+                            } else u[a] += e;
+                            n.setState({ textLines: u }, function() {
+                              var u = n.delayGenerator(r, a, e, t);
+                              o(e, t), setTimeout(i, u);
                             });
                           }
                         });
@@ -300,7 +300,7 @@
                           { className: "Typist " + t },
                           o,
                           i.default.createElement(
-                            u.default,
+                            l.default,
                             r({ isDone: a }, n)
                           )
                         );
@@ -311,16 +311,16 @@
                 );
               })(o.Component);
             (m.propTypes = {
-              children: l.default.node,
-              className: l.default.string,
-              avgTypingDelay: l.default.number,
-              stdTypingDelay: l.default.number,
-              startDelay: l.default.number,
-              cursor: l.default.object,
-              onCharacterTyped: l.default.func,
-              onLineTyped: l.default.func,
-              onTypingDone: l.default.func,
-              delayGenerator: l.default.func
+              children: u.default.node,
+              className: u.default.string,
+              avgTypingDelay: u.default.number,
+              stdTypingDelay: u.default.number,
+              startDelay: u.default.number,
+              cursor: u.default.object,
+              onCharacterTyped: u.default.func,
+              onLineTyped: u.default.func,
+              onTypingDone: u.default.func,
+              delayGenerator: u.default.func
             }),
               (m.defaultProps = {
                 className: "",
@@ -349,10 +349,10 @@
               a = n(5),
               o = n(6),
               i = n(7),
-              l = n(8);
+              u = n(8);
             e.exports = function(e, t) {
               var n = "function" == typeof Symbol && Symbol.iterator,
-                u = "@@iterator";
+                l = "@@iterator";
               var c = "<<anonymous>>",
                 s = {
                   array: m("array"),
@@ -373,21 +373,21 @@
                             r +
                             "` has invalid PropType notation inside arrayOf."
                         );
-                      var l = t[n];
-                      if (!Array.isArray(l))
+                      var u = t[n];
+                      if (!Array.isArray(u))
                         return new p(
                           "Invalid " +
                             a +
                             " `" +
                             o +
                             "` of type `" +
-                            h(l) +
+                            h(u) +
                             "` supplied to `" +
                             r +
                             "`, expected an array."
                         );
-                      for (var u = 0; u < l.length; u++) {
-                        var c = e(l, u, r, a, o + "[" + u + "]", i);
+                      for (var l = 0; l < u.length; l++) {
+                        var c = e(u, l, r, a, o + "[" + l + "]", i);
                         if (c instanceof Error) return c;
                       }
                       return null;
@@ -457,23 +457,23 @@
                             r +
                             "` has invalid PropType notation inside objectOf."
                         );
-                      var l = t[n],
-                        u = h(l);
-                      if ("object" !== u)
+                      var u = t[n],
+                        l = h(u);
+                      if ("object" !== l)
                         return new p(
                           "Invalid " +
                             a +
                             " `" +
                             o +
                             "` of type `" +
-                            u +
+                            l +
                             "` supplied to `" +
                             r +
                             "`, expected an object."
                         );
-                      for (var c in l)
-                        if (l.hasOwnProperty(c)) {
-                          var s = e(l, c, r, a, o + "." + c, i);
+                      for (var c in u)
+                        if (u.hasOwnProperty(c)) {
+                          var s = e(u, c, r, a, o + "." + c, i);
                           if (s instanceof Error) return s;
                         }
                       return null;
@@ -482,8 +482,8 @@
                   oneOf: function(e) {
                     if (!Array.isArray(e)) return r.thatReturnsNull;
                     return d(function(t, n, r, a, o) {
-                      for (var i = t[n], l = 0; l < e.length; l++)
-                        if (f(i, e[l])) return null;
+                      for (var i = t[n], u = 0; u < e.length; u++)
+                        if (f(i, e[u])) return null;
                       return new p(
                         "Invalid " +
                           a +
@@ -515,8 +515,8 @@
                         );
                     }
                     return d(function(t, n, r, a, o) {
-                      for (var l = 0; l < e.length; l++) {
-                        if (null == (0, e[l])(t, n, r, a, o, i)) return null;
+                      for (var u = 0; u < e.length; u++) {
+                        if (null == (0, e[u])(t, n, r, a, o, i)) return null;
                       }
                       return new p(
                         "Invalid " + a + " `" + o + "` supplied to `" + r + "`."
@@ -525,16 +525,16 @@
                   },
                   shape: function(e) {
                     return d(function(t, n, r, a, o) {
-                      var l = t[n],
-                        u = h(l);
-                      if ("object" !== u)
+                      var u = t[n],
+                        l = h(u);
+                      if ("object" !== l)
                         return new p(
                           "Invalid " +
                             a +
                             " `" +
                             o +
                             "` of type `" +
-                            u +
+                            l +
                             "` supplied to `" +
                             r +
                             "`, expected `object`."
@@ -542,7 +542,7 @@
                       for (var c in e) {
                         var s = e[c];
                         if (s) {
-                          var f = s(l, c, r, a, o + "." + c, i);
+                          var f = s(u, c, r, a, o + "." + c, i);
                           if (f) return f;
                         }
                       }
@@ -557,8 +557,8 @@
                 (this.message = e), (this.stack = "");
               }
               function d(e) {
-                function n(n, r, o, l, u, s, f) {
-                  ((l = l || c), (s = s || o), f !== i) &&
+                function n(n, r, o, u, l, s, f) {
+                  ((u = u || c), (s = s || o), f !== i) &&
                     t &&
                     a(
                       !1,
@@ -569,39 +569,39 @@
                       ? null === r[o]
                         ? new p(
                             "The " +
-                              u +
+                              l +
                               " `" +
                               s +
                               "` is marked as required in `" +
-                              l +
+                              u +
                               "`, but its value is `null`."
                           )
                         : new p(
                             "The " +
-                              u +
+                              l +
                               " `" +
                               s +
                               "` is marked as required in `" +
-                              l +
+                              u +
                               "`, but its value is `undefined`."
                           )
                       : null
-                    : e(r, o, l, u, s);
+                    : e(r, o, u, l, s);
                 }
                 var r = n.bind(null, !1);
                 return (r.isRequired = n.bind(null, !0)), r;
               }
               function m(e) {
                 return d(function(t, n, r, a, o, i) {
-                  var l = t[n];
-                  return h(l) !== e
+                  var u = t[n];
+                  return h(u) !== e
                     ? new p(
                         "Invalid " +
                           a +
                           " `" +
                           o +
                           "` of type `" +
-                          v(l) +
+                          v(u) +
                           "` supplied to `" +
                           r +
                           "`, expected `" +
@@ -623,7 +623,7 @@
                     if (Array.isArray(t)) return t.every(y);
                     if (null === t || e(t)) return !0;
                     var r = (function(e) {
-                      var t = e && ((n && e[n]) || e[u]);
+                      var t = e && ((n && e[n]) || e[l]);
                       if ("function" == typeof t) return t;
                     })(t);
                     if (!r) return !1;
@@ -682,7 +682,7 @@
               }
               return (
                 (p.prototype = Error.prototype),
-                (s.checkPropTypes = l),
+                (s.checkPropTypes = u),
                 (s.PropTypes = s),
                 s
               );
@@ -711,7 +711,7 @@
           function(e, t) {
             "use strict";
             var n = function(e) {};
-            e.exports = function(e, t, r, a, o, i, l, u) {
+            e.exports = function(e, t, r, a, o, i, u, l) {
               if ((n(t), !e)) {
                 var c;
                 if (void 0 === t)
@@ -719,7 +719,7 @@
                     "Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings."
                   );
                 else {
-                  var s = [r, a, o, i, l, u],
+                  var s = [r, a, o, i, u, l],
                     f = 0;
                   (c = new Error(
                     t.replace(/%s/g, function() {
@@ -750,8 +750,8 @@
               a = n(5),
               o = n(7);
             e.exports = function() {
-              function e(e, t, n, r, i, l) {
-                l !== o &&
+              function e(e, t, n, r, i, u) {
+                u !== o &&
                   a(
                     !1,
                     "Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types"
@@ -800,13 +800,13 @@
                 };
               })(),
               a = n(1),
-              o = l(a),
-              i = l(n(2));
-            function l(e) {
+              o = u(a),
+              i = u(n(2));
+            function u(e) {
               return e && e.__esModule ? e : { default: e };
             }
             n(11);
-            var u = (function(e) {
+            var l = (function(e) {
               function t(e) {
                 !(function(e, t) {
                   if (!(e instanceof t))
@@ -905,7 +905,7 @@
                 t
               );
             })(a.Component);
-            (u.propTypes = {
+            (l.propTypes = {
               blink: i.default.bool,
               show: i.default.bool,
               element: i.default.node,
@@ -913,7 +913,7 @@
               hideWhenDoneDelay: i.default.number,
               isDone: i.default.bool
             }),
-              (u.defaultProps = {
+              (l.defaultProps = {
                 blink: !0,
                 show: !0,
                 element: "|",
@@ -921,7 +921,7 @@
                 hideWhenDoneDelay: 1e3,
                 isDone: !1
               }),
-              (t.default = u);
+              (t.default = l);
           },
           function(e, t) {},
           function(e, t, n) {
@@ -972,16 +972,16 @@
                     o = void 0;
                   try {
                     for (
-                      var i, l = e[Symbol.iterator]();
-                      !(r = (i = l.next()).done) &&
+                      var i, u = e[Symbol.iterator]();
+                      !(r = (i = u.next()).done) &&
                       (n.push(i.value), !t || n.length !== t);
                       r = !0
                     );
-                  } catch (u) {
-                    (a = !0), (o = u);
+                  } catch (l) {
+                    (a = !0), (o = l);
                   } finally {
                     try {
-                      !r && l.return && l.return();
+                      !r && u.return && u.return();
                     } finally {
                       if (a) throw o;
                     }
@@ -1009,8 +1009,8 @@
                   });
                 }, Promise.resolve());
               }),
-              (t.exclude = l),
-              (t.isBackspaceElement = u),
+              (t.exclude = u),
+              (t.isBackspaceElement = l),
               (t.isDelayElement = c),
               (t.extractTextFromElement = function(e) {
                 var t = e ? [e] : [],
@@ -1018,7 +1018,7 @@
                 for (; t.length > 0; ) {
                   var r = t.pop();
                   if (i.default.isValidElement(r))
-                    u(r) || c(r)
+                    l(r) || c(r)
                       ? n.unshift(r)
                       : i.default.Children.forEach(r.props.children, function(
                           e
@@ -1028,7 +1028,7 @@
                   else if (Array.isArray(r)) {
                     var a = !0,
                       o = !1,
-                      l = void 0;
+                      u = void 0;
                     try {
                       for (
                         var s, f = r[Symbol.iterator]();
@@ -1039,12 +1039,12 @@
                         t.push(p);
                       }
                     } catch (d) {
-                      (o = !0), (l = d);
+                      (o = !0), (u = d);
                     } finally {
                       try {
                         !a && f.return && f.return();
                       } finally {
-                        if (o) throw l;
+                        if (o) throw u;
                       }
                     }
                   } else n.unshift(r);
@@ -1059,19 +1059,19 @@
                 return (function e(t, n, a) {
                   if (a >= n.length) return [null, a];
                   var o = a,
-                    l = function(t) {
+                    u = function(t) {
                       var a = e(t, n, o),
                         i = r(a, 2),
-                        l = i[0],
-                        u = i[1];
-                      return (o = u), l;
+                        u = i[0],
+                        l = i[1];
+                      return (o = l), u;
                     };
-                  if (i.default.isValidElement(t) && !u(t) && !c(t)) {
-                    var f = i.default.Children.map(t.props.children, l) || [];
+                  if (i.default.isValidElement(t) && !l(t) && !c(t)) {
+                    var f = i.default.Children.map(t.props.children, u) || [];
                     return [s(t, f), o];
                   }
                   if (Array.isArray(t)) {
-                    return [t.map(l), o];
+                    return [t.map(u), o];
                   }
                   return [n[o], o + 1];
                 })(t, n, 0)[0];
@@ -1084,12 +1084,12 @@
                 return null != e ? setTimeout(t, e) : t();
               });
             };
-            function l(e, t) {
+            function u(e, t) {
               var n = {};
               for (var r in e) -1 === t.indexOf(r) && (n[r] = e[r]);
               return n;
             }
-            function u(e) {
+            function l(e) {
               return e && e.type && "Backspace" === e.type.componentName;
             }
             function c(e) {
@@ -1097,7 +1097,7 @@
             }
             function s(e, t) {
               var n = e.type,
-                r = l(e.props, ["children"]),
+                r = u(e.props, ["children"]),
                 a =
                   new Date().getUTCMilliseconds() +
                   Math.random() +
@@ -1139,18 +1139,18 @@
         a = n.n(r),
         o = n("Bl7J"),
         i = n("vrFN"),
-        l = n("ok1R"),
-        u = n("rhny"),
+        u = n("ok1R"),
+        l = n("rhny"),
         c = n("Wbzz"),
         s = n("eKp/"),
         f =
           (n("t51u"),
           function(e) {
             return a.a.createElement(
-              l.a,
+              u.a,
               { className: "py-5 justify-content-md-center" },
               a.a.createElement(
-                u.a,
+                l.a,
                 { lg: 8, md: 9, className: "text-center mb-4" },
                 a.a.createElement(
                   "div",
@@ -1192,7 +1192,7 @@
               a.a.Fragment,
               null,
               a.a.createElement(
-                u.a,
+                l.a,
                 { xs: 12 },
                 a.a.createElement(
                   "h2",
@@ -1206,7 +1206,7 @@
               ),
               Object.keys(t).map(function(e) {
                 return a.a.createElement(
-                  u.a,
+                  l.a,
                   {
                     key: "policy-select-button-" + e,
                     md: 4,
@@ -1315,10 +1315,10 @@
                   "div",
                   { className: "cover" },
                   a.a.createElement(
-                    l.a,
+                    u.a,
                     { className: "align-middle d-flex title-row" },
                     a.a.createElement(
-                      u.a,
+                      l.a,
                       { md: 6, sm: 8, className: "d-flex flex-column" },
                       a.a.createElement(
                         "div",
@@ -1345,14 +1345,14 @@
                       )
                     ),
                     a.a.createElement(
-                      u.a,
+                      l.a,
                       { md: 6, sm: 4, className: "image-column" },
                       a.a.createElement(T, null)
                     )
                   )
                 ),
                 a.a.createElement(
-                  l.a,
+                  u.a,
                   { className: "py-5 mt-4" },
                   a.a.createElement(y, { policies: E.d })
                 )
@@ -1366,10 +1366,10 @@
             D.a,
             null,
             a.a.createElement(
-              l.a,
+              u.a,
               null,
               a.a.createElement(
-                u.a,
+                l.a,
                 { md: 5 },
                 a.a.createElement(
                   d.a,
@@ -1403,7 +1403,7 @@
                 )
               ),
               a.a.createElement(
-                u.a,
+                l.a,
                 { md: 7, className: "research-image-col" },
                 a.a.createElement(S.a, null)
               )
@@ -1412,29 +1412,23 @@
         },
         N = n("2qpI");
       t.default = function() {
-        return Object(s.b)(s.a)
-          ? a.a.createElement(
-              a.a.Fragment,
-              null,
-              a.a.createElement(i.a, null),
-              a.a.createElement(
-                "div",
-                { className: "privacy-page" },
-                a.a.createElement(N.a, null),
-                a.a.createElement(O, null),
-                a.a.createElement(
-                  "div",
-                  { className: "py-5" },
-                  a.a.createElement(R, null)
-                ),
-                a.a.createElement(
-                  o.a,
-                  { footer: !0 },
-                  a.a.createElement(f, null)
-                )
-              )
-            )
-          : a.a.createElement(a.a.Fragment, null, "TBD");
+        return a.a.createElement(
+          a.a.Fragment,
+          null,
+          a.a.createElement(i.a, null),
+          a.a.createElement(
+            "div",
+            { className: "privacy-page" },
+            a.a.createElement(N.a, null),
+            a.a.createElement(O, null),
+            a.a.createElement(
+              "div",
+              { className: "py-5" },
+              a.a.createElement(R, null)
+            ),
+            a.a.createElement(o.a, { footer: !0 }, a.a.createElement(f, null))
+          )
+        );
       };
     },
     YuCR: function(e) {
@@ -1448,14 +1442,14 @@
         a = n("q1tI"),
         o = n.n(a),
         i = n("9eSz"),
-        l = n.n(i);
+        u = n.n(i);
       n("O3p0");
       t.a = function() {
         var e = r.data;
         return o.a.createElement(
           "div",
           { className: "card-section-image" },
-          o.a.createElement(l.a, {
+          o.a.createElement(u.a, {
             fluid: e.placeholderImage.childImageSharp.fluid
           })
         );
@@ -1476,4 +1470,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-index-js-2457c207abed124e7af5.js.map
+//# sourceMappingURL=component---src-pages-index-js-d89af880def2b6418abb.js.map
