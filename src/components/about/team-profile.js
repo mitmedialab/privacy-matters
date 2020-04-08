@@ -68,4 +68,14 @@ const TeamProfile = props => {
   );
 };
 
+export const ProfileImage = graphql`
+  fragment profileImage on File {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
 export default TeamProfile;

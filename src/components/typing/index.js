@@ -13,7 +13,7 @@ const Typing = props => {
       {`${prepend} `}
       {midWords.map(word => {
         const component = (
-          <span className="typing">
+          <span className="typing" key={word}>
             {word}
             <Typist.Backspace count={word.length} delay={delay} />
           </span>

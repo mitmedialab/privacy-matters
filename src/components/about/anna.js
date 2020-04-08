@@ -6,15 +6,10 @@ const AnnaImg = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "team-anna.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...profileImage
       }
     }
   `);
-
   return (
     <div className="jumbotron-image">
       <Img fluid={data.placeholderImage.childImageSharp.fluid} />

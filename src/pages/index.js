@@ -14,16 +14,19 @@ import isEnabled, { ACCESS } from "../utils/featureFlags";
 const IndexPage = () => {
   if (isEnabled(ACCESS)) {
     return (
-      <div className="privacy-page">
-        <NavBar />
-        <Jumbotron />
-        <div className="py-5">
-          <ResearchSection />
+      <>
+        <SEO />
+        <div className="privacy-page">
+          <NavBar />
+          <Jumbotron />
+          <div className="py-5">
+            <ResearchSection />
+          </div>
+          <Layout footer>
+            <AboutSection />
+          </Layout>
         </div>
-        <Layout footer>
-          <AboutSection />
-        </Layout>
-      </div>
+      </>
     );
   } else {
     return <>TBD</>;

@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Let’s Talk Privacy`,
-    description: `TBD`,
-    author: `@dsjen`
+    description: `Let’s Talk Privacy brings discussions around privacy and data governance policies to industry, academia, and the public.`,
+    author: `@dsjen`,
+    siteUrl: `https://letstalkprivacy.media.mit.edu/`
   },
   plugins: [
     `gatsby-plugin-sass`,
