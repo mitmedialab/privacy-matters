@@ -6,11 +6,7 @@ const StephImg = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "team-steph.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...profileImage
       }
     }
   `);

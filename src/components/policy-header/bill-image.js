@@ -18,7 +18,7 @@ const BillImage = props => {
     }
   `);
 
-  return <Img fluid={data[policy].childImageSharp.fluid} />;
+  return <Img fluid={data[policy].childImageSharp.fluid} alt="" />;
 };
 
 export const billImage = graphql`

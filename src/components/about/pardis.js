@@ -6,11 +6,7 @@ const PardisImg = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "team-pardis.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...profileImage
       }
     }
   `);
