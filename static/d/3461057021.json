@@ -1,1 +1,29 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"id":"1299c6de-a992-5753-bf1c-9f6a0a5e92cb","frontmatter":{"policy":"copra"},"html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"}},{"node":{"id":"e562740c-f571-51f7-9c53-a84648853a41","frontmatter":{"policy":"opa"},"html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"}},{"node":{"id":"3ade7113-cb21-5a38-8fcf-5b320ff31f0f","frontmatter":{"policy":"smart"},"html":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"}}]}}}
+{
+  "data": {
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "id": "e562740c-f571-51f7-9c53-a84648853a41",
+            "frontmatter": { "policy": "opa" },
+            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        },
+        {
+          "node": {
+            "id": "1299c6de-a992-5753-bf1c-9f6a0a5e92cb",
+            "frontmatter": { "policy": "copra" },
+            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        },
+        {
+          "node": {
+            "id": "3ade7113-cb21-5a38-8fcf-5b320ff31f0f",
+            "frontmatter": { "policy": "smart" },
+            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

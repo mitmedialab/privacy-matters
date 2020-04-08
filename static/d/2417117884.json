@@ -1,1 +1,11 @@
-{"data":{"site":{"siteMetadata":{"title":"Let’s Talk Privacy","description":"TBD","author":"@dsjen"}}}}
+{
+  "data": {
+    "site": {
+      "siteMetadata": {
+        "title": "Let’s Talk Privacy",
+        "description": "TBD",
+        "author": "@dsjen"
+      }
+    }
+  }
+}

@@ -2921,16 +2921,16 @@
                 ? this.state.pageResources !== e.pageResources ||
                     this.state.pageResources.component !==
                       e.pageResources.component ||
-                      this.state.pageResources.json !== e.pageResources.json ||
-                        !(
-                          this.state.location.key === e.location.key ||
-                          !e.pageResources.page ||
-                          (!e.pageResources.page.matchPath &&
-                            !e.pageResources.page.path)
-                        ) ||
-                          (function(t, e, n) {
-                            return O(t.props, e) || O(t.state, n);
-                          })(this, t, e)
+                    this.state.pageResources.json !== e.pageResources.json ||
+                    !(
+                      this.state.location.key === e.location.key ||
+                      !e.pageResources.page ||
+                      (!e.pageResources.page.matchPath &&
+                        !e.pageResources.page.path)
+                    ) ||
+                    (function(t, e, n) {
+                      return O(t.props, e) || O(t.state, n);
+                    })(this, t, e)
                 : (this.loadResources(t.location.pathname), !1);
             }),
             (o.render = function() {
