@@ -8,6 +8,7 @@ import AboutSection from "../components/about-section";
 import Jumbotron from "../components/jumbotron";
 import ResearchSection from "../components/research-section";
 import NavBar from "../components/navbar";
+import ContactUs from "../components/contact-us";
 
 import isEnabled, { ACCESS } from "../utils/featureFlags";
 
@@ -22,9 +23,11 @@ const IndexPage = () => {
           <div className="py-5">
             <ResearchSection />
           </div>
-          <Layout footer>
+          <Layout>
             <AboutSection />
           </Layout>
+          <ContactUs />
+          <Layout footer />
         </div>
       </>
     );

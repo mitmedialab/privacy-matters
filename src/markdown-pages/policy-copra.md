@@ -1,6 +1,7 @@
 ---
 title: "Consumer Online Privacy Rights Act (COPRA)"
-subtitle: "Codifies privacy as a right and creates a private right of action to enforce privacy rights and oversight of platforms"
+subtitle: "Codifies privacy as a right, creates a private right of action to enforce privacy rights and enables platform enforcement and accountability"
+link: "https://www.cantwell.senate.gov/imo/media/doc/COPRA%20Bill%20Text.pdf"
 date: "November 18, 2019"
 by: "<a rel='noopener noreferrer' target='_blank'
 href='https://www.cantwell.senate.gov/'>U.S. Senate Committee on Commerce, Science, and Transportation Ranking Member Maria Cantwell (D-WA)</a> and fellow senior members Senators <a rel='noopener noreferrer' target='_blank'

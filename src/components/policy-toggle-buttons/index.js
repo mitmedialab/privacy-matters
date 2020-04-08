@@ -13,7 +13,7 @@ const PolicyToggleButtons = props => {
     <>
       <Col xs={12}>
         <h2 className="text-center pb-5">
-          <span className="half-highlight">Explore privacy bills</span>
+          <span className="half-highlight">Explore Privacy Bills</span>
         </h2>
       </Col>
       {Object.keys(policies).map(key => (

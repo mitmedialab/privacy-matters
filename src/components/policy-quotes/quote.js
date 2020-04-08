@@ -4,7 +4,7 @@ import CalloutCard from "../callout-card";
 const Quote = props => {
   const { frontmatter, html } = props.node;
   return (
-    <CalloutCard title="Responses to the bill">
+    <CalloutCard title={`Thoughts from ${frontmatter.industry}`}>
       <blockquote className="blockquote">
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <p>- {frontmatter.quotee}</p>
@@ -22,6 +22,7 @@ export const query = graphql`
           quotee
           policy
           responseType
+          industry
         }
         html
       }

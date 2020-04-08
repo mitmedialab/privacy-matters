@@ -4,10 +4,18 @@ import ContentHeader from "../content-header";
 
 const HeaderContent = props => {
   const { policy } = props;
-  const { title, subtitle, date, by } = props.markdownRemark.frontmatter;
+  const { title, subtitle, link, date, by } = props.markdownRemark.frontmatter;
   const image = <BillImage policy={policy} />;
   return (
-    <ContentHeader title={title} subtitle={subtitle} image={image}>
+    <ContentHeader
+      title={
+        <a href={link} rel="noopener noreferrer" target="_blank">
+          {title}
+        </a>
+      }
+      subtitle={subtitle}
+      image={image}
+    >
       <div className="">Introduced on {date}</div>
       <div dangerouslySetInnerHTML={{ __html: by }} />
     </ContentHeader>
@@ -19,6 +27,7 @@ export const query = graphql`
     frontmatter {
       title
       subtitle
+      link
       date
       by
     }

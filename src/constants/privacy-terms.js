@@ -1,0 +1,22 @@
+export const privacyTerms = [
+  "Compliance",
+  "A business decision",
+  "A human right",
+  "Hard to define",
+  "Multi-dimensional",
+  "Personal control",
+  "Consent",
+  "Protection of data",
+  "Managing my information",
+  "Autonomy",
+  "Trust",
+  "Vulnerability",
+  "Choice",
+  "Information",
+  "Important",
+  "Knowing what’s shared",
+  "Ownership of data",
+  "Protecting information",
+  "Agency over data",
+  "A personal choice"
+];
