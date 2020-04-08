@@ -4,20 +4,13 @@ import { Row, Col, Container } from "reactstrap";
 import PolicyToggleButtons from "../policy-toggle-buttons";
 import Typing from "../typing";
 import { policies } from "../../constants/policies";
+import { privacyTerms } from "../../constants/privacy-terms";
 
 import JumbotronImage from "./jumbotron-image";
 
 import "./style.scss";
 
 const Jumbotron = props => {
-  const privacyDefinitions = [
-    "a human right",
-    "security",
-    "personal",
-    "mine",
-    "over-rated"
-  ];
-
   return (
     <div className="landing-jumbotron">
       <Container fluid>
@@ -26,7 +19,7 @@ const Jumbotron = props => {
             <Col md={6} sm={8} className="d-flex flex-column">
               <div>
                 <h1 className="title">
-                  <Typing prepend="Privacy is" words={privacyDefinitions} />
+                  <Typing prepend="Privacy is" words={privacyTerms} />
                 </h1>
               </div>
               <p className="mt-3 subheading-1 description">

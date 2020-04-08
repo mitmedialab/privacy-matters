@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
 import { graphql } from "gatsby";
 
-import { SMART, ONLINE_PRIVACY, COPRA } from "../../constants/policies";
+import {
+  SMART,
+  ONLINE_PRIVACY,
+  COPRA,
+  policies
+} from "../../constants/policies";
 import PolicyPrototypeSmart from "./policy-smart";
 import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCopra from "./policy-copra";
@@ -24,9 +29,15 @@ const PolicyPrototype = props => {
       <Button color="primary" className="my-2 py-2 rounded-0" onClick={toggle}>
         View
       </Button>
-      <Modal isOpen={modal} toggle={toggle} size="lg">
+      <Modal className="privacy-modal" isOpen={modal} toggle={toggle} size="lg">
         <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
-        <ModalBody>{prototypes[selectedPolicy]}</ModalBody>
+        <ModalBody>
+          {prototypes[selectedPolicy]}
+          <p>
+            Our team created a speculative mockup to show how a social media
+            platform might look if {policies[selectedPolicy].short} were passed.
+          </p>
+        </ModalBody>
       </Modal>
     </CalloutCard>
   );

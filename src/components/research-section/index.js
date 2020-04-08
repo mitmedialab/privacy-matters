@@ -15,12 +15,12 @@ const ResearchSection = props => {
           <Card className="p-5">
             <div className="p-2">
               <h2>
-                <span className="half-highlight">Our research</span>
+                <span className="half-highlight">Our Research</span>
               </h2>
               <p className="subheading-2">
                 We interviewed 41 people, from privacy experts to everyday
-                people, to understand the potential impact of data privacy
-                policies.
+                people, to understand their views on privacy and the ways that
+                different policies could impact their work.
               </p>
               <Link
                 className="btn btn-secondary mt-3 py-2 px-4"

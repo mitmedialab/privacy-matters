@@ -14,7 +14,7 @@ const ContactUs = props => {
           <Card className="p-5">
             <h2>
               <span className="half-highlight">
-                Lets talk privacy (and more)
+                Let’s Talk Privacy (and More)
               </span>
             </h2>
             <p className="pt-2 pb-3 subheading-2">

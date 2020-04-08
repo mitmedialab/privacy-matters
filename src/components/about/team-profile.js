@@ -29,7 +29,7 @@ const TeamProfile = props => {
           <i>{affiliation}</i>
         </CardText>
         <Modal
-          className="profile-modal"
+          className="profile-modal privacy-modal"
           isOpen={modal}
           toggle={toggle}
           centered={true}

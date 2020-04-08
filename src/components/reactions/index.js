@@ -15,7 +15,7 @@ const Reactions = props => {
             <PolicyQuotes selectedPolicy={policy} />
           </div>
           <h2 className="pt-3">
-            <span className="half-highlight">Key Insights</span>
+            <span className="half-highlight">Insights from our interviews</span>
           </h2>
           <Insights policy={policy} />
         </Col>
@@ -28,14 +28,14 @@ const Reactions = props => {
       <Row className="py-5">
         <Col md={6}>
           <Commentary
-            heading="Positive reactions to the bill"
+            heading="Positive responses to the bill"
             policy={policy}
             responseType="pro"
           />
         </Col>
         <Col md={6}>
           <Commentary
-            heading="Negative reactions to the bill"
+            heading="Concerns over the bill"
             policy={policy}
             responseType="con"
           />

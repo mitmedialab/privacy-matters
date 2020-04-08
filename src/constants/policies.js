@@ -4,7 +4,7 @@ export const COPRA = "copra";
 
 export const policies = {
   [SMART]: {
-    short: "SMART Act",
+    short: "SMART",
     long: "Social Media Addiction Reduction Technology Act",
     summary:
       "Bans dark patterns + addictive features and raises user awareness on social media."

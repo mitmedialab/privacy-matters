@@ -6,7 +6,9 @@ const AboutContent = props => {
     <>
       <div className="policy-about pt-3 pb-5">
         <h2 className="pb-3">
-          <span className="half-highlight">Highlights</span>
+          <span className="half-highlight">
+            What are some things this bill would do?
+          </span>
         </h2>
         <div
           className="bill-highlights"
