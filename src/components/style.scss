@@ -54,6 +54,11 @@ html {
     font-family: $body-font;
   }
 
+  .definition-highlights {
+    @include highlights($highlight-color);
+  }
+
+
   h1 {
     font-family: $title-font;
     font-weight: $bold;

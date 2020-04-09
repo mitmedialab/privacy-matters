@@ -1,8 +1,8 @@
 ---
-quotee: "Name, Designer"
+quotee: "#6"
 policy: "copra"
 responseType: "highlight"
 industry: "the public"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+“I like that instead of creating limitations, it's creating user rights...I feel like if you were to limit infinite scroll that it would create some new sort of populating device. So I think it makes more sense to create rights on the side of the user engagement.”
