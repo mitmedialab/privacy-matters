@@ -1,8 +1,8 @@
 ---
-quotee: "Name, Researcher"
+quotee: "#21"
 policy: "opa"
 responseType: "highlight"
 industry: "a biomedical researcher"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+“I've heard that for some of these bills the enforcement side is hard, or they're not getting the funding to do the enforcement side. So actually having a separate office that we do some of this is interesting to have in building our security.”

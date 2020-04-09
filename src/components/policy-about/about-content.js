@@ -11,7 +11,7 @@ const AboutContent = props => {
           </span>
         </h2>
         <div
-          className="bill-highlights"
+          className="definition-highlights"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>

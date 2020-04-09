@@ -27,6 +27,7 @@ const Insights = props => {
         .map(edge => (
           <div
             key="policy"
+            className="definition-highlights"
             dangerouslySetInnerHTML={{ __html: edge.node.html }}
           />
         ))}
