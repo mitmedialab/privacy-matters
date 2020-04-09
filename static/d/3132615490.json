@@ -268,38 +268,38 @@
         },
         {
           "node": {
-            "id": "99c29eac-d1ed-5636-9336-8398e6705b3a",
-            "frontmatter": {
-              "quotee": "Name, Designer",
-              "policy": "copra",
-              "responseType": "highlight",
-              "industry": "the public"
-            },
-            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-          }
-        },
-        {
-          "node": {
             "id": "c1300853-83f0-5ac8-ad4c-a659385bb318",
             "frontmatter": {
-              "quotee": "Name, Lawyer",
+              "quotee": "#34",
               "policy": "smart",
               "responseType": "highlight",
               "industry": "a technology expert"
             },
-            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+            "html": "<p>“It seems odd to ban very specific interaction behavior. Because I think this is hard to define and like there's just so many corner cases. Specifically banning what currently is perceived to be the addictive aspects of social media seems like it would not be enforceable easily.”</p>"
           }
         },
         {
           "node": {
             "id": "5c468cd4-4576-5182-bd6f-6fa7a389e164",
             "frontmatter": {
-              "quotee": "Name, Researcher",
+              "quotee": "#21",
               "policy": "opa",
               "responseType": "highlight",
               "industry": "a biomedical researcher"
             },
-            "html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+            "html": "<p>“I've heard that for some of these bills the enforcement side is hard, or they're not getting the funding to do the enforcement side. So actually having a separate office that we do some of this is interesting to have in building our security.”</p>"
+          }
+        },
+        {
+          "node": {
+            "id": "99c29eac-d1ed-5636-9336-8398e6705b3a",
+            "frontmatter": {
+              "quotee": "#6",
+              "policy": "copra",
+              "responseType": "highlight",
+              "industry": "the public"
+            },
+            "html": "<p>“I like that instead of creating limitations, it's creating user rights...I feel like if you were to limit infinite scroll that it would create some new sort of populating device. So I think it makes more sense to create rights on the side of the user engagement.”</p>"
           }
         }
       ]
