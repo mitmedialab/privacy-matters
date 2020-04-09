@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button, Modal, ModalHeader, ModalBody } from "reactstrap";
-import { graphql } from "gatsby";
 
 import {
   SMART,
@@ -42,15 +41,5 @@ const PolicyPrototype = props => {
     </CalloutCard>
   );
 };
-
-export const prototypeImage = graphql`
-  fragment prototypeImage on File {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
 
 export default PolicyPrototype;

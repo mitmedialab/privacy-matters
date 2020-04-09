@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import FluidImage from "../fluid-image";
 
 const JumbotronImage = () => {
   const data = useStaticQuery(graphql`
@@ -8,18 +8,14 @@ const JumbotronImage = () => {
       placeholderImage: file(
         relativePath: { eq: "landing-page-background.png" }
       ) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...fluidImage
       }
     }
   `);
 
   return (
     <div className="jumbotron-image">
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      <FluidImage data={data} />
     </div>
   );
 };
