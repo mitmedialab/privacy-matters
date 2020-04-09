@@ -8,31 +8,28 @@ href='https://www.hawley.senate.gov/'>Senator Josh Hawley (R-Mo.)</a>"
 ---
 
 <dl>
-  <dt>Bans infinite scroll, autoplay, and other addictive features on social media</dt>
+  <dt>Ban infinite scroll, autoplay, and other addictive features on social media.</dt>
   <dd>
-    Requires social media platforms to include natural stopping points, since infinite scroll, autoplay, and “achievements” such as “Snapstreak” exploit the science of addiction to make it difficult to leave a social media platform.
+    Social media platforms would be required to include natural stopping points, since infinite scroll, autoplay, and “achievements” such as “Snapstreak” exploit the science of addiction to make it difficult to leave a social media platform.
   </dd>
 </dl>
 
 <dl>
-  <dt>Gives users power to monitor and control their use time on social media</dt>
+  <dt>Give users power to monitor and control their use time on social media.</dt>
   <dd>
-    Requires social media companies to provide an in-app tool that enables users to track the time they spend on social media across all devices and allows users to impose caps on the amount of time they spend.
+  Social media companies would be required to provide an in-app tool that enables users to track the time they spend on social media across all devices and allows users to impose caps on the amount of time they spend.
   </dd>
 </dl>
 
 <dl>
-  <dt>Requires choice parity for consent</dt>
+  <dt>Require choice parity for consent.</dt>
   <dd>
-    Bans companies from manipulating people into consent by making it difficult to decline consent.
-  </dd>
-  <dd>
-    Requires companies to design “accept” and “decline” boxes using the same formats, fonts, and sizes.
+    Companies would be banned from manipulating people into consent by making it difficult to decline consent. They would also need to design “accept” and “decline” boxes using the same formats, fonts, and sizes.
   </dd>
 </dl>
 
 <dl>
-  <dt>Gives the FTC and HHS authority to ban other similar practices</dt>
+  <dt>Give the FTC and HHS authority to ban other similar practices.</dt>
   <dd>
     Rules would expire after 3 years unless ratified by Congress.
   </dd>

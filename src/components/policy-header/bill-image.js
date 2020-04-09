@@ -7,13 +7,13 @@ const BillImage = props => {
   const data = useStaticQuery(graphql`
     query {
       copra: file(relativePath: { eq: "bill-copra.png" }) {
-        ...billImage
+        ...fluidImage
       }
       smart: file(relativePath: { eq: "bill-smart.png" }) {
-        ...billImage
+        ...fluidImage
       }
       opa: file(relativePath: { eq: "bill-opa.png" }) {
-        ...billImage
+        ...fluidImage
       }
     }
   `);
@@ -21,13 +21,4 @@ const BillImage = props => {
   return <Img fluid={data[policy].childImageSharp.fluid} alt="" />;
 };
 
-export const billImage = graphql`
-  fragment billImage on File {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
 export default BillImage;

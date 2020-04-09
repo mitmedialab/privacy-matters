@@ -11,48 +11,24 @@ href='https://www.markey.senate.gov/'>Ed Markey (D-MA)</a>"
 ---
 
 <dl>
-  <dt>Codifies privacy as a right and creates foundational privacy rights to empower citizens, including:</dt>
+  <dt>Codify privacy as a right and create foundational privacy rights to empower citizens, including:</dt>
   <dd>
-    The right to be free from deceptive and harmful data practices that could lead to financial, physical, and reputational injury
-  </dd>
-  <dd>
-    The right to access detailed and clear information on how data is used and shared
-  </dd>
-  <dd>
-    The right to control the movement of data and prevent data from being distributed to unknown third parties
-  </dd>
-  <dd>
-    The right to delete or correct data
-  </dd>
-  <dd>
-    The right to take their data to a competing product or service
+    The right to be free from deceptive and harmful data practices that could lead to financial, physical, and reputational injury; the right to access detailed and clear information on how data is used and shared; the right to control the movement of data and prevent data from being distributed to unknown third parties; the right to delete or correct data; and the right to take their data to a competing product or service.
   </dd>
 </dl>
 
 <dl>
-  <dt>Improves data security, protects sensitive personal data, and supports civil rights in the digital economy
-  </dt>
+  <dt>Improve data security, protect sensitive personal data, and support civil rights in the digital economy.</dt>
   <dd>
-    Creates data minimization standards and new data quality control mechanisms.
-  </dd>
-  <dd>
-    Creates heightened privacy standards for collecting and sharing sensitive data such as biometric data and geolocation data.
+    This bill would create data minimization standards and new data quality control mechanisms. It would also create heightened privacy standards for collecting and sharing sensitive data, such as biometric data and geolocation data.
   </dd>
 </dl>
 
 <dl>
-  <dt>Places enforcement & accountability mechanisms</dt>
+  <dt>Place enforcement & accountability mechanisms.</dt>
   <dd>
-    Creates new enforcement powers for the FTC to take action against unlawful discrimination.
-  </dd>
-  <dd>
-    Empowers consumers with a strong private right of action.
-  </dd>
-  <dd>
-    Creates accountability requirements so that senior executives take responsibility for decisions that impact privacy and risk penalties when they fall short.
-  </dd>
-  <dd>
-    Gives states the authority to fully enforce COPRA.
+  This bill would create new enforcement powers for the FTC to take action against unlawful discrimination. It would also empower consumers with a strong
+  <a rel="noopener noreferrer" target="_blank" href="https://uslawessentials.com/20141116what-is-an-implied-private-right-of-action/">private right of action</a>. Accountability requirements would be created so that senior executives take responsibility for decisions that impact privacy and risk penalties when they fall short. States would be given the authority to fully enforce COPRA.
   </dd>
 </dl>
 

@@ -2,19 +2,16 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import FluidImage from "../fluid-image";
 
-const AnnaImg = () => {
+const TeamActionImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "team-anna.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "team-in-action.png" }) {
         ...fluidImage
       }
     }
   `);
-  return (
-    <div className="jumbotron-image">
-      <FluidImage data={data} />
-    </div>
-  );
+
+  return <FluidImage data={data} />;
 };
 
-export default AnnaImg;
+export default TeamActionImage;

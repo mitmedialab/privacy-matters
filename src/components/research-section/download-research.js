@@ -18,20 +18,20 @@ const DownloadResearch = props => {
               </h2>
               <p className="pt-2 pb-3 subheading-2">
                 We interviewed 41 people, from privacy experts to everyday
-                people, to understand the potential impact of data privacy
-                policies.
+                people, to understand their views on privacy and the ways that
+                different policies could impact their work.
               </p>
               <a
                 className="btn btn-secondary mt-3 py-2 px-4"
                 href="/SIGCHI-CHI20-Sample-EA.pdf"
               >
-                Download 1 page summary
+                Download full report
               </a>
               <a
                 className="btn btn-secondary mt-3 py-2 px-4"
                 href="/SIGCHI-CHI20-Sample-EA.pdf"
               >
-                Download full report
+                Download 1-pager
               </a>
             </div>
           </Card>

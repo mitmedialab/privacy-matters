@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import FluidImage from "../fluid-image";
 
 const EyesIcon = () => {
   const data = useStaticQuery(graphql`
@@ -17,7 +17,7 @@ const EyesIcon = () => {
 
   return (
     <div className="eyes-icon">
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      <FluidImage data={data} />
     </div>
   );
 };

@@ -86,7 +86,7 @@ const About = props => {
               image={<DennisImg />}
               name="Dennis Jen"
               role="Lead Developer"
-              affiliation="MIT Center for Civic Media"
+              affiliation="MIT Media Lab / Center for Civic Media"
               website="http://www.dennisjen.com"
             >
               Dennis is a software developer at MIT's Center for Civic Media. He
@@ -120,6 +120,7 @@ const About = props => {
               >
                 www.iotsecurityprivacy.org
               </a>
+              .
             </TeamProfile>
           </CardDeck>
         </Col>

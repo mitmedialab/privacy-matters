@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import FluidImage from "../fluid-image";
 
 import "./style.scss";
 
@@ -10,18 +10,14 @@ const ResearchImage = () => {
       placeholderImage: file(
         relativePath: { eq: "research-landing-section.png" }
       ) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
+        ...fluidImage
       }
     }
   `);
 
   return (
     <div className="card-section-image">
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      <FluidImage data={data} />
     </div>
   );
 };

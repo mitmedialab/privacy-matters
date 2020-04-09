@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import FluidImage from "../fluid-image";
 
 import "./style.scss";
 
@@ -26,7 +26,7 @@ const CivicImage = () => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+        <FluidImage data={data} />
       </a>
     </div>
   );
