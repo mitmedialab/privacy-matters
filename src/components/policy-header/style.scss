@@ -12,11 +12,13 @@
     border: 0;
   }
   .nav-item {
+    @include link($inverse-link-color);
     margin-right: 10px;
     a {
       background-color: $secondary-color;
       border: 0;
       border-radius: 0;
+      text-decoration: none;
     }
 
     a.active {
@@ -24,14 +26,5 @@
       border: 0;
       color: $inverse-text-color;
     }
-
-    a {
-      color: $inverse-text-color;
-
-      &:hover {
-        opacity: 50%;
-      }
-    }
-
   }
 }

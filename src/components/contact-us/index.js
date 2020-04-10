@@ -1,12 +1,24 @@
 import React from "react";
 import { Row, Col, Card } from "reactstrap";
-import { Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 import CardSection from "../card-section";
 
 import "./style.scss";
 
 const ContactUs = props => {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            email
+          }
+        }
+      }
+    `
+  );
+  const { email } = site.siteMetadata;
   return (
     <CardSection>
       <Row className="my-5 contact-us">
@@ -22,11 +34,13 @@ const ContactUs = props => {
               Interested in collaborating with us? <br />
               We want to hear from you!
             </p>
-            <Link className="btn btn-secondary py-2">
-              <a href={`mailto:letstalkprivacy@media.mit.edu`} target="_top">
-                Shoot us an email
+            <p>
+              Send us an email at{" "}
+              <a href={`mailto:${email}`} target="_top">
+                {" "}
+                {email}
               </a>
-            </Link>
+            </p>
           </Card>
         </Col>
       </Row>
