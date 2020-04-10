@@ -4,6 +4,13 @@
       "edges": [
         {
           "node": {
+            "id": "1299c6de-a992-5753-bf1c-9f6a0a5e92cb",
+            "frontmatter": { "policy": "copra" },
+            "html": "<dl>\n  <dt>Privacy is a fundamental human right.</dt>\n  <dd>\n    Some interviewees argued that companies should be required to embed privacy into their platforms and that privacy should not cost a premium.\n  </dd>\n</dl>\n<dl>\n  <dt>It’s unclear what users should expect from platforms in terms of their responsibility to uphold user privacy.</dt>\n  <dd>\n    One interviewee questioned how privacy rights, which are quite broadly defined, would translate into tangible changes for users of online platforms.\n  </dd>\n</dl>\n<dl>\n  <dt>It’s unclear how “duty of loyalty” would be acted upon.</dt>\n  <dd>\n    Several interviewees wondered about the definition of this term, if a concept like this is actionable and how different companies would interpret their responsibilities to users.\n  </dd>\n</dl>"
+          }
+        },
+        {
+          "node": {
             "id": "e562740c-f571-51f7-9c53-a84648853a41",
             "frontmatter": { "policy": "opa" },
             "html": "<dl>\n  <dt>New user rights, such as data impermanence, could be challenging to enforce.</dt>\n  <dd>\n    Several interviewees were excited about the creation of these rights but questioned how they could be taken advantage of for negative purposes. How would the bill be positively enforced?\n  </dd>\n</dl>\n<dl>\n  <dt>Certain user rights could unintentionally (or intentionally) exclude marginalized populations.</dt>\n  <dd>\n    Some of the bills mention they apply only to “Americans.” One interviewee pointed out how this could leave out several vulnerable populations, such as those who don’t hold American citizenship but are active on American online platforms.\n  </dd>\n</dl>\n<dl>\n  <dt>People have mixed feedback on whether to support the creation of a Data, or Digital, Privacy Agency.</dt>\n  <dd>\n    While some interviewees supported the creation of a new agency, others argued for expanding the powers of existing institutions, like the FTC. Some questioned whether we need a new agency to enforce new user rights.\n  </dd>\n</dl>"
@@ -14,13 +21,6 @@
             "id": "3ade7113-cb21-5a38-8fcf-5b320ff31f0f",
             "frontmatter": { "policy": "smart" },
             "html": "<dl>\n  <dt>Banning specific features could be hard to enforce.</dt>\n  <dd>\n    Industry practitioners and researchers were skeptical of banning specific features, since this could be difficult to enforce and lead companies to develop workarounds.\n  </dd>\n</dl>\n<dl>\n  <dt>People expressed that more transparency could hinder usability.</dt>\n  <dd>\n    Notifying people of time limits and providing regular disclosures promotes transparency. However, industry practitioners pointed out that this could also reduce the quality of a user’s experience on a platform by burdening them with too much information.\n  </dd>\n</dl>\n<dl>\n  <dt>People might not be comfortable with usage limits.</dt>\n  <dd>\n    Some interviewees expressed that people generally have a bad reaction to technology that tries to change their behavior. One person expressed that usage limits invoke a “protestant work ethic” – based on a desire to have people to work instead of use social media.\n  </dd>\n</dl>"
-          }
-        },
-        {
-          "node": {
-            "id": "1299c6de-a992-5753-bf1c-9f6a0a5e92cb",
-            "frontmatter": { "policy": "copra" },
-            "html": "<dl>\n  <dt>Privacy is a fundamental human right.</dt>\n  <dd>\n    Some interviewees argued that companies should be required to embed privacy into their platforms and that privacy should not cost a premium.\n  </dd>\n</dl>\n<dl>\n  <dt>It’s unclear what users should expect from platforms in terms of their responsibility to uphold user privacy.</dt>\n  <dd>\n    One interviewee questioned how privacy rights, which are quite broadly defined, would translate into tangible changes for users of online platforms.\n  </dd>\n</dl>\n<dl>\n  <dt>It’s unclear how “duty of loyalty” would be acted upon.</dt>\n  <dd>\n    Several interviewees wondered about the definition of this term, if a concept like this is actionable and how different companies would interpret their responsibilities to users.\n  </dd>\n</dl>"
           }
         }
       ]
