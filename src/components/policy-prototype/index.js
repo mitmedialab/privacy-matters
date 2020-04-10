@@ -21,15 +21,16 @@ const PolicyPrototype = props => {
   };
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
+  const title = "If this bill passed, what is one way a social media interface could look?";
   return (
-    <CalloutCard title="How this bill might look" onClick={toggle}>
+    <CalloutCard title={title} onClick={toggle}>
       {prototypes[selectedPolicy]}
 
       <Button color="primary" className="my-2 py-2 rounded-0" onClick={toggle}>
         View
       </Button>
       <Modal className="privacy-modal" isOpen={modal} toggle={toggle} size="lg">
-        <ModalHeader toggle={toggle}>How this bill might look</ModalHeader>
+        <ModalHeader toggle={toggle}>{title}</ModalHeader>
         <ModalBody>
           {prototypes[selectedPolicy]}
           <p>
