@@ -1,11 +1,6 @@
 @import "../../styles/_colors.scss";
+@import "../../styles/_mixins.scss";
 
 .contact-us {
-  a {
-    color: $white;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
+  @include link($link-color);
 }
