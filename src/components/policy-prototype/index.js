@@ -21,7 +21,8 @@ const PolicyPrototype = props => {
   };
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
-  const title = "If this bill passed, what is one way a social media interface could look?";
+  const title =
+    "If this bill passed, what is one way a social media interface could look?";
   return (
     <CalloutCard title={title} onClick={toggle}>
       {prototypes[selectedPolicy]}
@@ -35,7 +36,8 @@ const PolicyPrototype = props => {
           {prototypes[selectedPolicy]}
           <p>
             Our team created a speculative mockup to show how a social media
-            platform might look if {policies[selectedPolicy].short} were passed.
+            platform might look if {policies[selectedPolicy].sentenceShort} were
+            passed.
           </p>
         </ModalBody>
       </Modal>

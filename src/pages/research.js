@@ -98,10 +98,9 @@ const ResearchPage = () => {
                       <span className="half-highlight">Our process</span>
                     </h2>
                     <p className="pt-2 pb-3 subheading-2">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      We summarized, created visual prototypes, and collected
+                      feedback for three draft bills on online privacy and data
+                      governance.
                     </p>
                   </div>
                 </Card>
@@ -172,10 +171,9 @@ const ResearchPage = () => {
                       <span className="half-highlight">Our takeaways</span>
                     </h2>
                     <p className="pt-2 pb-3 subheading-2">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      We gained a lot of insights from our conversations with
+                      privacy experts and non-experts alike. These are just a
+                      few of the many things we learned!
                     </p>
                   </Card>
                 </div>
