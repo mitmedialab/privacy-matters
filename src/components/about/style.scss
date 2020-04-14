@@ -21,6 +21,12 @@ $bold: 700;
     }
   }
 
+  .advisor-profile {
+    .card-body {
+      background-color: $background-color;
+    }
+  }
+
   .card-footer {
     background-color: $highlight-color;
     border-radius: 0;

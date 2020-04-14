@@ -101,7 +101,7 @@ const About = props => {
             <TeamProfile
               image={<PardisImg />}
               name="Pardis Emami Naeni"
-              role="PhD candidate"
+              role="Research Contributor"
               affiliation="Carnegie Mellon University"
               website="https://www.cs.cmu.edu/~pemamina"
             >
@@ -131,7 +131,7 @@ const About = props => {
             <TeamProfile
               image={<JasmineImg />}
               name="Jasmine McNealy"
-              role="Associate Professor"
+              role="Research Lead"
               affiliation="University of Florida"
               website="http://jasminemcnealy.com"
             >
@@ -146,7 +146,7 @@ const About = props => {
             <TeamProfile
               image={<StephImg />}
               name="Stephanie Nguyen"
-              role="Research Scientist"
+              role="Project Lead"
               affiliation="MIT Media Lab / Center for Civic Media"
               website="https://www.stephanienguyen.co/"
             >
@@ -168,27 +168,26 @@ const About = props => {
       <Row>
         <Col xs={12}>
           <h2 className="text-center">
-            <span className="half-highlight">Advisors</span>
+            <span className="half-highlight">Advisory</span>
           </h2>
         </Col>
       </Row>
-      <Row className="mb-5">
+      <Row className="mb-4">
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
-              image={<StephImg />}
               name="Ethan Zuckerman"
               role="Director"
-              affiliation="MIT Media Lab / Center for Civic Media"
+              affiliation="Center for Civic Media at MIT"
+              additionalRole="Associate Professor"
+              additionalAffiliation="MIT Media Lab"
             />
             <AdvisorProfile
-              image={<StephImg />}
               name="Emily Peterson Cassin"
-              role="TBD"
+              role="Digital Rights Advocate"
               affiliation="Public Citizen"
             />
             <AdvisorProfile
-              image={<StephImg />}
               name="Najarian Peters"
               role="TBD"
               affiliation="Seton Hall"
@@ -196,14 +195,13 @@ const About = props => {
           </CardDeck>
         </Col>
       </Row>
-      <Row className="mb-5">
+      <Row className="mb-5 pb-5">
         <Col sm={4} xs={12}>
           <CardDeck>
             <AdvisorProfile
-              image={<StephImg />}
-              name="Sydney Luken"
-              role="TBD"
-              affiliation="Georgetown Ethics Lab"
+              name="Alex Gaynor"
+              role="Security Engineer | Chief Information Security Officer"
+              affiliation="Alloy"
             />
           </CardDeck>
         </Col>

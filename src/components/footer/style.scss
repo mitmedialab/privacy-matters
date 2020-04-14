@@ -1,0 +1,6 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_mixins.scss";
+
+.footer {
+  @include link($link-color);
+}

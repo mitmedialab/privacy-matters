@@ -11,7 +11,8 @@ import {
   CardBody,
   CardFooter,
   CardText,
-  CardSubtitle
+  CardSubtitle,
+  Button
 } from "reactstrap";
 
 const TeamProfile = props => {
@@ -27,6 +28,9 @@ const TeamProfile = props => {
         <CardSubtitle>{role}</CardSubtitle>
         <CardText>
           <i>{affiliation}</i>
+          <div className="pt-3">
+            <Button className="mt-3 py-2 px-4">Learn More</Button>
+          </div>
         </CardText>
         <Modal
           className="profile-modal privacy-modal"

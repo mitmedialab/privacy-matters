@@ -2,17 +2,26 @@ import React from "react";
 import { Card, CardTitle, CardBody, CardText, CardSubtitle } from "reactstrap";
 
 const AdvisorProfile = props => {
-  const { image, name, role, affiliation } = props;
+  const {
+    name,
+    role,
+    affiliation,
+    additionalRole,
+    additionalAffiliation
+  } = props;
 
   return (
     <Card className="advisor-profile">
-      {image}
-      <CardBody className="text-center pb-5">
-        <CardTitle className="py-3">{name}</CardTitle>
-        <CardSubtitle>{role}</CardSubtitle>
-        <CardText>
-          <i>{affiliation}</i>
-        </CardText>
+      <CardBody className="text-center pb-1">
+        <CardTitle className="py-2">{name}</CardTitle>
+        <CardSubtitle>
+          {role} <i>{affiliation}</i>
+        </CardSubtitle>
+        {additionalRole && additionalAffiliation && (
+          <CardText>
+            {additionalRole} <i>{additionalAffiliation}</i>
+          </CardText>
+        )}
       </CardBody>
     </Card>
   );
