@@ -12,6 +12,7 @@ import AdvisorProfile from "./advisor-profile";
 import "./style.scss";
 
 const About = props => {
+  const cardSpacing = "mb-1";
   return (
     <div id="about" className="about">
       <Row>
@@ -172,25 +173,124 @@ const About = props => {
           </h2>
         </Col>
       </Row>
-      <Row className="mb-4">
+
+      <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
-              name="Ethan Zuckerman"
-              role="Director"
-              affiliation="Center for Civic Media at MIT"
-              additionalRole="Associate Professor"
-              additionalAffiliation="MIT Media Lab"
+              name="Sareeta Amrute"
+              role="???"
+              affiliation="???"
             />
+
             <AdvisorProfile
               name="Emily Peterson Cassin"
               role="Digital Rights Advocate"
               affiliation="Public Citizen"
             />
+
+            <AdvisorProfile
+              name="Peter Dolanjski"
+              role="Former Director of Privacy & Security Products"
+              affiliation="Mozilla"
+            />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Maria Filippelli"
+              role="Public Interest Technology Census Fellow"
+              affiliation="New America Foundation"
+            />
+
+            <AdvisorProfile
+              name="Alex Gaynor"
+              role="Security Engineer | Chief Information Security Officer"
+              affiliation="Alloy"
+            />
+
+            <AdvisorProfile
+              name="Chris Gilliard"
+              role="Writer & Professor"
+              affiliation=""
+            />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Devin Gladden"
+              role="Manager"
+              affiliation="Federal Affairs (Energy & Technology)"
+              additionalRole=""
+              additionalAffiliation="AAA National"
+            />
+
+            <AdvisorProfile
+              name="Mason Kortz"
+              role="Clinical Instructor"
+              affiliation="Harvard Law School Cyberlaw Clinic"
+            />
+
+            <AdvisorProfile
+              name="Nonabah Lane"
+              role="Member"
+              affiliation="Navajo Nation"
+              additionalRole="Sequoyah Fellow"
+              additionalAffiliation="American Indian Science and Engineering Society (AISES)"
+            />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Janet Linder"
+              role="Lawyer & Librarian"
+              affiliation="Boston Public Library (Newton)"
+            />
+
+            <AdvisorProfile
+              name="Soraya Okuda"
+              role="Education + Design Lead"
+              affiliation="EFF"
+            />
+
             <AdvisorProfile
               name="Najarian Peters"
-              role="TBD"
-              affiliation="Seton Hall"
+              role="Faculty Fellow and Assistant Professor"
+              affiliation="Institute for Privacy Protection, Seton Hall Law School"
+            />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Aalok Shah"
+              role="Product Manager"
+              affiliation="Johns Hopkins University"
+            />
+
+            <AdvisorProfile
+              name="John Wilbanks"
+              role="Chief Commons Officer"
+              affiliation="Sage Bionetworks"
+            />
+
+            <AdvisorProfile
+              name="Cherilyn Yazzie"
+              role="Member"
+              affiliation="Navajo Nation"
+              additionalRole="Owner"
+              additionalAffiliation="Coffee Pot Farms"
             />
           </CardDeck>
         </Col>
@@ -199,9 +299,11 @@ const About = props => {
         <Col sm={4} xs={12}>
           <CardDeck>
             <AdvisorProfile
-              name="Alex Gaynor"
-              role="Security Engineer | Chief Information Security Officer"
-              affiliation="Alloy"
+              name="Ethan Zuckerman"
+              role="Director"
+              affiliation="Center for Civic Media at MIT"
+              additionalRole="Associate Professor"
+              additionalAffiliation="MIT Media Lab"
             />
           </CardDeck>
         </Col>
