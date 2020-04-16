@@ -179,8 +179,10 @@ const About = props => {
           <CardDeck>
             <AdvisorProfile
               name="Sareeta Amrute"
-              role="???"
-              affiliation="???"
+              role="Director of Research"
+              affiliation="Data & Society"
+              additionalRole="Associate Professor"
+              additionalAffiliation="University of Washington"
             />
 
             <AdvisorProfile
@@ -257,15 +259,15 @@ const About = props => {
             />
 
             <AdvisorProfile
-              name="Soraya Okuda"
-              role="Education + Design Lead"
-              affiliation="EFF"
+              name="Sydney Luken"
+              role="Product Design and Digital Development Lead for Ethics Lab"
+              affiliation="Georgetown University"
             />
 
             <AdvisorProfile
-              name="Najarian Peters"
-              role="Faculty Fellow and Assistant Professor"
-              affiliation="Institute for Privacy Protection, Seton Hall Law School"
+              name="Soraya Okuda"
+              role="Education + Design Lead"
+              affiliation="EFF"
             />
           </CardDeck>
         </Col>
@@ -274,17 +276,26 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Najarian Peters"
+              role="Faculty Fellow and Assistant Professor"
+              affiliation="Institute for Privacy Protection, Seton Hall Law School"
+            />
+            <AdvisorProfile
               name="Aalok Shah"
               role="Product Manager"
               affiliation="Johns Hopkins University"
             />
-
             <AdvisorProfile
               name="John Wilbanks"
               role="Chief Commons Officer"
               affiliation="Sage Bionetworks"
             />
-
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className="mb-5 pb-5">
+        <Col sm={8} xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Cherilyn Yazzie"
               role="Member"
@@ -292,12 +303,6 @@ const About = props => {
               additionalRole="Owner"
               additionalAffiliation="Coffee Pot Farms"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-      <Row className="mb-5 pb-5">
-        <Col sm={4} xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Ethan Zuckerman"
               role="Director"
