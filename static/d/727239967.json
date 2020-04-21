@@ -1,1 +1,13 @@
-{"data":{"markdownRemark":{"frontmatter":{"title":"Online Privacy Act (OPA)","subtitle":"Creates user data rights and strengthens enforcement with a Digital Privacy Agency and state level attorneys","link":"https://eshoo.house.gov/sites/eshoo.house.gov/files/migrated/wp-content/uploads/2019/11/Bill-Text-Online-Privacy-Act-Eshoo-Lofgren.pdf","date":"November 5, 2019","by":"<a rel='noopener noreferrer' target='_blank' href='https://eshoo.house.gov/'>Congresswoman Anna G. Eshoo (CA-18)</a>, <a rel='noopener noreferrer' target='_blank' href='https://lofgren.house.gov/'>Congresswoman Zoe Lofgren (CA-19)</a>"}}}}
+{
+  "data": {
+    "markdownRemark": {
+      "frontmatter": {
+        "title": "Online Privacy Act (OPA)",
+        "subtitle": "Creates user data rights and strengthens enforcement with a Digital Privacy Agency and state level attorneys",
+        "link": "https://eshoo.house.gov/sites/eshoo.house.gov/files/migrated/wp-content/uploads/2019/11/Bill-Text-Online-Privacy-Act-Eshoo-Lofgren.pdf",
+        "date": "November 5, 2019",
+        "by": "<a rel='noopener noreferrer' target='_blank' href='https://eshoo.house.gov/'>Congresswoman Anna G. Eshoo (CA-18)</a>, <a rel='noopener noreferrer' target='_blank' href='https://lofgren.house.gov/'>Congresswoman Zoe Lofgren (CA-19)</a>"
+      }
+    }
+  }
+}
