@@ -18,7 +18,7 @@ const ReactionsHeader = ({ policy }) => {
         <ContentHeader
           backgroundClass="secondary-background"
           title={`How people responded to the ${policies[policy].long}`}
-          subtitle="We interviewed 41 people, from privacy experts to everyday people, to get feedback on the bill and mockup."
+          subtitle="We interviewed 41 people, from privacy experts to everyday people, to get feedback on the bill and prototype."
           image={image}
         >
           <Link to={`/research?ft=${ACCESS}`}>

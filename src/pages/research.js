@@ -133,7 +133,9 @@ const ResearchPage = () => {
                   visual prototypes to illustrate the bills’ potential impacts.
                 </p>
                 <h2>
-                  <span className="half-highlight">Designing the mockups</span>
+                  <span className="half-highlight">
+                    Designing the prototypes
+                  </span>
                 </h2>
                 <p className="">
                   After narrowing our focus to 3 bills, we brainstormed ways to
