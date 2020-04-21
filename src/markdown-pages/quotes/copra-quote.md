@@ -1,5 +1,5 @@
 ---
-quotee: "#6"
+quotee: "Valerie Michel, Systems Engineering PhD Candidate at University of Virginia"
 policy: "copra"
 responseType: "highlight"
 industry: "the public"
