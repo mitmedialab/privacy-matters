@@ -186,15 +186,15 @@ const About = props => {
             />
 
             <AdvisorProfile
-              name="Emily Peterson Cassin"
-              role="Digital Rights Advocate"
-              affiliation="Public Citizen"
+              name="Vanessa Barone"
+              role="Senior Governance Analyst"
+              affiliation="SageBionetworks"
             />
 
             <AdvisorProfile
-              name="Peter Dolanjski"
-              role="Former Director of Privacy & Security Products"
-              affiliation="Mozilla"
+              name="Emily Peterson Cassin"
+              role="Digital Rights Advocate"
+              affiliation="Public Citizen"
             />
           </CardDeck>
         </Col>
@@ -202,6 +202,11 @@ const About = props => {
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Peter Dolanjski"
+              role="Former Director of Privacy & Security Products"
+              affiliation="Mozilla"
+            />
             <AdvisorProfile
               name="Maria Filippelli"
               role="Public Interest Technology Census Fellow"
@@ -213,18 +218,17 @@ const About = props => {
               role="Security Engineer | Chief Information Security Officer"
               affiliation="Alloy"
             />
-
-            <AdvisorProfile
-              name="Chris Gilliard"
-              role="Writer & Professor"
-              affiliation=""
-            />
           </CardDeck>
         </Col>
       </Row>
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Chris Gilliard"
+              role="Writer & Professor"
+              affiliation=""
+            />
             <AdvisorProfile
               name="Devin Gladden"
               role="Manager"
@@ -238,7 +242,12 @@ const About = props => {
               role="Clinical Instructor"
               affiliation="Harvard Law School Cyberlaw Clinic"
             />
-
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Nonabah Lane"
               role="Member"
@@ -246,12 +255,6 @@ const About = props => {
               additionalRole="Sequoyah Fellow"
               additionalAffiliation="American Indian Science and Engineering Society (AISES)"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-      <Row className={cardSpacing}>
-        <Col xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Janet Linder"
               role="Lawyer & Librarian"
@@ -263,12 +266,6 @@ const About = props => {
               role="Product Design and Digital Development Lead for Ethics Lab"
               affiliation="Georgetown University"
             />
-
-            <AdvisorProfile
-              name="Soraya Okuda"
-              role="Education + Design Lead"
-              affiliation="EFF"
-            />
           </CardDeck>
         </Col>
       </Row>
@@ -276,10 +273,34 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Woody MacDuffie"
+              role="Senior User Experience Designer"
+              affiliation="Thinkering"
+            />
+
+            <AdvisorProfile
+              name="Soraya Okuda"
+              role="Education + Design Lead"
+              affiliation="EFF"
+            />
+            <AdvisorProfile
               name="Najarian Peters"
               role="Faculty Fellow and Assistant Professor"
               affiliation="Institute for Privacy Protection, Seton Hall Law School"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Charyti Reiter"
+              role="Director of Programs"
+              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
+            />
+
             <AdvisorProfile
               name="Aalok Shah"
               role="Product Manager"
