@@ -1,7 +1,5 @@
 import { getQueryParam } from "./url";
 
-export const ACCESS = "PRIVACY_MATTERS_2020";
-
 /**
  * QueryParams are the location.search part of the url (e.g. ft=experiment,toggle).
  *

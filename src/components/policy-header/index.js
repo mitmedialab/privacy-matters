@@ -13,8 +13,6 @@ import {
   policies
 } from "../../constants/policies";
 
-import { ACCESS } from "../../utils/featureFlags";
-
 import "./style.scss";
 
 const PolicyHeader = ({ policy }) => {
@@ -32,7 +30,7 @@ const PolicyHeader = ({ policy }) => {
             <NavItem key={current}>
               <Link
                 className={`nav-link ${policy === current ? "active" : ""}`}
-                to={`/bill-${current}/?ft=${ACCESS}`}
+                to={`/bill-${current}`}
               >
                 {policies[current].short}
               </Link>

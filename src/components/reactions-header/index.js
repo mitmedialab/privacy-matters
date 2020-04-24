@@ -6,8 +6,6 @@ import ContentHeader from "../content-header";
 import ReactionsImage from "./reactions-image";
 import { policies } from "../../constants/policies";
 
-import { ACCESS } from "../../utils/featureFlags";
-
 import "./style.scss";
 
 const ReactionsHeader = ({ policy }) => {
@@ -21,9 +19,7 @@ const ReactionsHeader = ({ policy }) => {
           subtitle="We interviewed 41 people, from privacy experts to everyday people, to get feedback on the bill and prototype."
           image={image}
         >
-          <Link to={`/research?ft=${ACCESS}`}>
-            Read more about our interviews
-          </Link>
+          <Link to={`/research`}>Read more about our interviews</Link>
         </ContentHeader>
       </Container>
     </div>

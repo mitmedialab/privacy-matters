@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 import { Link } from "gatsby";
 
-import { ACCESS } from "../../utils/featureFlags";
 import "./style.scss";
 
 const AboutSection = props => {
@@ -30,10 +29,7 @@ const AboutSection = props => {
             created by researchers and practitioners from MIT, University of
             Florida, and Carnegie Mellon University.
           </p>
-          <Link
-            to={`/about?ft=${ACCESS}`}
-            className="btn btn-secondary mt-3 py-2 px-4"
-          >
+          <Link to={`/about`} className="btn btn-secondary mt-3 py-2 px-4">
             Learn More
           </Link>
         </div>

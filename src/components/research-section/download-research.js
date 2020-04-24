@@ -7,6 +7,24 @@ import ResearchImage from "./research-image";
 import "./style.scss";
 
 const DownloadResearch = props => {
+  // TODO: add these links back in when the reports are out
+  const links = (
+    <>
+      <a
+        className="btn btn-secondary mt-3 py-2 px-4"
+        href="/SIGCHI-CHI20-Sample-EA.pdf"
+      >
+        Download full report
+      </a>
+      <a
+        className="btn btn-secondary mt-3 py-2 px-4"
+        href="/SIGCHI-CHI20-Sample-EA.pdf"
+      >
+        Download 1-pager
+      </a>
+    </>
+  );
+
   return (
     <CardSection buffer>
       <Row>
@@ -21,18 +39,6 @@ const DownloadResearch = props => {
                 people, to understand their views on privacy and the ways that
                 different policies could impact their work.
               </p>
-              <a
-                className="btn btn-secondary mt-3 py-2 px-4"
-                href="/SIGCHI-CHI20-Sample-EA.pdf"
-              >
-                Download full report
-              </a>
-              <a
-                className="btn btn-secondary mt-3 py-2 px-4"
-                href="/SIGCHI-CHI20-Sample-EA.pdf"
-              >
-                Download 1-pager
-              </a>
             </div>
           </Card>
         </Col>
