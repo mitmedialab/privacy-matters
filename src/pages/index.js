@@ -10,30 +10,24 @@ import ResearchSection from "../components/research-section";
 import NavBar from "../components/navbar";
 import ContactUs from "../components/contact-us";
 
-import isEnabled, { ACCESS } from "../utils/featureFlags";
-
 const IndexPage = () => {
-  if (isEnabled(ACCESS)) {
-    return (
-      <>
-        <SEO />
-        <div className="privacy-page">
-          <NavBar />
-          <Jumbotron />
-          <div className="py-5">
-            <ResearchSection />
-          </div>
-          <Layout>
-            <AboutSection />
-          </Layout>
-          <ContactUs />
-          <Layout footer />
+  return (
+    <>
+      <SEO />
+      <div className="privacy-page">
+        <NavBar />
+        <Jumbotron />
+        <div className="py-5">
+          <ResearchSection />
         </div>
-      </>
-    );
-  } else {
-    return <>TBD</>;
-  }
+        <Layout>
+          <AboutSection />
+        </Layout>
+        <ContactUs />
+        <Layout footer />
+      </div>
+    </>
+  );
 };
 
 export default IndexPage;

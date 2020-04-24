@@ -14,7 +14,6 @@ import {
 
 import EyesIcon from "./eyes-icon";
 
-import { ACCESS } from "../../utils/featureFlags";
 import { policies } from "../../constants/policies";
 
 import "./style.scss";
@@ -30,7 +29,7 @@ const NavBar = props => {
       <Navbar light expand="md" className="sticky-top">
         <div className="navbar-brand">
           {showHome && (
-            <Link to={`/?ft=${ACCESS}`}>
+            <Link to={`/`}>
               <EyesIcon />
               <span className="ml-2 site-name half-highlight">
                 Let’s Talk Privacy
@@ -48,10 +47,7 @@ const NavBar = props => {
                   key={`policy-select-nav-item-${key}`}
                   className="ml-auto"
                 >
-                  <Link
-                    className="nav-link subheading-2"
-                    to={`/bill-${key}/?ft=${ACCESS}`}
-                  >
+                  <Link className="nav-link subheading-2" to={`/bill-${key}`}>
                     {policies[key].short}
                   </Link>
                 </NavItem>
@@ -65,10 +61,7 @@ const NavBar = props => {
                 <DropdownMenu right>
                   {Object.keys(policies).map(key => (
                     <DropdownItem key={`policy-select-button-${key}`}>
-                      <Link
-                        className="nav-link px-3"
-                        to={`/bill-${key}/?ft=${ACCESS}`}
-                      >
+                      <Link className="nav-link px-3" to={`/bill-${key}`}>
                         {policies[key].short}
                       </Link>
                     </DropdownItem>
@@ -78,26 +71,17 @@ const NavBar = props => {
             </div>
             <DropdownItem divider />
             <NavItem className="ml-auto">
-              <Link
-                className="nav-link subheading-2 px-md-5"
-                to={`/research?ft=${ACCESS}`}
-              >
+              <Link className="nav-link subheading-2 px-md-5" to={`/research`}>
                 Research
               </Link>
             </NavItem>
             <NavItem className="ml-auto">
-              <Link
-                className="nav-link pr-md-5 subheading-2"
-                to={`/about?ft=${ACCESS}`}
-              >
+              <Link className="nav-link pr-md-5 subheading-2" to={`/about`}>
                 About
               </Link>
             </NavItem>
             <NavItem className="ml-auto">
-              <Link
-                className="nav-link subheading-2"
-                to={`/privacy?ft=${ACCESS}`}
-              >
+              <Link className="nav-link subheading-2" to={`/privacy`}>
                 Privacy Policy
               </Link>
             </NavItem>

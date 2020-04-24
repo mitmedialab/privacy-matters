@@ -5,8 +5,6 @@ import { Link } from "gatsby";
 import CardSection from "../card-section";
 import ResearchImage from "./research-image";
 
-import { ACCESS } from "../../utils/featureFlags";
-
 const ResearchSection = props => {
   return (
     <CardSection>
@@ -24,7 +22,7 @@ const ResearchSection = props => {
               </p>
               <Link
                 className="btn btn-secondary mt-3 py-2 px-4"
-                to={`/research?ft=${ACCESS}`}
+                to={`/research`}
               >
                 Read our report
               </Link>

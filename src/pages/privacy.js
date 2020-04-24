@@ -7,29 +7,19 @@ import Privacy from "../components/privacy";
 import NavBar from "../components/navbar";
 import SEO from "../components/seo";
 
-import isEnabled, { ACCESS } from "../utils/featureFlags";
-
 const PrivacyPage = () => {
-  if (isEnabled(ACCESS)) {
-    return (
-      <>
-        <SEO />
-        <div className="privacy-page">
-          <NavBar showHome />
-          <Layout>
-            <Privacy />
-          </Layout>
-          <Layout footer />
-        </div>
-      </>
-    );
-  } else {
-    return (
-      <>
-        <h1>TBD</h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <SEO />
+      <div className="privacy-page">
+        <NavBar showHome />
+        <Layout>
+          <Privacy />
+        </Layout>
+        <Layout footer />
+      </div>
+    </>
+  );
 };
 
 export default PrivacyPage;
