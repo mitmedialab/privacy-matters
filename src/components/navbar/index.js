@@ -12,8 +12,6 @@ import {
   NavItem
 } from "reactstrap";
 
-import EyesIcon from "./eyes-icon";
-
 import { policies } from "../../constants/policies";
 
 import "./style.scss";
@@ -30,7 +28,6 @@ const NavBar = props => {
         <div className="navbar-brand">
           {showHome && (
             <Link to={`/`}>
-              <EyesIcon />
               <span className="ml-2 site-name half-highlight">
                 Let’s Talk Privacy
               </span>

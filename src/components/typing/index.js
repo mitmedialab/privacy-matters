@@ -14,7 +14,7 @@ const Typing = props => {
       {midWords.map(word => {
         const component = (
           <span className="typing" key={word}>
-            {word}
+            {word.toLowerCase()}
             <Typist.Backspace count={word.length} delay={delay} />
           </span>
         );

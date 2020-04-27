@@ -1,0 +1,9 @@
+@import "../../styles/_mixins.scss";
+@import "../../styles/_breakpoints.scss";
+@import "../../styles/_fonts.scss";
+
+.privacy-modal {
+  .modal-title {
+    @include h2($title-font, $bold, $md);
+  }
+}

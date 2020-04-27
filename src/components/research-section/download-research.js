@@ -12,12 +12,16 @@ const DownloadResearch = props => {
     <>
       <a
         className="btn btn-secondary mt-3 py-2 px-4"
+        rel="noopener noreferrer"
+        target="_blank"
         href="/SIGCHI-CHI20-Sample-EA.pdf"
       >
         Download full report
       </a>
       <a
         className="btn btn-secondary mt-3 py-2 px-4"
+        rel="noopener noreferrer"
+        target="_blank"
         href="/SIGCHI-CHI20-Sample-EA.pdf"
       >
         Download 1-pager

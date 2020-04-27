@@ -1,13 +1,6 @@
 @import "../../styles/_colors.scss";
 @import "../../styles/_mixins.scss";
 
-.policy-about {
-
+.privacy {
   @include link($link-color);
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 }

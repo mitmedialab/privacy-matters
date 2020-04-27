@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
 
+import "./style.scss";
+
 const Privacy = props => {
   return (
     <div className="privacy">

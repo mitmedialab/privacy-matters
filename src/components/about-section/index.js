@@ -7,7 +7,7 @@ import "./style.scss";
 const AboutSection = props => {
   return (
     <Row className="py-5 justify-content-md-center">
-      <Col lg={8} md={9} className="text-center mb-4">
+      <Col md={6} className="text-center mb-4">
         <div className="about-section">
           <h2>
             <span className="half-highlight">About</span>

@@ -44,3 +44,16 @@
     }
   }
 }
+
+@mixin h2($title-font, $bold, $resize) {
+  font-family: $title-font;
+  font-weight: $bold;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 20px;
+
+  @media(min-width: $resize) {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}

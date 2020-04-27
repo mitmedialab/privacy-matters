@@ -10,7 +10,7 @@
   }
 
   .jumbotron-image {
-    max-width: 200px;
+    max-width: 250px;
     margin: auto;
 
     $spacing: 30px;
@@ -18,7 +18,7 @@
     padding-bottom: $spacing;
 
     @media(min-width: $md) {
-      max-width: 50%;
+      max-width: 75%;
       padding: 0;
     }
   }

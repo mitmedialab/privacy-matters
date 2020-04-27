@@ -29,7 +29,9 @@ const TeamProfile = props => {
         <CardText>
           <i>{affiliation}</i>
           <div className="pt-3">
-            <Button className="mt-3 py-2 px-4">Learn More</Button>
+            <Button color="primary" className="mt-3 py-2 px-4 rounded-0">
+              Learn More
+            </Button>
           </div>
         </CardText>
         <Modal
