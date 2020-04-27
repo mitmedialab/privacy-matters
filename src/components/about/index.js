@@ -205,6 +205,14 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Georgia Bullen"
+              role="Executive Director"
+              affiliation="Simply Secure"
+              additionalRole="Chair of the Advisory Committee"
+              additionalAffiliation="Measurement Lab"
+            />
+
+            <AdvisorProfile
               name="Emily Peterson Cassin"
               role="Digital Rights Advocate"
               affiliation="Public Citizen"
@@ -214,17 +222,17 @@ const About = props => {
               role="Former Director of Privacy & Security Products"
               affiliation="Mozilla"
             />
-            <AdvisorProfile
-              name="Maria Filippelli"
-              role="Public Interest Technology Census Fellow"
-              affiliation="New America Foundation"
-            />
           </CardDeck>
         </Col>
       </Row>
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Maria Filippelli"
+              role="Public Interest Technology Census Fellow"
+              affiliation="New America Foundation"
+            />
             <AdvisorProfile
               name="Alex Gaynor"
               role="Security Engineer | Chief Information Security Officer"
@@ -235,6 +243,12 @@ const About = props => {
               role="Writer & Professor"
               affiliation=""
             />
+          </CardDeck>
+        </Col>
+      </Row>
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Devin Gladden"
               role="Manager"
@@ -242,12 +256,6 @@ const About = props => {
               additionalRole=""
               additionalAffiliation="AAA National"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-      <Row className={cardSpacing}>
-        <Col xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Mason Kortz"
               role="Clinical Instructor"
@@ -260,17 +268,17 @@ const About = props => {
               additionalRole="Sequoyah Fellow"
               additionalAffiliation="American Indian Science and Engineering Society (AISES)"
             />
-            <AdvisorProfile
-              name="Janet Linder"
-              role="Lawyer & Librarian"
-              affiliation="Boston Public Library (Newton)"
-            />
           </CardDeck>
         </Col>
       </Row>
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Janet Linder"
+              role="Lawyer & Librarian"
+              affiliation="Boston Public Library (Newton)"
+            />
             <AdvisorProfile
               name="Sydney Luken"
               role="Product Design and Digital Development Lead for Ethics Lab"
@@ -281,11 +289,28 @@ const About = props => {
               role="Senior User Experience Designer"
               affiliation="Thinkering"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
+            <AdvisorProfile
+              name="Maria Moustaqim-Barrette"
+              role="Pediatrician"
+              affiliation="Boston Children’s Hospital"
+            />
 
             <AdvisorProfile
               name="Soraya Okuda"
               role="Education + Design Lead"
               affiliation="EFF"
+            />
+            <AdvisorProfile
+              name="Najarian Peters"
+              role="Faculty Fellow and Assistant Professor"
+              affiliation="Institute for Privacy Protection, Seton Hall Law School"
             />
           </CardDeck>
         </Col>
@@ -295,24 +320,24 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
-              name="Najarian Peters"
-              role="Faculty Fellow and Assistant Professor"
-              affiliation="Institute for Privacy Protection, Seton Hall Law School"
-            />
-            <AdvisorProfile
               name="Charyti Reiter"
               role="Director of Programs"
               affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
             />
-
             <AdvisorProfile
               name="Aalok Shah"
               role="Product Manager"
               affiliation="Johns Hopkins University"
             />
+            <AdvisorProfile
+              name="Rob Simmons-Beck"
+              role="Attending, Internal Medicine"
+              affiliation="HOSPITAL"
+            />{" "}
           </CardDeck>
         </Col>
       </Row>
+
       <Row className="mb-5 pb-5">
         <Col sm={12} xs={12}>
           <CardDeck>
