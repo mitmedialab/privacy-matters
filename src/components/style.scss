@@ -3,11 +3,8 @@
 @import "../styles/_colors.scss";
 @import "../styles/_breakpoints.scss";
 @import "../styles/_mixins.scss";
+@import "../styles/_fonts.scss";
 
-$bold: 700;
-$regular-weight: 400;
-$title-font: "Lora";
-$body-font: "Nunito Sans", arial;
 
 html {
     scroll-behavior: smooth;
@@ -82,16 +79,7 @@ html {
   }
 
   h2 {
-    font-family: $title-font;
-    font-weight: $bold;
-    font-size: 24px;
-    line-height: 32px;
-    padding-bottom: 20px;
-
-    @media(min-width: $md) {
-      font-size: 28px;
-      line-height: 40px;
-    }
+    @include h2($title-font, $bold, $md);
   }
 
   .subheading-1 {
@@ -107,7 +95,7 @@ html {
 
   .subheading-2 {
     font-family: $body-font;
-    font-weight: $bold;
+    font-weight: $regular-weight;
     font-size: 18px;
     line-height: 28px;
     @media(min-width: $md) {
@@ -123,6 +111,9 @@ html {
   .btn-primary {
     background-color: $button-color;
     border-color: $button-color;
+    font-family: $body-font;
+    border-radius: 0;
+    border: 0;
 
     &:hover {
       color: $button-color;
@@ -132,10 +123,16 @@ html {
   }
 
   .btn-secondary {
+    font-family: $body-font;
     background-color: $secondary-button-color;
     color: $inverse-text-color;
     border-radius: 0;
     border: 0;
+
+    &:hover {
+      background-color: $secondary-button-color;
+      opacity: 0.5;
+    }
   }
 
   .learnings {

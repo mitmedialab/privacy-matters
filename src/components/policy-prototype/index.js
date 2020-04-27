@@ -12,6 +12,8 @@ import PolicyPrototypeOnlinePrivacyAct from "./policy-online";
 import PolicyPrototypeCopra from "./policy-copra";
 import CalloutCard from "../callout-card";
 
+import "./style.scss";
+
 const PolicyPrototype = props => {
   const { selectedPolicy } = props;
   const prototypes = {
@@ -31,7 +33,9 @@ const PolicyPrototype = props => {
         View
       </Button>
       <Modal className="privacy-modal" isOpen={modal} toggle={toggle} size="lg">
-        <ModalHeader toggle={toggle}>{title}</ModalHeader>
+        <ModalHeader toggle={toggle}>
+          <span className="half-highlight">{title}</span>
+        </ModalHeader>
         <ModalBody>
           {prototypes[selectedPolicy]}
           <p>
