@@ -217,10 +217,11 @@ const About = props => {
               role="Digital Rights Advocate"
               affiliation="Public Citizen"
             />
+
             <AdvisorProfile
-              name="Peter Dolanjski"
-              role="Former Director of Privacy & Security Products"
-              affiliation="Mozilla"
+              name="Sage Cheng"
+              role="Design and UX Lead"
+              affiliation="Access Now"
             />
           </CardDeck>
         </Col>
@@ -228,6 +229,11 @@ const About = props => {
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Peter Dolanjski"
+              role="Former Director of Privacy & Security Products"
+              affiliation="Mozilla"
+            />
             <AdvisorProfile
               name="Maria Filippelli"
               role="Public Interest Technology Census Fellow"
@@ -238,17 +244,17 @@ const About = props => {
               role="Security Engineer | Chief Information Security Officer"
               affiliation="Alloy"
             />
-            <AdvisorProfile
-              name="Chris Gilliard"
-              role="Writer & Professor"
-              affiliation=""
-            />
           </CardDeck>
         </Col>
       </Row>
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Chris Gilliard"
+              role="Writer & Professor"
+              affiliation=""
+            />
             <AdvisorProfile
               name="Devin Gladden"
               role="Manager"
@@ -261,13 +267,6 @@ const About = props => {
               role="Clinical Instructor"
               affiliation="Harvard Law School Cyberlaw Clinic"
             />
-            <AdvisorProfile
-              name="Nonabah Lane"
-              role="Member"
-              affiliation="Navajo Nation"
-              additionalRole="Sequoyah Fellow"
-              additionalAffiliation="American Indian Science and Engineering Society (AISES)"
-            />
           </CardDeck>
         </Col>
       </Row>
@@ -275,10 +274,30 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Nonabah Lane"
+              role="Member"
+              affiliation="Navajo Nation"
+              additionalRole="Sequoyah Fellow"
+              additionalAffiliation="American Indian Science and Engineering Society (AISES)"
+            />
+
+            <AdvisorProfile
+              name="Ilaria Liccardi"
+              role="Research Scientist"
+              affiliation="Internet Policy Research Initiative at MIT CSAIL"
+            />
+            <AdvisorProfile
               name="Janet Linder"
               role="Lawyer & Librarian"
               affiliation="Boston Public Library (Newton)"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Sydney Luken"
               role="Product Design and Digital Development Lead for Ethics Lab"
@@ -288,6 +307,11 @@ const About = props => {
               name="Woody MacDuffie"
               role="Senior User Experience Designer"
               affiliation="Thinkering"
+            />{" "}
+            <AdvisorProfile
+              name="Maria Moustaqim-Barrette"
+              role="Pediatrician"
+              affiliation="Boston Children’s Hospital"
             />
           </CardDeck>
         </Col>
@@ -296,12 +320,6 @@ const About = props => {
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
-            <AdvisorProfile
-              name="Maria Moustaqim-Barrette"
-              role="Pediatrician"
-              affiliation="Boston Children’s Hospital"
-            />
-
             <AdvisorProfile
               name="Soraya Okuda"
               role="Education + Design Lead"
@@ -311,6 +329,11 @@ const About = props => {
               name="Najarian Peters"
               role="Faculty Fellow and Assistant Professor"
               affiliation="Institute for Privacy Protection, Seton Hall Law School"
+            />{" "}
+            <AdvisorProfile
+              name="Charyti Reiter"
+              role="Director of Programs"
+              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
             />
           </CardDeck>
         </Col>
@@ -320,32 +343,27 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
-              name="Charyti Reiter"
-              role="Director of Programs"
-              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
-            />
-            <AdvisorProfile
               name="Aalok Shah"
               role="Product Manager"
               affiliation="Johns Hopkins University"
             />
             <AdvisorProfile
               name="Rob Simmons-Beck"
-              role="Attending, Internal Medicine"
-              affiliation="HOSPITAL"
-            />{" "}
-          </CardDeck>
-        </Col>
-      </Row>
-
-      <Row className="mb-5 pb-5">
-        <Col sm={12} xs={12}>
-          <CardDeck>
+              role="Attending Internist"
+              affiliation="Beth Israel Deaconess Medical Center"
+            />
             <AdvisorProfile
               name="John Wilbanks"
               role="Chief Commons Officer"
               affiliation="Sage Bionetworks"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className="mb-5 pb-5">
+        <Col sm={8} xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Cherilyn Yazzie"
               role="Member"
