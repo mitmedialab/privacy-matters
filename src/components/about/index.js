@@ -343,10 +343,29 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Vanessa Rhinesmith"
+              role="Associate Research Director"
+              affiliation="Technology and Social Change Project (TaSC), Shorenstein Center, Harvard Kennedy School"
+            />
+
+            <AdvisorProfile
+              name="Becca Ricks"
+              role="Researcher"
+              affiliation="Mozilla Foundation"
+            />
+
+            <AdvisorProfile
               name="Aalok Shah"
               role="Product Manager"
               affiliation="Johns Hopkins University"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Rob Simmons-Beck"
               role="Attending Internist"
@@ -357,13 +376,6 @@ const About = props => {
               role="Chief Commons Officer"
               affiliation="Sage Bionetworks"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-
-      <Row className="mb-5 pb-5">
-        <Col sm={8} xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Cherilyn Yazzie"
               role="Member"
@@ -371,6 +383,13 @@ const About = props => {
               additionalRole="Owner"
               additionalAffiliation="Coffee Pot Farms"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className="mb-5 pb-5">
+        <Col sm={4} xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Ethan Zuckerman"
               role="Director"
