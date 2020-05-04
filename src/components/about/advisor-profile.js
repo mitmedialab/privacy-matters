@@ -17,7 +17,7 @@ const AdvisorProfile = props => {
         <CardSubtitle>
           {role} <i>{affiliation}</i>
         </CardSubtitle>
-        {additionalRole && additionalAffiliation && (
+        {(additionalRole || additionalAffiliation) && (
           <CardText>
             {additionalRole} <i>{additionalAffiliation}</i>
           </CardText>
