@@ -29,7 +29,7 @@ const TeamProfile = props => {
         <CardText>
           <i>{affiliation}</i>
           <div className="pt-3">
-            <Button color="primary" className="mt-3 py-2 px-4 rounded-0">
+            <Button color="secondary" className="mt-3 py-2 px-4 rounded-0">
               Learn More
             </Button>
           </div>
