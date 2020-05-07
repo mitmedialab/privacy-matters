@@ -257,10 +257,8 @@ const About = props => {
             />
             <AdvisorProfile
               name="Devin Gladden"
-              role="Manager"
-              affiliation="Federal Affairs (Energy & Technology)"
-              additionalRole=""
-              additionalAffiliation="AAA National"
+              role="Manager, Federal Affairs (Energy & Technology)"
+              affiliation="AAA National"
             />
             <AdvisorProfile
               name="Mason Kortz"

@@ -1,7 +1,7 @@
 ---
-quotee: "#36"
+quotee: "Maggie Hughes, Graduate Student, MIT Media Lab"
 policy: "opa"
 responseType: "con"
 ---
 
-Yeah, I think the ability to delete your data [impermanence] is nice and I don't think people download their data from Facebook. [...] I feel like that's almost just covering their butts being ‘right oh you can access this at any time’ and I'm like, ‘but that doesn't mean anything to people and people aren't like that it feels just like a soft attempt to be more transparent...
+“I think the ability to delete your data is nice and I just don't think people download their data from Facebook. It feels like they're protecting themselves, being like 'you can access this data at any time' and I'm like that data doesn't mean anything to people and might not get at the meat of what data they all have or sold that might make you vulnerable. It feels just like a soft attempt to be more transparent.”

@@ -1,8 +1,7 @@
 ---
-quotee: "#16"
+quotee: "Peter Dolanjski, former Director of Privacy & Security products at Mozilla"
 policy: "copra"
 responseType: "con"
 ---
 
-So I think, again, all of this language is who would disagree with something like this language on its face, right? It's like it sounds really, really great. Duty of loyalty, right?
-But then again, I go back to my question about how real is the action behind this language.
+“None of this matters unless it has teeth, can be enforced and there are actually penalties that are commensurate with the actual profits that are being derived.”

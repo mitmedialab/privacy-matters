@@ -1,5 +1,5 @@
 ---
-quotee: "#21"
+quotee: "Vanessa Barone, Senior Governance Analyst, SageBionetworks"
 policy: "opa"
 responseType: "highlight"
 industry: "a biomedical researcher"
