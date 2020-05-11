@@ -298,18 +298,18 @@ const About = props => {
           <CardDeck>
             <AdvisorProfile
               name="Sydney Luken"
-              role="Product Design and Digital Development Lead for Ethics Lab"
-              affiliation="Georgetown University"
+              role="Designer and Educator"
+              affiliation="Georgetown University Ethics Lab"
             />
             <AdvisorProfile
               name="Woody MacDuffie"
               role="Senior User Experience Designer"
               affiliation="Thinkering"
-            />{" "}
+            />
             <AdvisorProfile
-              name="Maria Moustaqim-Barrette"
-              role="Pediatrician"
-              affiliation="Boston Children’s Hospital"
+              name="Yves-Alexandre de Montjoye"
+              role="Assistant Professor"
+              affiliation="Imperial College London's Data Science Institute and Department of Computing"
             />
           </CardDeck>
         </Col>
@@ -318,6 +318,11 @@ const About = props => {
       <Row className={cardSpacing}>
         <Col xs={12}>
           <CardDeck>
+            <AdvisorProfile
+              name="Maria Moustaqim-Barrette"
+              role="Pediatrician"
+              affiliation="Boston Children’s Hospital"
+            />
             <AdvisorProfile
               name="Soraya Okuda"
               role="Education + Design Lead"
@@ -327,11 +332,6 @@ const About = props => {
               name="Najarian Peters"
               role="Faculty Fellow and Assistant Professor"
               affiliation="Institute for Privacy Protection, Seton Hall Law School"
-            />{" "}
-            <AdvisorProfile
-              name="Charyti Reiter"
-              role="Director of Programs"
-              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
             />
           </CardDeck>
         </Col>
@@ -341,11 +341,27 @@ const About = props => {
         <Col xs={12}>
           <CardDeck>
             <AdvisorProfile
+              name="Asad Ramzanali"
+              role="Legislative Director"
+              affiliation="Office of Representative Anna G. Eshoo"
+            />
+            <AdvisorProfile
+              name="Charyti Reiter"
+              role="Director of Programs"
+              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
+            />
+            <AdvisorProfile
               name="Vanessa Rhinesmith"
               role="Associate Research Director"
               affiliation="Technology and Social Change Project (TaSC), Shorenstein Center, Harvard Kennedy School"
             />
+          </CardDeck>
+        </Col>
+      </Row>
 
+      <Row className={cardSpacing}>
+        <Col xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="Becca Ricks"
               role="Researcher"
@@ -357,18 +373,18 @@ const About = props => {
               role="Product Manager"
               affiliation="Johns Hopkins University"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-
-      <Row className={cardSpacing}>
-        <Col xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Rob Simmons-Beck"
               role="Attending Internist"
               affiliation="Beth Israel Deaconess Medical Center"
             />
+          </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className="mb-5 pb-5">
+        <Col sm={12} xs={12}>
+          <CardDeck>
             <AdvisorProfile
               name="John Wilbanks"
               role="Chief Commons Officer"
@@ -381,13 +397,6 @@ const About = props => {
               additionalRole="Owner"
               additionalAffiliation="Coffee Pot Farms"
             />
-          </CardDeck>
-        </Col>
-      </Row>
-
-      <Row className="mb-5 pb-5">
-        <Col sm={4} xs={12}>
-          <CardDeck>
             <AdvisorProfile
               name="Ethan Zuckerman"
               role="Director"
