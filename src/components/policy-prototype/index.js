@@ -29,7 +29,11 @@ const PolicyPrototype = props => {
     <CalloutCard title={title} onClick={toggle}>
       {prototypes[selectedPolicy]}
 
-      <Button color="secondary" className="my-2 py-2 rounded-0" onClick={toggle}>
+      <Button
+        color="secondary"
+        className="my-2 py-2 rounded-0"
+        onClick={toggle}
+      >
         View
       </Button>
       <Modal className="privacy-modal" isOpen={modal} toggle={toggle} size="lg">
