@@ -348,7 +348,7 @@ const About = props => {
             <AdvisorProfile
               name="Charyti Reiter"
               role="Director of Programs"
-              affiliation="On the Rise: safety, community, and advocacy for homeless and formerly-homeless women"
+              affiliation="On the Rise"
             />
             <AdvisorProfile
               name="Vanessa Rhinesmith"
