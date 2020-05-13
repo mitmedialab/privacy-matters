@@ -106,12 +106,14 @@ const ResearchPage = () => {
         <Layout>
           <Row className="justify-content-between">
             <Col md={6}>
-              <CalloutCard flush title="Our team in action">
-                <TeamActionImage />
-                <p>
-                  Sketching mockup ideas during a website design sprint session!
-                </p>
-              </CalloutCard>
+              <div className="pb-4">
+                <CalloutCard flush title="Our team in action">
+                  <TeamActionImage />
+                  <p>
+                    Sketching mockup ideas during a website design sprint session!
+                  </p>
+                </CalloutCard>
+              </div>
             </Col>
             <Col md={6}>
               <h2>
