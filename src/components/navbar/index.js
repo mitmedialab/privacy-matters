@@ -53,7 +53,7 @@ const NavBar = props => {
             <div className="d-none d-md-block">
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  <span className="subheading-2">Bills</span>
+                  <span className="subheading-2">Draft Policies</span>
                 </DropdownToggle>
                 <DropdownMenu right>
                   {Object.keys(policies).map(key => (

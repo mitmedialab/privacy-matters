@@ -106,12 +106,15 @@ const ResearchPage = () => {
         <Layout>
           <Row className="justify-content-between">
             <Col md={6}>
-              <CalloutCard flush title="Our team in action">
-                <TeamActionImage />
-                <p>
-                  Sketching mockup ideas during a website design sprint session!
-                </p>
-              </CalloutCard>
+              <div className="pb-4">
+                <CalloutCard flush title="Our team in action">
+                  <TeamActionImage />
+                  <p>
+                    Sketching mockup ideas during a website design sprint
+                    session!
+                  </p>
+                </CalloutCard>
+              </div>
             </Col>
             <Col md={6}>
               <h2>
@@ -181,6 +184,22 @@ const ResearchPage = () => {
                   A few takeaways from our research
                 </span>
               </h2>
+              <dl>
+                <dt>
+                  Privacy research and policy can be strengthened with more
+                  diverse perspectives, by reaching out to different communities
+                  and inviting feedback.
+                </dt>
+                <dd>
+                  Strategies like visual prototyping can help bridge the gap
+                  between researchers and practitioners and enable policies to
+                  be designed and tested. It is also important to include
+                  insights from people from marginalized communities and data
+                  stewards who know or have a good understanding of how they
+                  have been impacted by these systems and policies.{" "}
+                </dd>
+              </dl>
+
               <dl>
                 <dt>
                   Although we heard many similar definitions of privacy, the way
