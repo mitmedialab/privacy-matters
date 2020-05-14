@@ -88,79 +88,6 @@ const ResearchPage = () => {
         <CardSection buffer>
           <Row className="justify-content-end">
             <Col md={5}>
-              <Card className="p-5">
-                <div className="p-2">
-                  <h2>
-                    <span className="half-highlight">Our process</span>
-                  </h2>
-                  <p className="pt-2 pb-3 subheading-2">
-                    We summarized, created visual prototypes, and collected
-                    feedback for three draft bills on online privacy and data
-                    governance.
-                  </p>
-                </div>
-              </Card>
-            </Col>
-          </Row>
-        </CardSection>
-        <Layout>
-          <Row className="justify-content-between">
-            <Col md={6}>
-              <div className="pb-4">
-                <CalloutCard flush title="Our team in action">
-                  <TeamActionImage />
-                  <p>
-                    Sketching mockup ideas during a website design sprint
-                    session!
-                  </p>
-                </CalloutCard>
-              </div>
-            </Col>
-            <Col md={6}>
-              <h2>
-                <span className="half-highlight">Selecting the bills</span>
-              </h2>
-              <p className="">
-                Our team reviewed the latest public draft bills on online
-                privacy and data governance from 2018 to 2020. We chose three
-                bills to present and collect feedback on: the Social Media
-                Addiction Reduction Technology Act, Online Privacy Act, and
-                Consumer Online Privacy Rights Act. These bills were chosen
-                based on our goals to represent a diversity of Senate teams, to
-                show a variety of different policy levers, and to produce visual
-                prototypes to illustrate the bills’ potential impacts.
-              </p>
-              <h2>
-                <span className="half-highlight">Designing the prototypes</span>
-              </h2>
-              <p className="">
-                After narrowing our focus to 3 bills, we brainstormed ways to
-                visualize how online platforms might change if these bills were
-                passed. Through lots of sketches and ideation sessions, we
-                produced a speculative visual prototype for each bill, imagining
-                what a social media platform might look like in response to each
-                bill. We chose to represent social media platforms given their
-                widespread reach and high engagement across the general public.
-              </p>
-              <h2>
-                <span className="half-highlight">Conducting interviews</span>
-              </h2>
-              <p className="">
-                We conducted 41 one-on-one interviews to gather insights around
-                privacy and each of the individual bills. During the interviews,
-                we showed participants a summary of each bill, visual examples
-                to highlight the bill’s concepts, and our visual prototype for
-                the bill. We probed into their reactions to the bills, aiming to
-                identify what they saw as advantages and challenges for each. We
-                also talked about privacy more broadly, asking participants how
-                they viewed privacy both in their work and personal lives.
-              </p>
-            </Col>
-          </Row>
-        </Layout>
-        <CardSection buffer>
-          <Row>
-            <Col md={5}>
               <div className="p-2">
                 <Card className="p-5">
                   <h2>
@@ -176,7 +103,7 @@ const ResearchPage = () => {
             </Col>
           </Row>
         </CardSection>
-        <Layout footer>
+        <Layout>
           <Row>
             <Col md={6} className="learnings">
               <h2>
@@ -261,6 +188,79 @@ const ResearchPage = () => {
                   </p>
                 </blockquote>
               </CalloutCard>
+            </Col>
+          </Row>
+        </Layout>
+        <CardSection buffer>
+          <Row>
+            <Col md={5}>
+              <Card className="p-5">
+                <div className="p-2">
+                  <h2>
+                    <span className="half-highlight">Our process</span>
+                  </h2>
+                  <p className="pt-2 pb-3 subheading-2">
+                    We summarized, created visual prototypes, and collected
+                    feedback for three draft bills on online privacy and data
+                    governance.
+                  </p>
+                </div>
+              </Card>
+            </Col>
+          </Row>
+        </CardSection>
+        <Layout footer>
+          <Row className="justify-content-between">
+            <Col md={6}>
+              <div className="pb-4">
+                <CalloutCard flush title="Our team in action">
+                  <TeamActionImage />
+                  <p>
+                    Sketching mockup ideas during a website design sprint
+                    session!
+                  </p>
+                </CalloutCard>
+              </div>
+            </Col>
+            <Col md={6}>
+              <h2>
+                <span className="half-highlight">Selecting the bills</span>
+              </h2>
+              <p className="">
+                Our team reviewed the latest public draft bills on online
+                privacy and data governance from 2018 to 2020. We chose three
+                bills to present and collect feedback on: the Social Media
+                Addiction Reduction Technology Act, Online Privacy Act, and
+                Consumer Online Privacy Rights Act. These bills were chosen
+                based on our goals to represent a diversity of Senate teams, to
+                show a variety of different policy levers, and to produce visual
+                prototypes to illustrate the bills’ potential impacts.
+              </p>
+              <h2>
+                <span className="half-highlight">Designing the prototypes</span>
+              </h2>
+              <p className="">
+                After narrowing our focus to 3 bills, we brainstormed ways to
+                visualize how online platforms might change if these bills were
+                passed. Through lots of sketches and ideation sessions, we
+                produced a speculative visual prototype for each bill, imagining
+                what a social media platform might look like in response to each
+                bill. We chose to represent social media platforms given their
+                widespread reach and high engagement across the general public.
+              </p>
+              <h2>
+                <span className="half-highlight">Conducting interviews</span>
+              </h2>
+              <p className="">
+                We conducted 41 one-on-one interviews to gather insights around
+                privacy and each of the individual bills. During the interviews,
+                we showed participants a summary of each bill, visual examples
+                to highlight the bill’s concepts, and our visual prototype for
+                the bill. We probed into their reactions to the bills, aiming to
+                identify what they saw as advantages and challenges for each. We
+                also talked about privacy more broadly, asking participants how
+                they viewed privacy both in their work and personal lives.
+              </p>
             </Col>
           </Row>
         </Layout>
