@@ -264,6 +264,12 @@ const ResearchPage = () => {
                 also talked about privacy more broadly, asking participants how
                 they viewed privacy both in their work and personal lives.
               </p>
+
+              <h2>
+                <span className="half-highlight">
+                  Creating a prototyping guide
+                </span>
+              </h2>
               <p>
                 We created a policy prototyping guide that outlines the process
                 we used to prototype bills and gather feedback. The guide

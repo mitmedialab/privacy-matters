@@ -30,32 +30,39 @@ const About = props => {
             data governance policies might impact a variety of fields.
           </p>
           <p>
-            There have been dozens of draft bills on privacy and data governance
-            policies. How do these policies translate in practice? How they
-            might affect us? We interviewed 41 people, including lawyers,
-            designers, engineers, civil rights advocates, policymakers, and
-            stewards of sensitive data: social workers, pediatricians,
-            librarians. These conversations revealed 1) the diverse definitions
-            and contexts of privacy 2) a variety of responses to recent data
-            governance and privacy draft bills, and 3) the biggest
-            privacy-related challenges (and possible ways to solve them) in
-            different fields.
+            Project Let’s Talk Privacy explores how the implementation of
+            privacy and data governance policies might impact a variety of
+            fields. Our project title reflects our work in engaging a more
+            diverse set of voices into conversations around privacy and data
+            governance. How do these policies translate in practice? How they
+            might affect us? To find out, we interviewed 41 people – including
+            lawyers, designers, engineers, advocates, policymakers, and stewards
+            of sensitive data (social workers, pediatricians) – about three
+            federal draft data and privacy related bills. Our objectives were to
+            1) explore intersections of privacy policy and design through visual
+            prototypes; 2) identify the challenges of translating policy to
+            platform changes based on the specific background and industry skill
+            set of the interviewees; and 3) understand broader perspectives of
+            privacy and control in technology.
           </p>
           <p>
-            We believe in transparency and in improving how we translate complex
-            topics to the public. This project aims to better inform and engage
-            everyday people -- the non-privacy related lawyers, technologists,
-            researchers about some of the latest developments in policy. The
-            project also aims to bring together cross-disciplinary insights to
-            inform policymakers about how their bills can impact end users and
-            people who manage sensitive data for a variety of marginalized and
-            vulnerable communities.
+            In the short time we’ve been working on this project, privacy and
+            data protection conversations have evolved. While our work began
+            several months ago, the insights and questions that our research
+            surfaces are timely and relevant to evolving technologies, even
+            during a pandemic. Questions surrounding surveillance and intrusive
+            tracking overlap with questions about how to strengthen privacy
+            protections using both technical and policy implementations. The
+            emergent conversations around government surveillance and privacy
+            during this pandemic are mentioned here as an important reminder of
+            why privacy is such an important and fraught space.
           </p>
           <p>
-            This research reflects only a small portion of the diverse
-            perspectives we can bring to data governance and policy making. We
-            hope to spur more conversations, reveal new insights, and prompt
-            positive action.
+            Our research reflects only a small portion of the diverse
+            perspectives we can bring to data governance and policy making. In
+            particular, our research focuses only on policies in the United
+            States. In the future, we hope to spur more conversations, reveal
+            new insights, and prompt positive action.
           </p>
         </Col>
       </Row>
