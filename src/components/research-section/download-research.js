@@ -4,10 +4,13 @@ import { Row, Col, Card } from "reactstrap";
 import CardSection from "../card-section";
 import ResearchImage from "./research-image";
 
+import { trackClick, EVENTS } from "../../utils/tracking";
+
 import "./style.scss";
 
 const DownloadResearch = props => {
-  // TODO: add these links back in when the reports are out
+  // TODO: remove this when ready to release
+  const DISPLAY_LINK = false;
   const links = (
     <>
       <a
@@ -15,6 +18,7 @@ const DownloadResearch = props => {
         rel="noopener noreferrer"
         target="_blank"
         href="/SIGCHI-CHI20-Sample-EA.pdf"
+        onClick={e => trackClick(e, EVENTS.fullReport)}
       >
         Download full report
       </a>
@@ -23,8 +27,18 @@ const DownloadResearch = props => {
         rel="noopener noreferrer"
         target="_blank"
         href="/SIGCHI-CHI20-Sample-EA.pdf"
+        onClick={e => trackClick(e, EVENTS.onePager)}
       >
         Download 1-pager
+      </a>
+      <a
+        className="btn btn-secondary mt-3 py-2 px-4"
+        rel="noopener noreferrer"
+        target="_blank"
+        href="/SIGCHI-CHI20-Sample-EA.pdf"
+        onClick={e => trackClick(e, EVENTS.prototypingGuide)}
+      >
+        Download prototyping guide
       </a>
     </>
   );
@@ -43,6 +57,7 @@ const DownloadResearch = props => {
                 people, to understand their views on privacy and the ways that
                 different policies could impact their work.
               </p>
+              {DISPLAY_LINK && links}
             </div>
           </Card>
         </Col>
