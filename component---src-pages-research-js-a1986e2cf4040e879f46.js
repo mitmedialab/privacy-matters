@@ -26,6 +26,101 @@
         '{"data":{"placeholderImage":{"childImageSharp":{"fluid":{"base64":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAEg0lEQVQ4yx2TaUzTBxjG/94OlUWEOOJQULwQEOfRoVAcIpeA2HJVhFZlCC2stIViqYKcpYgcnqAYUVGHx1CzATpchKnbcA5NnMeYLpsOzAARcSZT5m8db/Ikb94Pv+d9PjzC9KlWRKz2oK2pnv/n/t2bfBbvR3F6JMkx3qjWe2NMXoNJK6EsR8n1KxfZW5wxfMvXRJClDCczaR1qRRAKqRdCZKgX/h/PImGdiJPVhbQ21VGSFU+JPhJTehQFGinlxg3syozk+6sNw6ZN9Xso1kkp1svI1UaTlSIlT7+RxoaTCPU1heTr4wn3dSE2yB1NnJj0jb5sVwaz0wLNVgZh1kko1UeQlxo6DM9Pk5CREIgxJZxsdSQGlYSLp6tpv96CUGGM59juTMyGOBIjRCijPYfjVJm1VGYr2JESgjldSqlhPUUZMvLV4WQlh6HZFIAxVWJRBLrEtSjlgcRH+CCcrs6mvsrIxWMFVJtVpCn82CwRUVmowbRVQeqGlajjfCg2KDhUlkWyTExSjNiSSs7+XUYSYgNITQjHlKPGkCZHqDKnUVWiozxPxZmafA5X6ImVeLPE1Z7Ale74i93w9ZzPZlkgMWErhpWVFkeyYg1GnYLt2lh0qihKcnWok2QIt6+fpf1aI7M/imKnKQ+DdiO1+3IozFbh6jYDT89F+HziQXDIciRhnyBd640yUUpIkBgbm0n4+M/EVKyles82TtQWIFxqOERx0XZWhOhJUyvRpsRwrtZMeVE6S5e54LLAlbLyFBJ0cmztPmCRhzNhFrjbAmfs7SbgF+BEbr6KXeZ01kk8EWQR/siighEv98DGaiQqiRfeokWI3BxxmG5PsMiBM6ZoTpQkkp2wCh/RfGY6OhKwfB5x/vOI9nUixm8OycFLWOhkh+Dts9ri6M+YceOIEs0iU7aKmU7TcJtlR2mSF1ePGqg7cZTG/am4OdkStdqdDLkvormTmTRawNn+PcTudoQudkAeKkJY6OqM9YQxjBAEJltbYWM9ljUrZ3NcE0ZH5RYqd5dRda6F5r2f4uI8Ha2lRW/vHODaqW1IV7nwvpWAvc0Ipk4ZySTLLjhMs2XixHGMHT8an8VzSIwU8/jHCwx03uCX5jIuHdBw43MTXW27GfitlZddt+n5+Tyve+7z7+BjTh0sYsmCGSx0nMKHttYIo0ZZqJbvxMvm882+DF50tvL3k3v8eauFu0376Wo9QF93F/2//2QBtjEw0Mur54/of/aA/p5HDD67xw+NB9mjCSZkqRPC2PHjcZs7jb1bQ7h1PJkrtRmW3srRb4rkeEUeOQVaLtSaeN5WyJPLuQx234F3A5ZGP2doqI8XvZ30dV5m6OVjbn77FYJqvR8Pv9Bxp07OgzNb6Dip5nCOFFX0Mhor4sjSxtBel0HP1wb+aMyi79YhBh6et8T+kjevu3k39II3PR0M/nWft0PvEJ5dyeWfjlIG20t4dbMCHtRwtSYZTZQ73x1W8LRZQ3dzJl2Xt/G0JZ/eG+X0tu6gPj2Au2eN9HccYeBeA4O3j9D7ayv/AR/u+9hANPv/AAAAAElFTkSuQmCC","aspectRatio":1.2813620071684588,"src":"/static/3a377f52e8426aec8ba701db8e1d5972/a54c6/team-in-action.png","srcSet":"/static/3a377f52e8426aec8ba701db8e1d5972/59beb/team-in-action.png 200w,\\n/static/3a377f52e8426aec8ba701db8e1d5972/c0bbd/team-in-action.png 400w,\\n/static/3a377f52e8426aec8ba701db8e1d5972/a54c6/team-in-action.png 800w,\\n/static/3a377f52e8426aec8ba701db8e1d5972/9911c/team-in-action.png 1200w,\\n/static/3a377f52e8426aec8ba701db8e1d5972/1e556/team-in-action.png 1430w","sizes":"(max-width: 800px) 100vw, 800px"}}}}}'
       );
     },
+    Kfvu: function(e, a, t) {
+      "use strict";
+      var n = t("5NKs");
+      (a.__esModule = !0),
+        (a.OutboundLink = c),
+        (a.trackCustomEvent = function(e) {
+          var a = e.category,
+            t = e.action,
+            n = e.label,
+            l = e.value,
+            r = e.nonInteraction,
+            i = void 0 === r || r,
+            s = e.transport,
+            c = e.hitCallback,
+            d = e.callbackTimeout,
+            m = void 0 === d ? 1e3 : d;
+          if ("undefined" != typeof window && window.ga) {
+            var p = {
+              eventCategory: a,
+              eventAction: t,
+              eventLabel: n,
+              eventValue: l,
+              nonInteraction: i,
+              transport: s
+            };
+            c && "function" == typeof c && (p.hitCallback = o(c, m)),
+              window.ga("send", "event", p);
+          }
+        });
+      var l = n(t("j8BX")),
+        r = n(t("uDP2")),
+        i = n(t("q1tI")),
+        s = n(t("17x9")),
+        o = function(e, a) {
+          void 0 === a && (a = 1e3);
+          var t = !1,
+            n = function() {
+              t || ((t = !0), e());
+            };
+          return setTimeout(n, a), n;
+        };
+      function c(e) {
+        var a = e.eventCategory,
+          t = e.eventAction,
+          n = e.eventLabel,
+          s = e.eventValue,
+          o = (0, r.default)(e, [
+            "eventCategory",
+            "eventAction",
+            "eventLabel",
+            "eventValue"
+          ]);
+        return i.default.createElement(
+          "a",
+          (0, l.default)({}, o, {
+            onClick: function(l) {
+              "function" == typeof e.onClick && e.onClick(l);
+              var r = !0;
+              return (
+                (0 !== l.button ||
+                  l.altKey ||
+                  l.ctrlKey ||
+                  l.metaKey ||
+                  l.shiftKey ||
+                  l.defaultPrevented) &&
+                  (r = !1),
+                e.target && "_self" !== e.target.toLowerCase() && (r = !1),
+                window.ga
+                  ? window.ga("send", "event", {
+                      eventCategory: a || "Outbound Link",
+                      eventAction: t || "click",
+                      eventLabel: n || e.href,
+                      eventValue: s,
+                      transport: r ? "beacon" : "",
+                      hitCallback: function() {
+                        r && (document.location = e.href);
+                      }
+                    })
+                  : r && (document.location = e.href),
+                !1
+              );
+            }
+          })
+        );
+      }
+      c.propTypes = {
+        href: s.default.string,
+        target: s.default.string,
+        eventCategory: s.default.string,
+        eventAction: s.default.string,
+        eventLabel: s.default.string,
+        eventValue: s.default.number,
+        onClick: s.default.func
+      };
+    },
     LTVh: function(e, a, t) {
       "use strict";
       t.r(a);
@@ -35,11 +130,12 @@
         r = t("ok1R"),
         i = t("rhny"),
         s = t("BLzl"),
-        o = t("Bl7J"),
-        c = t("2qpI"),
-        d = t("0+i1"),
-        m = t("d2ic"),
-        h =
+        o = t("Kfvu"),
+        c = t("Bl7J"),
+        d = t("2qpI"),
+        m = t("0+i1"),
+        p = t("d2ic"),
+        u =
           (t("O3p0"),
           function(e) {
             l.a.createElement(
@@ -64,10 +160,20 @@
                   href: "/SIGCHI-CHI20-Sample-EA.pdf"
                 },
                 "Download 1-pager"
+              ),
+              l.a.createElement(
+                "a",
+                {
+                  className: "btn btn-secondary mt-3 py-2 px-4",
+                  rel: "noopener noreferrer",
+                  target: "_blank",
+                  href: "/SIGCHI-CHI20-Sample-EA.pdf"
+                },
+                "Download prototyping guide"
               )
             );
             return l.a.createElement(
-              d.a,
+              m.a,
               { buffer: !0 },
               l.a.createElement(
                 r.a,
@@ -94,45 +200,46 @@
                         "p",
                         { className: "pt-2 pb-3 subheading-2" },
                         "We interviewed 41 people, from privacy experts to everyday people, to understand their views on privacy and the ways that different policies could impact their work."
-                      )
+                      ),
+                      !1
                     )
                   )
                 ),
                 l.a.createElement(
                   i.a,
                   { md: 7, className: "research-image-col" },
-                  l.a.createElement(m.a, null)
+                  l.a.createElement(p.a, null)
                 )
               )
             );
           }),
-        p = t("Ofoi"),
-        u = t("vrFN"),
-        f = t("D1kc"),
-        g = t("Dnjo"),
-        b = function() {
-          var e = f.data;
-          return l.a.createElement(g.a, { data: e });
+        h = t("Ofoi"),
+        f = t("vrFN"),
+        g = t("D1kc"),
+        b = t("Dnjo"),
+        y = function() {
+          var e = g.data;
+          return l.a.createElement(b.a, { data: e });
         };
       a.default = function() {
         return l.a.createElement(
           l.a.Fragment,
           null,
-          l.a.createElement(u.a, null),
+          l.a.createElement(f.a, null),
           l.a.createElement(
             "div",
             { className: "privacy-page" },
-            l.a.createElement(c.a, { showHome: !0 }),
-            l.a.createElement(h, null),
+            l.a.createElement(d.a, { showHome: !0 }),
+            l.a.createElement(u, null),
             l.a.createElement(
-              o.a,
+              c.a,
               null,
               l.a.createElement(
                 r.a,
                 null,
                 l.a.createElement(
                   i.a,
-                  { md: 6 },
+                  { md: 6, className: "mb-3" },
                   l.a.createElement(
                     "h2",
                     null,
@@ -180,13 +287,23 @@
                     "p",
                     null,
                     "Our full report contains in-depth findings and analyses around these research questions, as well as recommendations and insights for policymakers and industry practitioners working in privacy-related spaces."
+                  ),
+                  l.a.createElement(
+                    "a",
+                    {
+                      className: "btn btn-secondary mt-3 py-2 px-4",
+                      rel: "noopener noreferrer",
+                      target: "_blank",
+                      href: "/SIGCHI-CHI20-Sample-EA.pdf"
+                    },
+                    "Download full report"
                   )
                 ),
                 l.a.createElement(
                   i.a,
                   { md: 6 },
                   l.a.createElement(
-                    p.a,
+                    h.a,
                     { flush: !0, title: "Who we talked to" },
                     l.a.createElement(
                       "p",
@@ -221,7 +338,7 @@
               )
             ),
             l.a.createElement(
-              d.a,
+              m.a,
               { buffer: !0 },
               l.a.createElement(
                 r.a,
@@ -241,13 +358,13 @@
                         l.a.createElement(
                           "span",
                           { className: "half-highlight" },
-                          "Our takeaways"
+                          "Our recommendations"
                         )
                       ),
                       l.a.createElement(
                         "p",
                         { className: "pt-2 pb-3 subheading-2" },
-                        "We gained a lot of insights from our conversations with privacy experts and non-experts alike. These are just a few of the many things we learned!"
+                        "Based on our interviewees and research process, we came up with some recommendations for policymakers and industry practitioners."
                       )
                     )
                   )
@@ -255,7 +372,7 @@
               )
             ),
             l.a.createElement(
-              o.a,
+              c.a,
               null,
               l.a.createElement(
                 r.a,
@@ -269,7 +386,7 @@
                     l.a.createElement(
                       "span",
                       { className: "half-highlight" },
-                      "A few takeaways from our research"
+                      "Some things we recommend"
                     )
                   ),
                   l.a.createElement(
@@ -278,13 +395,12 @@
                     l.a.createElement(
                       "dt",
                       null,
-                      "Privacy research and policy can be strengthened with more diverse perspectives, by reaching out to different communities and inviting feedback."
+                      "Develop shared privacy language across industries."
                     ),
                     l.a.createElement(
                       "dd",
                       null,
-                      "Strategies like visual prototyping can help bridge the gap between researchers and practitioners and enable policies to be designed and tested. It is also important to include insights from people from marginalized communities and data stewards who know or have a good understanding of how they have been impacted by these systems and policies.",
-                      " "
+                      "This could assist in identifying overlapping processes, concerns, interests, and harms, as well as enable better collaborations between individuals from different sectors/professions."
                     )
                   ),
                   l.a.createElement(
@@ -293,12 +409,12 @@
                     l.a.createElement(
                       "dt",
                       null,
-                      "Although we heard many similar definitions of privacy, the way privacy is put into practice is shaped by the context."
+                      "Include insights from people from marginalized communities and data stewards."
                     ),
                     l.a.createElement(
                       "dd",
                       null,
-                      "The creation of a common language, or a set of phrases that can be understood across all sectors may prove useful. Such a lexicon could assist in identifying overlapping processes, concern, interests, and harms, as well as enable better collaborations between individuals from different sectors and professions."
+                      "It’s important and valuable to talk to those who know or have a good understanding of how they have been impacted by these systems & policies."
                     )
                   ),
                   l.a.createElement(
@@ -307,35 +423,35 @@
                     l.a.createElement(
                       "dt",
                       null,
-                      "Policies balance power through a variety of levers and mechanisms.",
-                      " "
+                      "Implement human-centered practices in the policy design process."
                     ),
                     l.a.createElement(
                       "dd",
                       null,
-                      "Policymakers have different perspectives through different pieces of legislation. One bill would not be a comprehensive solution to ensure privacy protections. We heard from several law experts that there is the need for a more multi-layered approach to privacy, where several different policies can work cooperatively."
+                      "Practices that could aid the policy design process include broadening engagement with industry practitioners, visualizing policies to prototypes when possible, exploring how to test policy and prototyping processes on a larger scale, and continuously integrating feedback."
                     )
                   ),
                   l.a.createElement(
-                    "dl",
+                    "p",
                     null,
-                    l.a.createElement(
-                      "dt",
-                      null,
-                      "Policies provoke questions about how to improve existing consent mechanisms."
-                    ),
-                    l.a.createElement(
-                      "dd",
-                      null,
-                      "The design practitioners we interviewed noted a few methods to improve privacy policy consent: just-in-time features to notify users of changes, improving “general settings” modifications and focusing on “plain-language” with straightforward wording so people understand what they’re agreeing to."
-                    )
+                    "Our 1-pager contains our full set of recommendations for policymakers and industry practitioners."
+                  ),
+                  l.a.createElement(
+                    o.OutboundLink,
+                    {
+                      className: "btn btn-secondary mt-3 py-2 px-4",
+                      rel: "noopener noreferrer",
+                      target: "_blank",
+                      href: "/SIGCHI-CHI20-Sample-EA.pdf"
+                    },
+                    "Download 1-pager"
                   )
                 ),
                 l.a.createElement(
                   i.a,
                   { md: 6 },
                   l.a.createElement(
-                    p.a,
+                    h.a,
                     { flush: !0, title: "What we heard" },
                     l.a.createElement(
                       "blockquote",
@@ -356,7 +472,7 @@
               )
             ),
             l.a.createElement(
-              d.a,
+              m.a,
               { buffer: !0 },
               l.a.createElement(
                 r.a,
@@ -390,7 +506,7 @@
               )
             ),
             l.a.createElement(
-              o.a,
+              c.a,
               { footer: !0 },
               l.a.createElement(
                 r.a,
@@ -402,9 +518,9 @@
                     "div",
                     { className: "pb-4" },
                     l.a.createElement(
-                      p.a,
+                      h.a,
                       { flush: !0, title: "Our team in action" },
-                      l.a.createElement(b, null),
+                      l.a.createElement(y, null),
                       l.a.createElement(
                         "p",
                         null,
@@ -457,6 +573,21 @@
                     "p",
                     { className: "" },
                     "We conducted 41 one-on-one interviews to gather insights around privacy and each of the individual bills. During the interviews, we showed participants a summary of each bill, visual examples to highlight the bill’s concepts, and our visual prototype for the bill. We probed into their reactions to the bills, aiming to identify what they saw as advantages and challenges for each. We also talked about privacy more broadly, asking participants how they viewed privacy both in their work and personal lives."
+                  ),
+                  l.a.createElement(
+                    "p",
+                    null,
+                    "We created a policy prototyping guide that outlines the process we used to prototype bills and gather feedback. The guide includes a high level diagram of the process, team role outlines, and a step-by-step framework on how to execute the prototyping process."
+                  ),
+                  l.a.createElement(
+                    "a",
+                    {
+                      className: "btn btn-secondary mt-3 py-2 px-4",
+                      rel: "noopener noreferrer",
+                      target: "_blank",
+                      href: "/SIGCHI-CHI20-Sample-EA.pdf"
+                    },
+                    "Download prototyping guide"
                   )
                 )
               )
@@ -488,4 +619,4 @@
     }
   }
 ]);
-//# sourceMappingURL=component---src-pages-research-js-030ee9446312b670cf36.js.map
+//# sourceMappingURL=component---src-pages-research-js-a1986e2cf4040e879f46.js.map
