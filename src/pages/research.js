@@ -10,12 +10,9 @@ import CardSection from "../components/card-section";
 import CalloutCard from "../components/callout-card";
 import SEO from "../components/seo";
 import TeamActionImage from "../components/team-action-image";
-
-import { trackClick, EVENTS } from "../utils/tracking";
+import DownloadReport from "../components/download-report";
 
 const ResearchPage = () => {
-  // TODO: remove this when ready to release
-  const DISPLAY_LINK = false;
   return (
     <>
       <SEO />
@@ -67,17 +64,12 @@ const ResearchPage = () => {
                 insights for policymakers and industry practitioners working in
                 privacy-related spaces.
               </p>
-              {DISPLAY_LINK && (
-                <a
-                  className="btn btn-secondary mt-3 py-2 px-4"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="/SIGCHI-CHI20-Sample-EA.pdf"
-                  onClick={e => trackClick(e, EVENTS.fullReport)}
-                >
-                  Download full report
-                </a>
-              )}
+              <div>
+                <DownloadReport report="fullReport" />
+              </div>
+              <div>
+                <DownloadReport report="summary" />
+              </div>
             </Col>
             <Col md={6}>
               <CalloutCard flush title="Who we talked to">
@@ -163,17 +155,7 @@ const ResearchPage = () => {
                 policymakers and industry practitioners.
               </p>
 
-              {DISPLAY_LINK && (
-                <a
-                  className="btn btn-secondary mt-3 py-2 px-4"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="/SIGCHI-CHI20-Sample-EA.pdf"
-                  onClick={e => trackClick(e, EVENTS.onePager)}
-                >
-                  Download 1-pager
-                </a>
-              )}
+              <DownloadReport report="onePager" />
             </Col>
 
             <Col md={6}>
@@ -213,7 +195,7 @@ const ResearchPage = () => {
           </Row>
         </CardSection>
         <Layout footer>
-          <Row className="justify-content-between">
+          <Row className="justify-content-between mb-5">
             <Col md={6}>
               <div className="pb-4">
                 <CalloutCard flush title="Our team in action">
@@ -277,17 +259,7 @@ const ResearchPage = () => {
                 outlines, and a step-by-step framework on how to execute the
                 prototyping process.
               </p>
-              {DISPLAY_LINK && (
-                <a
-                  className="btn btn-secondary mt-3 py-2 px-4"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="/SIGCHI-CHI20-Sample-EA.pdf"
-                  onClick={e => trackClick(e, EVENTS.prototypingGuide)}
-                >
-                  Download prototyping guide
-                </a>
-              )}
+              <DownloadReport report="prototypingGuide" />
             </Col>
           </Row>
         </Layout>
