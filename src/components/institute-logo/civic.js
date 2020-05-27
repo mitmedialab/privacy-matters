@@ -2,9 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import FluidImage from "../fluid-image";
 
-import "./style.scss";
-
-const CivicImage = () => {
+const CivicLogo = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
@@ -20,16 +18,8 @@ const CivicImage = () => {
   `);
 
   return (
-    <div className="civic-image">
-      <a
-        href="https://www.media.mit.edu/groups/civic-media/overview/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <FluidImage data={data} />
-      </a>
-    </div>
+    <FluidImage data={data} />
   );
 };
 
-export default CivicImage;
+export default CivicLogo;
