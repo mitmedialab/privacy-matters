@@ -2,44 +2,18 @@ import React from "react";
 import { Row, Col, Card } from "reactstrap";
 
 import CardSection from "../card-section";
+import DownloadReport from "../download-report";
 import ResearchImage from "./research-image";
-
-import { trackClick, EVENTS } from "../../utils/tracking";
 
 import "./style.scss";
 
 const DownloadResearch = props => {
-  // TODO: remove this when ready to release
-  const DISPLAY_LINK = false;
   const links = (
     <>
-      <a
-        className="btn btn-secondary mt-3 py-2 px-4"
-        rel="noopener noreferrer"
-        target="_blank"
-        href="/SIGCHI-CHI20-Sample-EA.pdf"
-        onClick={e => trackClick(e, EVENTS.fullReport)}
-      >
-        Download full report
-      </a>
-      <a
-        className="btn btn-secondary mt-3 py-2 px-4"
-        rel="noopener noreferrer"
-        target="_blank"
-        href="/SIGCHI-CHI20-Sample-EA.pdf"
-        onClick={e => trackClick(e, EVENTS.onePager)}
-      >
-        Download 1-pager
-      </a>
-      <a
-        className="btn btn-secondary mt-3 py-2 px-4"
-        rel="noopener noreferrer"
-        target="_blank"
-        href="/SIGCHI-CHI20-Sample-EA.pdf"
-        onClick={e => trackClick(e, EVENTS.prototypingGuide)}
-      >
-        Download prototyping guide
-      </a>
+      <DownloadReport report="fullReport" />
+      <DownloadReport report="summary" />
+      <DownloadReport report="onePager" />
+      <DownloadReport report="prototypingGuide" />
     </>
   );
 
@@ -57,7 +31,7 @@ const DownloadResearch = props => {
                 people, to understand their views on privacy and the ways that
                 different policies could impact their work.
               </p>
-              {DISPLAY_LINK && links}
+              {links}
             </div>
           </Card>
         </Col>

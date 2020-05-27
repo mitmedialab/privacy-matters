@@ -4,18 +4,18 @@ import MediaLabLogo from "./media-lab";
 
 import "./style.scss";
 
-const InstituteLogo = (props) => {
+const InstituteLogo = props => {
   const { institute } = props;
   const institutes = {
     civic: {
-      img: (<CivicLogo />),
-      url: "https://www.media.mit.edu/groups/civic-media/overview/",
+      img: <CivicLogo />,
+      url: "https://www.media.mit.edu/groups/civic-media/overview/"
     },
     mediaLab: {
-      img: (<MediaLabLogo />),
-      url: "https://www.media.mit.edu/",
+      img: <MediaLabLogo />,
+      url: "https://www.media.mit.edu/"
     }
-  }
+  };
 
   return (
     <div className="institute-logo">

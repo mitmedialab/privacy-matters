@@ -17,9 +17,7 @@ const CivicLogo = () => {
     }
   `);
 
-  return (
-    <FluidImage data={data} />
-  );
+  return <FluidImage data={data} />;
 };
 
 export default CivicLogo;
