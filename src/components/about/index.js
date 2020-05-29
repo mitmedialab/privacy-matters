@@ -141,6 +141,7 @@ const About = props => {
               name="Jasmine McNealy"
               role="Research Lead"
               affiliation="University of Florida"
+              additionalAffiliation="The Berkman Klein Center for Internet & Society at Harvard University"
               website="http://jasminemcnealy.com"
             >
               Jasmine is an Associate Professor of Telecommunication at the

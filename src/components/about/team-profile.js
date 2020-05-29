@@ -28,6 +28,12 @@ const TeamProfile = props => {
         <CardSubtitle>{role}</CardSubtitle>
         <CardText>
           <i>{affiliation}</i>
+          {props.additionalAffiliation && (
+            <>
+              <br />
+              <i>{props.additionalAffiliation}</i>
+            </>
+          )}
           <div className="pt-3">
             <Button color="secondary" className="mt-3 py-2 px-4 rounded-0">
               Learn More
@@ -52,6 +58,11 @@ const TeamProfile = props => {
                   <div>
                     <i>{affiliation}</i>
                   </div>
+                  {props.additionalAffiliation && (
+                    <div>
+                      <i>{props.additionalAffiliation}</i>
+                    </div>
+                  )}
                 </div>
               </Col>
               <Col md={8}>
