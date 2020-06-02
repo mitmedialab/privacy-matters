@@ -5,25 +5,25 @@ const DownloadReport = props => {
   const { report } = props;
   const reports = {
     fullReport: {
-      href: "/SIGCHI-CHI20-Sample-EA.pdf",
+      href: "/ltp-full-report.pdf",
       label: "Download full report"
     },
     onePager: {
-      href: "/SIGCHI-CHI20-Sample-EA.pdf",
+      href: "/ltp-recommendations.pdf",
       label: "Download recommendations one-pager"
     },
     summary: {
-      href: "/SIGCHI-CHI20-Sample-EA.pdf",
+      href: "/ltp-summary.pdf",
       label: "Download report summary"
     },
     prototypingGuide: {
-      href: "/SIGCHI-CHI20-Sample-EA.pdf",
+      href: "/ltp-prototyping-guide.pdf",
       label: "Download policy prototyping guide"
     }
   };
 
   // TODO: remove this when ready to release
-  const DISPLAY_LINK = false;
+  const DISPLAY_LINK = true;
   if (DISPLAY_LINK) {
     return (
       <a
