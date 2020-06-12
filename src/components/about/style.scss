@@ -5,6 +5,7 @@ $body-font: "Nunito Sans", arial;
 $bold: 700;
 
 .about {
+  @include link($link-color);
   font-family: $body-font;
 
   .card {

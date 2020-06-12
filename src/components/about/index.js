@@ -8,6 +8,7 @@ import PardisImg from "./pardis";
 import JasmineImg from "./jasmine";
 import TeamProfile from "./team-profile";
 import AdvisorProfile from "./advisor-profile";
+import Press from "./press";
 
 import "./style.scss";
 
@@ -413,7 +414,7 @@ const About = props => {
         </Col>
       </Row>
 
-      <Row className="mb-5 pb-5">
+      <Row className="mb-5">
         <Col sm={4} xs={12}>
           <CardDeck>
             <AdvisorProfile
@@ -424,6 +425,12 @@ const About = props => {
               additionalAffiliation="MIT Media Lab"
             />
           </CardDeck>
+        </Col>
+      </Row>
+
+      <Row className="mt-4 mb-5 pb-5 justify-content-md-center">
+        <Col xs={12} md={6}>
+          <Press />
         </Col>
       </Row>
     </div>
