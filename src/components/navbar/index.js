@@ -73,6 +73,11 @@ const NavBar = props => {
               </Link>
             </NavItem>
             <NavItem className="ml-auto">
+              <Link className="nav-link pr-md-5 subheading-2" to={`/events`}>
+                Events
+              </Link>
+            </NavItem>
+            <NavItem className="ml-auto">
               <Link className="nav-link pr-md-5 subheading-2" to={`/about`}>
                 About
               </Link>

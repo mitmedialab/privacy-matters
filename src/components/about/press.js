@@ -26,13 +26,12 @@ const Press = props => {
         <span className="half-highlight">Press</span>
       </h2>
 
-      {data.allMarkdownRemark.edges
-        .map(edge => (
-          <div
-            className="definition-highlights"
-            dangerouslySetInnerHTML={{ __html: edge.node.html }}
-          />
-        ))}
+      {data.allMarkdownRemark.edges.map(edge => (
+        <div
+          className="definition-highlights"
+          dangerouslySetInnerHTML={{ __html: edge.node.html }}
+        />
+      ))}
     </>
   );
 };
