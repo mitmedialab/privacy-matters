@@ -1,1 +1,15 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"id":"19a0e005-75e5-5276-944b-81f70a653875","frontmatter":{"date":"6/2/20"},"html":"<p>Anna Chung, Dennis Jen, Jasmine McNealy, Stephanie Nguyen;\n<a href=\"https://medium.com/mit-media-lab/from-legislation-to-implementation-exploring-how-to-prototype-privacy-bills-through-human-centered-4336af75f960\" rel='noopener noreferrer' target='_blank'>\n “From legislation to implementation: Exploring how to prototype privacy bills through human-centered policymaking + design”</a> (MIT Media Lab, Medium, 6/2/20)</p>"}}]}}}
+{
+  "data": {
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "id": "19a0e005-75e5-5276-944b-81f70a653875",
+            "frontmatter": { "date": "6/2/20" },
+            "html": "<p>Anna Chung, Dennis Jen, Jasmine McNealy, Stephanie Nguyen;\n<a href=\"https://medium.com/mit-media-lab/from-legislation-to-implementation-exploring-how-to-prototype-privacy-bills-through-human-centered-4336af75f960\" rel='noopener noreferrer' target='_blank'>\n “From legislation to implementation: Exploring how to prototype privacy bills through human-centered policymaking + design”</a> (MIT Media Lab, Medium, 6/2/20)</p>"
+          }
+        }
+      ]
+    }
+  }
+}

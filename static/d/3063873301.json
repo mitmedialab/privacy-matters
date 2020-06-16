@@ -1,0 +1,22 @@
+{
+  "data": {
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "id": "ca4e6def-1bf4-5326-b26c-2cb34397e3e7",
+            "frontmatter": { "date": "06-11-2020" },
+            "html": "<p>June 11: Engaging Community Trust Through Policy Prototyping (Recording to come!)\nTrust in both the government and tech is at historic lows, stemming from failure to mitigate harms, and enact concrete policies for protecting rights. How can policymakers work toward cultivating trust while obtaining feedback from those impacted by legislation? This free, virtual webinar examines the potential of prototyping policy for increasing political engagement and cultivating trust. Hosted by University of Florida Center for Public Interest Communications and the Consortium on Trust in Media and Technology.</p>"
+          }
+        },
+        {
+          "node": {
+            "id": "a1039fbc-861b-5779-a7b4-8c696b81dda5",
+            "frontmatter": { "date": "tbd" },
+            "html": "<p>June 11: Engaging Community Trust Through Policy Prototyping (Recording to come!)\nTrust in both the government and tech is at historic lows, stemming from failure to mitigate harms, and enact concrete policies for protecting rights. How can policymakers work toward cultivating trust while obtaining feedback from those impacted by legislation? This free, virtual webinar examines the potential of prototyping policy for increasing political engagement and cultivating trust. Hosted by University of Florida Center for Public Interest Communications and the Consortium on Trust in Media and Technology.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
